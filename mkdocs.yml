@@ -1,0 +1,50 @@
+site_name: Requisitos Minecraft
+
+repo_name: "Requisitos Minecraft"
+repo_url: "https://github.com/DaniloCTM/Requisitos-Minecraft"
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  language: pt
+
+  font:
+    text: "Roboto"
+    code: "sans-serif"
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: black
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+      primary: black
+
+  #logo: assets/imgs/a.png
+  #favicon: assets/imgs/b.png
+
+extra_css:
+  - assets/css/style.css
+
+nav:
+  - Início: index.md
+  # Colocar os links aqui
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
