@@ -23,13 +23,13 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb
         name: Switch to dark mode
       primary: black
 
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
       primary: black
 
   logo: assets/imgs/logo-minecraft.png
