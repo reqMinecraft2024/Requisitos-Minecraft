@@ -7,9 +7,6 @@ theme:
   name: material
 
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -35,15 +32,16 @@ theme:
         icon: material/toggle-switch
       primary: black
 
-  #logo: assets/imgs/a.png
-  #favicon: assets/imgs/b.png
+  logo: assets/imgs/logo-minecraft.png
+  favicon: assets/imgs/icone.png
 
 extra_css:
   - assets/css/style.css
 
 nav:
   - Início: index.md
-  # Colocar os links aqui
+  - Modelagem:
+    - Léxico: modelagem/lexico.md
 
 markdown_extensions:
   - attr_list
