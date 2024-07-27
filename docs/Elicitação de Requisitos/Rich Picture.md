@@ -20,10 +20,13 @@ A técnica Rich Picture é uma ferramenta visual usada para compreender e comuni
 Para o desenvolvimento do Rich Picture neste projeto, utilizou-se a ferramenta Miro, devido à sua capacidade de proporcionar um ambiente de trabalho livre e flexível. Além disso, o Miro facilita a colaboração em tempo real, permitindo que equipes trabalhem juntas de maneira eficiente e integrada.
 
 # Visão Geral
-![[RichPicture - Visão geral.jpg]]
+![RichPicture - Visão geral](https://github.com/reqMinecraft2024/Requisitos-Minecraft/blob/main/docs/src/RichPicture%20-%20Vis%C3%A3o%20geral.jpg)
+
 # Exploração
-![[RichPicture - Exploração.jpg]] 
-# Personagem![[RichPicture - Personagem.jpg]]
+![RichPicture - Exploração](https://github.com/reqMinecraft2024/Requisitos-Minecraft/blob/main/docs/src/RichPicture%20-%20Explora%C3%A7%C3%A3o.jpg)
+
+# Personagem
+![RichPicture - Personagem](https://github.com/reqMinecraft2024/Requisitos-Minecraft/blob/main/docs/src/RichPicture%20-%20Personagem.jpg)
 
 # Criação de Mundos
-![[RichPicture - Criação de mundo.jpg]]
+![RichPicture - Criação de mundo.jpg](https://github.com/reqMinecraft2024/Requisitos-Minecraft/blob/main/docs/src/RichPicture%20-%20Cria%C3%A7%C3%A3o%20de%20mundo.jpg)
