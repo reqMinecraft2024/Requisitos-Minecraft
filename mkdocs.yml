@@ -42,8 +42,9 @@ nav:
   - Início: index.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
-  - Elicitação de requisitos:
-    - Rich Picture: Elicitação de Requisitos/Rich Picture.md
+  - Pré-Rastreabilidade:
+    - Visão Geral: pre-rastreabilidade/visao-geral.md
+    - Rich Picture: pre-rastreabilidade/Rich Picture.md
 
 markdown_extensions:
   - attr_list

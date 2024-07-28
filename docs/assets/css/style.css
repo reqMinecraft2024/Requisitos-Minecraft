@@ -1,3 +1,49 @@
+@font-face {
+    font-family: 'Minecraft-ten';
+    src: url('../fonts/minecraft-ten.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Minecraft-ten', sans-serif;
+}
+
+.row{
+    display: inline-block;
+}
+
+.col-7{
+    width: 65%;
+    display: inline-block;
+}
+
+.col-sm{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    .row{
+        display: block;
+    }
+    
+    .col-7{
+        width: 100%;
+        display: block;
+    }
+    
+    .col-sm{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .img-personagens{
+        width: 50%!important;
+    }
+}
+
+header, footer {background: url(https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);}
+
 .md-logo img{
     height: 30px!important;
 }
