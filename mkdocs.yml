@@ -40,12 +40,12 @@ extra_css:
 
 nav:
   - Início: index.md
-  - Modelagem:
-    - Léxico: modelagem/lexico.md
   - Pré-Rastreabilidade:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
     - Brainstorming: pre-rastreabilidade/Brainstorming.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
+  - Modelagem:
+    - Léxico: modelagem/lexico.md
 
 markdown_extensions:
   - attr_list

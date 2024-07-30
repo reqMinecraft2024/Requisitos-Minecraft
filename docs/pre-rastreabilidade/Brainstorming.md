@@ -24,20 +24,21 @@ Na primeira etapa, utilizamos a técnica de Brainwriting por meio de um board no
 
 | Elementos do Jogo | Modos de Jogo   | Mecânicas de Jogo | Comunidade e Multiplayer |
 | ----------------- | --------------- | ----------------- | ------------------------ |
-| Ferramentas       | !!Espectador    | Exploração        | Cooperação               |
-| Criaturas         | !!Criativo      | Trocas            | Entretenimento           |
-| !!Nether          | !!Aventura      | Criar Mundo       | Socialização             |
-| Biomas            | !!Sobrevivência | Mineração         | !!Servidores             |
-| Animais           | !!Hardcore      | !!Craft           | Chat                     |
+| Ferramentas       | [Espectador](../modelagem/lexico.md#l06-espectador)    | Exploração        | Cooperação               |
+| Criaturas         | [Criativo](../modelagem/lexico.md#l07-criativo)      | Trocas            | Entretenimento           |
+| [Nether](../modelagem/lexico.md#l01-nether)          | [Aventura](../modelagem/lexico.md#l08-aventura)      | Criar Mundo       | Socialização             |
+| Biomas            | [Sobrevivência](../modelagem/lexico.md#l09-sobrevivência) | [Mineração](../modelagem/lexico.md#l17-mineracao)         | [Servidores](../modelagem/lexico.md#l14-servidores)             |
+| Animais           | [Hardcore](../modelagem/lexico.md#l10-hardcore)      | [Craft](../modelagem/lexico.md#l11-craft)           | Chat                     |
 | Minérios          |                 | Construção        | Eventos                  |
-| Armaduras         |                 | !!Redstone        | !!Skins                  |
-| !!Chefes          |                 | Combate           | Competições              |
+| Armaduras         |                 | [Redstone](../modelagem/lexico.md#l12-redstone)        | [Skins](../modelagem/lexico.md#l15-skins)                  |
+| [Chefes](../modelagem/lexico.md#l02-chefes)          |                 | Combate           | Competições              |
 | Itens             |                 | Agricultura       | Missões                  |
 | Poções            |                 | Encantamentos     |                          |
 | Alimentos         |                 | Criar Animal      |                          |
-| !!Estruturas      |                 | Inventário        |                          |
-| !!End             |                 | !!Farms           |                          |
-| !!Overworld       |                 |                   |                          |
+| [Estruturas](../modelagem/lexico.md#l03-estruturas)      |                 | Inventário        |                          |
+| [End](../modelagem/lexico.md#l04-end)             |                 | [Farms](../modelagem/lexico.md#l13-farms)           |                          |
+| [Overworld](../modelagem/lexico.md#l05-overworld)       |                 |                   |                          |
 | Blocos            |                 |                   |                          |
 | Barcos            |                 |                   |                          |
 | Clima             |                 |                   |                          |
+|       |       |       | [Mods](../modelagem/lexico.md#l16-mods)       |

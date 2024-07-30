@@ -38,23 +38,23 @@ Este documento tem como objetivo fornecer uma visão geral do Minecraft na etapa
 
 A jornada típica no Minecraft começa com a coleta de madeira ao derrubar uma árvore. A partir daí, o jogador deve criar ferramentas, minerar recursos e construir um abrigo para sobreviver em segurança. Porém o Minecraft possui diversos modos de jogo, incluindo:
 
-- **Sobrevivência:** Os jogadores devem coletar recursos para a sua sobrevivência e também lutar contra criaturas perigosas.
-- **Criativo:** Os jogadores têm acesso ilimitado a recursos, imunidade a danos e capacidade de voar, permitindo a construção livre. Aqui nada impede que o jogador liberte a sua imaginação.
-- **Aventura:** É semelhante ao modo Sobrevivência, mas possui alguas restrições para tornar o jogo mais desafiador.
-- **Espectador:** Os jogadores podem voar e atravessar blocos, mas não podem interagir com o ambiente.
-- **Hardcore:** Uma variante do modo Sobrevivência, mas com o maior nível de difículdade e morte permanente. Quando o jogador morre, ele não pode renascer e o mundo é excluído.
+- **[Sobrevivência](../modelagem/lexico.md#l09-sobrevivencia):** Os jogadores devem coletar recursos para a sua sobrevivência e também lutar contra criaturas perigosas.
+- **[Criativo](../modelagem/lexico.md#l07-criativo):** Os jogadores têm acesso ilimitado a recursos, imunidade a danos e capacidade de voar, permitindo a construção livre. Aqui nada impede que o jogador liberte a sua imaginação.
+- **[Aventura](../modelagem/lexico.md#l08-aventura):** É semelhante ao modo Sobrevivência, mas possui alguas restrições para tornar o jogo mais desafiador.
+- **[Espectador](../modelagem/lexico.md#l06-espectador):** Os jogadores podem voar e atravessar blocos, mas não podem interagir com o ambiente.
+- **[Hardcore](../modelagem/lexico.md#l10-hardcore):** Uma variante do modo Sobrevivência, mas com o maior nível de difículdade e morte permanente. Quando o jogador morre, ele não pode renascer e o mundo é excluído.
 
 ## Pontos Fortes
 - **Liberdade criativa:** Permite que os jogadores construam praticamente qualquer coisa que possam imaginar.
-- **Comunidade e mods:** O Minecraft possui uma grande comunidade de jogadores e desenvolvedores de mods, que ajudam na expansão do jogo com novas mecânicas, texturas e funcionalidades.
+- **Comunidade e [mods](../modelagem/lexico.md#L16-mods):** O Minecraft possui uma grande comunidade de jogadores e desenvolvedores de [mods](../modelagem/lexico.md#L16-mods), que ajudam na expansão do jogo com novas mecânicas, texturas e funcionalidades.
 - **Multiplataforma:** Está disponível em diversos dispositivos, como PC, consoles, e smartphones.
 - **Atualizações regulares:** Atualizações são lançadas frequentemente, adicionando novos conteúdos e corrigindo problemas.
 
 ## Pontos Fracos
 - **Gráficos pixelados:** O estilo pode não atrair jogadores que prefiram visuais mais realistas.
 - **Curva de Aprendizado:** O jogo pode ser confuso para novos jogadores.
-- **Monotonia:** Alguns jogadores podem achar a jogabilidade repetitiva. A mineração e coleta de recursos, pode se tornar monótona.
-- **Performance:** Em dispositivos menos potentes, o jogo pode ter problemas de desempenho, principalmente ao usar mods ou recursos gráficos avançados.
+- **Monotonia:** Alguns jogadores podem achar a jogabilidade repetitiva. A [mineração](../modelagem/lexico.md#l17-mineracao) e coleta de recursos, pode se tornar monótona.
+- **Performance:** Em dispositivos menos potentes, o jogo pode ter problemas de desempenho, principalmente ao usar [mods](../modelagem/lexico.md#L16-mods) ou recursos gráficos avançados.
 - **História não linear:** O Minecraft não possui uma história, o que pode não agradar todos os jogadores.
 
 ## Conclusão
