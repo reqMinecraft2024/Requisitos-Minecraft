@@ -47,6 +47,7 @@ nav:
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
+    - Personas: modelagem/personas.md
 
 markdown_extensions:
   - attr_list
