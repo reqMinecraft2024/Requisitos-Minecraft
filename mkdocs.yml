@@ -48,6 +48,7 @@ nav:
   - Modelagem:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md
+    - Cenários: modelagem/cenarios.md
 
 markdown_extensions:
   - attr_list
