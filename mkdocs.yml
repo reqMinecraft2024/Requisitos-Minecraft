@@ -44,6 +44,7 @@ nav:
     - Léxico: modelagem/lexico.md
   - Pré-Rastreabilidade:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
+    - Brainstorming: pre-rastreabilidade/Brainstorming.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
 
 markdown_extensions:
