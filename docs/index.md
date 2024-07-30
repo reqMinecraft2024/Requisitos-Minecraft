@@ -1,6 +1,6 @@
 # Requisitos Minecraft
 
-![Logo Minecraft](/assets/imgs/logo-minecraft.png)
+![Logo Minecraft](https://raw.githubusercontent.com/reqMinecraft2024/Requisitos-Minecraft/main/docs/assets/imgs/logo-minecraft.png)
 
 Este repositório contém a documentação e artefatos que foram produzidos durante a disciplina de Requisitos de software do curso Engenharia de Software da Universidade de Brasília - Campus Gama (UnB - Gama). 
 
