@@ -43,6 +43,7 @@ nav:
   - Pré-Rastreabilidade:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
     - Brainstorming: pre-rastreabilidade/Brainstorming.md
+    - MoSCoW: pre-rastreabilidade/Moscow.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
