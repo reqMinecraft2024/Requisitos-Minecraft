@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Requisitos Minecraft
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Logo Minecraft](/assets/imgs/logo-minecraft.png)
 
-## Commands
+Este repositório contém a documentação e artefatos que foram produzidos durante a disciplina de Requisitos de software do curso Engenharia de Software da Universidade de Brasília - Campus Gama (UnB - Gama). 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 🤝 Colaboradores
 
-## Project layout
+| Foto| Nome  | Matrícula | Github | 
+| ------ | --------- | ------- |----|
+|<img class="pic-squad04" src="https://avatars.githubusercontent.com/u/133259317?v=4&size=100" alt="carlos">|Carlos Eduardo | 221031265 | [Carlos-kadu](https://github.com/Carlos-kadu)|
+|<img class="pic-squad04" src="https://avatars.githubusercontent.com/u/42286412?v=4&size=100" alt="danilo">|Danilo César|221031149|[DaniloCTM](https://github.com/DaniloCTM)|
+|<img class="pic-squad04" src="https://avatars.githubusercontent.com/u/94008339?v=4&size=100" alt="patricia">|Patrícia Helena|221037993|[patyhelenaa](https://github.com/patyhelenaa)|
+|<img class="pic-squad04" src="https://avatars.githubusercontent.com/u/129631162?v=4&size=100" alt="Samara">|Samara Letícia |221008445|[samarawwleticia](https://github.com/samarawwleticia)|
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
