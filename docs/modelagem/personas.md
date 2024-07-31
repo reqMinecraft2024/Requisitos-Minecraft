@@ -20,9 +20,10 @@ Conforme descrito no livro "Interação Humano-Computador" de Simone Barbosa e B
 
 ### Sarah
 
-**Perfil de Sarah**<br>
-- Idade: 19 anos<br>
-- Profissão: Designer
+**Perfil de Sarah**
+
+- Idade: 19 anos.
+- Profissão: Designer.
 
 **Introdução**
 
@@ -34,9 +35,10 @@ Sarah, uma jovem de 19 anos, é apaixonada por criar construções inovadoras qu
 
 ### Arthur
 
-**Perfil de Artur**<br>
-- Idade: 11 anos<br>
-- Profissão: Estudante
+**Perfil de Artur**
+
+- Idade: 11 anos.
+- Profissão: Estudante.
 
 **Introdução**
 
@@ -50,8 +52,9 @@ Artur, um garoto de 11 anos, é um grande fã do Minecraft e adora jogar com seu
 
 ### Victor
 
-**Perfil de Victor**<br>
-- Idade: 22 anos<br>
+**Perfil de Victor**
+
+- Idade: 22 anos.
 - Profissão: Estudante Universitário.
 
 **Introdução**

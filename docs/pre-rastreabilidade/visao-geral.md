@@ -27,6 +27,7 @@
         </div>
         <div class="col-sm">
             <img style="width:80%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg/220px-Notch_receives_the_Pioneer_Award_at_GDC_2016_%28cropped%29.jpg">
+            <p><i>Markus Persson criador do Minecraft.</i></p>
         </div>
     </div>
 </div> 

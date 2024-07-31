@@ -18,24 +18,24 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 
 ## Introspecção 1
 
-## 1.1 Contexto
+### 1.1 Contexto
 [Sarah](../modelagem/personas.md#sarah) deseja poder criar construções impressionantes no jogo para compartilhar com seus seguidores. Seu plano é erguer um castelo extremamente realista, um projeto que demanda uma atenção meticulosa aos detalhes e uma ampla gama de recursos do jogo. No entanto, Sarah enfrenta um desafio: sua agenda está bastante apertada, deixando-a com pouco tempo livre para se dedicar ao processo de coleta de materiais, que pode ser um dos aspectos mais demorados e tediosos da construção. Portanto, ela busca uma solução que permita a realização do projeto sem a necessidade de passar por essa fase de coleta extensiva.
 
-## 1.2 Necessidades Técnicas
+### 1.2 Necessidades Técnicas
 * Um modo com recursos ilimitados
 * Possibilidade de construir coisas
 * Movimentação facilitada
 * Opção de salvar o progresso
 
-## 1.3 Necessidades Individuais
+### 1.3 Necessidades Individuais
 * Controle do tempo
 * Uso da criatividade
 
-## 1.4 Necessidades Sociais
+### 1.4 Necessidades Sociais
 * Poder exibir suas construções para os seus seguidores
 * Poder compartilhar os seus mapas com outras pessoas
 
-## 1.5 Requisitos Elicitados
+### 1.5 Requisitos Elicitados
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
@@ -53,10 +53,10 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 
 ## Introspecção 2
 
-## 2.1 Contexto
+### 2.1 Contexto
 Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md#arthur) está em busca de uma nova experiência que combine exploração da natureza com desafios moderados. Ele deseja jogar um jogo que permita enfrentar esses desafios de maneira cooperativa com seus amigos, criando uma experiência de jogo mais envolvente e colaborativa. Além disso ele espera encontrar alguma forma de melhorar os seus itens para ficar mais forte durante sua jornada.
 
-## 2.2 Necessidades Técnicas
+### 2.2 Necessidades Técnicas
 * Um modo que desafie o jogador 
 * Inimigos para o jogador enfrentar
 * Sistema de biomas
@@ -66,14 +66,14 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 * Ajuste de dificuldade
 * Sistema de chat
 
-## 2.3 Necessidades Individuais
+### 2.3 Necessidades Individuais
 * Nível de habilidade
 
-## 2.4 Necessidades Sociais
+### 2.4 Necessidades Sociais
 * Conexão com internet
 * Comunicação entre os jogadores
 
-## 2.5 Requisitos Elicitados
+### 2.5 Requisitos Elicitados
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
@@ -92,24 +92,24 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 
 ## Introspecção 3
 
-## 3.1 Contexto
+### 3.1 Contexto
 [Victor](../modelagem/personas.md#victor) é apaixonado por jogos que oferecem um alto nível de dificuldade, sempre buscando se desafiar ao conquistar todas as !!conquistas disponíveis. Por isso, ele espera que o jogo ofereça um modo mais desafiador, com inimigos progressivamente mais poderosos. Além disso, ele deseja um sistema de !!conquistas robusto, que torne os desafios ainda mais dinâmicos e estimulantes.
 
 
-## 3.2 Necessidades Técnicas
+### 3.2 Necessidades Técnicas
 * [Modo hardcore](../modelagem/lexico.md#l10-hardcore)
 * Diversidades de inimigos
 * Sistema de !!conquistas
 * [chefes](../modelagem/lexico.md#l02-chefes)
 
-## 3.3 Necessidades Individuais
+### 3.3 Necessidades Individuais
 * Habilidade
 * Conhecimento sobre o jogo
 
-## 3.4 Necessidades Sociais
+### 3.4 Necessidades Sociais
 * Compartilhar as suas !!conquistas com outras pessoas
 
-## 3.5 Requisitos Elicitados
+### 3.5 Requisitos Elicitados
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
