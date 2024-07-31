@@ -163,7 +163,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Utensílios, Equipamentos |
-| **Noção** | Objetos utilizados pelos jogadores para realizar diversas atividades como [mineração](#l17-mineração), construção e combate. |
+| **Noção** | Objetos utilizados pelos jogadores para realizar diversas atividades como [mineração](#l17-mineracao), construção e combate. |
 | **Impacto** | Essenciais para a coleta de [recursos](#l31-recursos) e defesa contra [mobs](#l19-criaturas). <br> Melhoram a eficiência e a capacidade de [sobrevivência](#l09-sobrevivencia) do jogador. |
 
 ### L19 Criaturas
@@ -180,7 +180,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Verbo |
 | **Sinônimos** | Comércio, Negociações |
 | **Noção** | Ação de trocar [itens](#l32-itens) com NPCs ou outros jogadores no Minecraft. |
-| **Impacto** | Possibilidade de adquirir [itens](#l32-itens) raros ou valiosos. <br> Estimula a [interação](#l26-socialização) e [cooperação](#l22-cooperacao) entre jogadores. |
+| **Impacto** | Possibilidade de adquirir [itens](#l32-itens) raros ou valiosos. <br> Estimula a [interação](#l26-socializacao) e [cooperação](#l22-cooperacao) entre jogadores. |
 
 ### L21 Exploração
 | Nome   | Exploração  |
@@ -204,7 +204,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Objeto |
 | **Sinônimos** | Bate-papo, Conversa |
 | **Noção** | Ferramenta de comunicação dentro do jogo para os jogadores interagirem. |
-| **Impacto** | Essencial para a coordenação e [socialização](#l26-socialização) entre jogadores. <br> Utilizado para trocar informações e organizar [eventos](#l24-eventos). |
+| **Impacto** | Essencial para a coordenação e [socialização](#l26-socializacao) entre jogadores. <br> Utilizado para trocar informações e organizar [eventos](#l24-eventos). |
 
 ### L24 Eventos
 | Nome   | Eventos  |
@@ -212,13 +212,13 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Objeto |
 | **Sinônimos** | - |
 | **Noção** | Ocasiões especiais organizadas dentro do jogo, tanto automaticamente quanto por jogadores. |
-| **Impacto** | Proporcionam experiências únicas e recompensas. <br> Estimulam a participação e [interação](#l26-socialização) dos jogadores. |
+| **Impacto** | Proporcionam experiências únicas e recompensas. <br> Estimulam a participação e [interação](#l26-socializacao) dos jogadores. |
 
 ### L25 Criar Mundo
 | Nome   | Criar Mundo  |
 | --- | --- |
 | **Classificação** | Verbo |
-| **Sinônimos** | Gerar Mundo, Criar Mundo Novo |
+| **Sinônimos** | Gerar Mundo |
 | **Noção** | Ação de iniciar um novo mundo no Minecraft, com configurações personalizáveis. |
 | **Impacto** | Permite personalização do ambiente de jogo. <br> Define as condições iniciais e o tipo de experiência do jogador. |
 
@@ -228,7 +228,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Verbo |
 | **Sinônimos** | Interação, Convivência |
 | **Noção** | Ato de interagir com outros jogadores dentro do jogo. |
-| **Impacto** | Criação de laços e comunidades dentro do jogo. <br> Enriquecimento da experiência de jogo através da [interação](#l26-socialização) social. |
+| **Impacto** | Criação de laços e comunidades dentro do jogo. <br> Enriquecimento da experiência de jogo através da [interação](#l26-socializacao) social. |
 
 ### L27 Blaze Rods
 | Nome   | Blaze Rods  |
@@ -244,7 +244,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Objeto |
 | **Sinônimos** | Netherita |
 | **Noção** | Recurso raro encontrado no [nether](#l01-nether), usado para melhorar equipamentos de diamante. |
-| **Impacto** | Fornece as [ferramentas](#l18-ferramentas) e armaduras mais fortes do jogo. <br> Motiva a [exploração](#l21-exploracao) e [mineração](#l17-mineração) no [nether](#l01-nether). |
+| **Impacto** | Fornece as [ferramentas](#l18-ferramentas) e armaduras mais fortes do jogo. <br> Motiva a [exploração](#l21-exploracao) e [mineração](#l17-mineracao) no [nether](#l01-nether). |
 
 ### L29 Blazes
 |Nome|	Blazes|
@@ -268,7 +268,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Classificação	|Objeto|
 |Sinônimos	|Materiais, Insumos|
 |Noção	|[Itens](#l32-itens) coletados ou obtidos no jogo que são usados para crafting, construção e outras atividades.|
-|Impacto	|Essenciais para a criação de [ferramentas](#l18-ferramentas), armas, armaduras e outros [itens](#l32-itens) necessários para a [sobrevivência](#l09-sobrevivencia) e progressão no jogo. <br> Diversos tipos de [recursos](#l31-recursos) incentivam a [exploração](#l21-exploracao) e [mineração](#l17-mineração) em diferentes biomas e dimensões.|
+|Impacto	|Essenciais para a criação de [ferramentas](#l18-ferramentas), armas, armaduras e outros [itens](#l32-itens) necessários para a [sobrevivência](#l09-sobrevivencia) e progressão no jogo. <br> Diversos tipos de [recursos](#l31-recursos) incentivam a [exploração](#l21-exploracao) e [mineração](#l17-mineracao) em diferentes biomas e dimensões.|
 
 ### L32 Itens
 |Nome	| Itens |
@@ -292,7 +292,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Classificação	| Objeto|
 |Sinônimos	|Construções, Edifícios, Criações|
 |Noção	|Formações de blocos e elementos criados pelos jogadores dentro do jogo.|
-|Impacto	|Personaliza o ambiente do jogo e pode influenciar a jogabilidade, a estética e a [interação](#l26-socialização) com outros jogadores.|
+|Impacto	|Personaliza o ambiente do jogo e pode influenciar a jogabilidade, a estética e a [interação](#l26-socializacao) com outros jogadores.|
 
 ### L35 Ender Dragon
 |Nome	|Ender Dragon|
