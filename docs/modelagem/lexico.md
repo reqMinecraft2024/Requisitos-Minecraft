@@ -6,6 +6,7 @@
 | --- | --- | --- | --- |
 | 30/07/2024 | 0.1 | Criação do documento inicial e adição dos léxicos de L01 à L38 | Carlos Eduardo Rodrigues |
 | 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
+| 01/08/2024 | 0.3 | Adição dos léxicos L41 | Patrícia Helena|
 
 ## Introdução
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
@@ -133,7 +134,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Objeto |
 | **Sinônimos** | Hosts, Redes |
 | **Noção** | Plataformas online onde jogadores podem se conectar para jogar Minecraft juntos. |
-| **Impacto** | Permite o jogo multiplayer. <br> Comunidades e [eventos](#l24-eventos) organizados. |
+| **Impacto** | Permite o jogo [multiplayer](#l41-multiplayer). <br> Comunidades e [eventos](#l24-eventos) organizados. |
 
 ### L15 Skins
 | Nome   | Skins  |
@@ -342,6 +343,16 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Sinônimos** | Achievements |
 | **Noção** | Maneira de orientar gradualmente novos jogadores no Minecraft e dar-lhes desafios para completar |
 | **Impacto** | Incentiva o jogador a explorar todas as possibilidades do jogo |
+
+## L41 Multiplayer
+| Nome   | Léxico |
+| --- | --- |
+| **Classificação** | Estado |
+| **Sinônimos** | Modo Multijogador, MP |
+| **Noção** | Modo de jogo onde múltiplos jogadores podem interagir, [socializar](#l26-socializacao) e competir em um mesmo mundo por meio de [servidores](#l14-servidores). |
+| **Impacto** |  Promove a [cooperacao](#l22-cooperacao) e o trabalho em equipe para construir [estruturas](#l34-estruturas) e completar objetivos. Permite competições e minijogos entre jogadores. |
+
+
 
 
 ---

@@ -29,12 +29,12 @@ Todas as descrições e ações do usuário são feitas em voz alta para que o A
 **Analisador**: Samara Letícia   
 **Modo de jogo** :  [Sobrevivência](../modelagem/lexico.md#l09-sobrevivencia) 
 
-O método foi realizado com uma pessoa que já conhecia o minecraft, os objetivos eram explorar um pouco o mapa, conseguir recursos, descobrir estruturas e interagir com os mobs.         
+O método foi realizado com uma pessoa que já conhecia o minecraft, os objetivos eram [explorar](../modelagem/lexico.md#l21-exploracao) um pouco o mapa, conseguir recursos, descobrir estruturas e interagir com os mobs.         
 
 
 #### Resumo da Narração
 
-Ela entra no Minecraft Launcher com sua conta já logada e cria o mundo no modo [Sobrevivência](../modelagem/lexico.md#l09-sobrevivencia). Anda pelo mapa através do teclado com as teclas w, a, s e d. Coleta um pouco de madeira e usa a [ferramenta] [crafting] do jogo para criar uma [mesa de trabalho]. Cria uma ferramenta com ela e a usa para coletar carvão e pedra. Ela explora outras partes do mapa como o rio, e após [minerar] um pouco chega a uma caverna. Após [explorar] um pouco a caverna ela encontra um [mob] e tem um [combate] com ele, que após ser derrotado, libera mais recursos para a usuária. Após [explorar] um pouco a caverna a usuária encontra um minério raro e uma nova [estrutura] da atualização, chamada de [Trial Chamber]. Após explorar um pouco essa [estrutura], o personagem da usuária morre após ser espetado por um cacto e volta no local de início do jogo.
+Ela entra no Minecraft Launcher com sua conta já logada e cria o mundo no modo [Sobrevivência](../modelagem/lexico.md#l09-sobrevivencia). Anda pelo mapa através do teclado com as teclas w, a, s e d. Coleta um pouco de madeira e usa a [ferramenta](../modelagem/lexico.md#l18-ferramentas) [crafting](../modelagem/lexico.md#l11-craft) do jogo para criar uma mesa de trabalho. Cria uma [ferramenta](../modelagem/lexico.md#l18-ferramentas) com ela e a usa para coletar carvão e pedra. Ela [explora](../modelagem/lexico.md#l21-exploracao) outras partes do mapa como o rio, e após [minerar](../modelagem/lexico.md#l17-mineracao) um pouco chega a uma caverna. Após [explorar](../modelagem/lexico.md#l21-exploracao) um pouco a caverna ela encontra um [mob](../modelagem/lexico.md#l19-criaturas) e tem um combate com ele, que após ser derrotado, libera [drops](../modelagem/lexico.md#l30-drops) usuária. Após [explorar](../modelagem/lexico.md#l21-exploracao) um pouco a caverna a usuária encontra um minério raro e uma nova [estrutura](../modelagem/lexico.md#l03-estruturas-geradas) da atualização, chamada de Trial Chamber. Após explorar um pouco essa [estrutura](../modelagem/lexico.md#l03-estruturas-geradas), o personagem da usuária morre após ser espetado por um cacto e volta no local de início do jogo.
 
 #### Requisitos Elicitados
 
@@ -64,7 +64,7 @@ O método foi realizado com uma pessoa já familiarizada com Minecraft, tendo ex
 
 #### Resumo da Narração
 
- Após criar um novo mundo, ela notou imediatamente a diferença na interface de vida do modo [Hardcore](../modelagem/lexico.md#l10-hardcore). Para explorar a mecânica de vida única desse modo, ela subiu em uma colina alta e deliberadamente caiu, esvaziando sua barra de vida. Ao fazer isso, ela percebeu que não podia retornar ao jogo no mesmo local, sendo forçada a entrar no modo [espectador]. Assim, sua jornada naquele mapa chegou ao fim, destacando a intensidade das consequências no modo [Hardcore](../modelagem/lexico.md#l10-hardcore).
+ Após criar um novo mundo, ela notou imediatamente a diferença na interface de vida do modo [Hardcore](../modelagem/lexico.md#l10-hardcore). Para [explorar](../modelagem/lexico.md#l21-exploracao) a mecânica de vida única desse modo, ela subiu em uma colina alta e deliberadamente caiu, esvaziando sua barra de vida. Ao fazer isso, ela percebeu que não podia retornar ao jogo no mesmo local, sendo forçada a entrar no modo [espectador](../modelagem/lexico.md#l06-espectador). Assim, sua jornada naquele mapa chegou ao fim, destacando a intensidade das consequências no modo [Hardcore](../modelagem/lexico.md#l10-hardcore).
 
 #### Requisitos Elicitados
 
@@ -92,7 +92,7 @@ O método foi realizado com uma pessoa que já conhecia o minecraft, com objetiv
 
 #### Resumo da Narração
  
-A usuária, já experiente no jogo e com cadastro feito na plataforma, entrou no modo [Criativo](../modelagem/lexico.md#l07-criativo)  e [criou um novo mundo]  do zero. Imediatamente, notou as diferenças da HUB em relação aos outros [modos de jogo]. Aproveitando a principal característica do modo [Criativo](../modelagem/lexico.md#l07-criativo), que é a capacidade de voar, ele [explorou] o ambiente. Ao acessar o [inventário], que contém todos os itens disponíveis no jogo, decidiu iniciar um dos diversos objetivos possíveis: a [construção de estruturas]. Utilizando os recursos ilimitados do [inventário](diferencial do modo Criativo), o usuário [construiu] uma casa simples como demonstração.
+A usuária, já experiente no jogo e com cadastro feito na plataforma, entrou no modo [Criativo](../modelagem/lexico.md#l07-criativo)  e [criou um novo mundo]  do zero. Imediatamente, notou as diferenças da HUB em relação aos outros modos de jogo. Aproveitando a principal característica do modo [Criativo](../modelagem/lexico.md#l07-criativo), que é a capacidade de voar, ele [explorou](../modelagem/lexico.md#l21-exploracao) o ambiente. Ao acessar o inventário, que contém todos os itens disponíveis no jogo, decidiu iniciar um dos diversos objetivos possíveis: a construção de [estruturas](../modelagem/lexico.md#l34-estruturas). Utilizando os recursos ilimitados do inventário(diferencial do modo Criativo), o usuário construiu uma casa simples como demonstração.
 #### Requisitos Elicitados
 
 | Código | Requisito | Descrição | Prioridade |
@@ -114,14 +114,14 @@ Legenda - técnica de priorização:
 
 **Relator**: Patrícia Helena 
 **Analisador**: Samara Letícia    
-**Modo de jogo** :  [Multiplayer]
+**Modo de jogo** :  [multiplayer](../modelagem/lexico.md#l41-multiplayer)
 
-O método foi realizado com uma pessoa que já conhecia o minecraft, com objetivo de [socialização] e [cooperação]
+O método foi realizado com uma pessoa que já conhecia o minecraft, com objetivo de [socialização](../modelagem/lexico.md#l26-socialização) e [cooperação](../modelagem/lexico.md#l22-cooperacao)
 
 
 #### Resumo da Narração
  
-A usuária, já experiente no jogo e com cadastro feito na plataforma, clicou na aba de [multiplayer] e selecionou a opção de adicionar um novo [servidor]. Ela inseriu o IP do [servidor] e rapidamente se conectou. Dentro do [servidor] privado, notou a quantidade de jogadores e novos recursos disponíveis, como um [chat] repleto de [comandos] e vários modos de jogos personalizados. Para testar essas funcionalidades, ela entrou em uma competição de [construção], onde competiu com outros jogadores. O objetivo era escolher um tema e construir algo relacionado; a melhor construção ganhava a rodada. No início da rodada, percebeu que o modo de jogo era criativo para melhor fluidez da construção. Após alguns minutos construindo, a rodada terminou e começou a votação das construções, onde nossa usuária ficou em oitavo lugar.
+A usuária, já experiente no jogo e com cadastro feito na plataforma, clicou na aba de [multiplayer](../modelagem/lexico.md#l41-multiplayer) e selecionou a opção de adicionar um novo [servidor](../modelagem/lexico.md#l14-servidores). Ela inseriu o IP do [servidor](../modelagem/lexico.md#l14-servidores) e rapidamente se conectou. Dentro do [servidor](../modelagem/lexico.md#l14-servidores) privado, notou a quantidade de jogadores e novos recursos disponíveis, como um [chat](../modelagem/lexico.md#l23-chat) repleto de comandos e vários modos de jogos personalizados. Para testar essas funcionalidades, ela entrou em uma competição de construção, onde competiu com outros jogadores. O objetivo era escolher um tema e construir algo relacionado; a melhor construção ganhava a rodada. No início da rodada, percebeu que o modo de jogo era [criativo](../modelagem/lexico.md#l07-criativo) para melhor fluidez da construção. Após alguns minutos construindo, a rodada terminou e começou a votação das construções, onde nossa usuária ficou em oitavo lugar.
 #### Requisitos Elicitados
 
 | Código | Requisito | Descrição | Prioridade |
