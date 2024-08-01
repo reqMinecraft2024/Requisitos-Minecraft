@@ -17,10 +17,12 @@ Trata-se de um método onde o usuário é solicitado a realizar uma tarefa enqua
 Todas as descrições e ações do usuário são feitas em voz alta para que o Analisador consiga acompanhar cada passo e classifica-los por prioridades.
 
 **Vídeo da Analise do modo sobrevivência, Hardcore e multiplayer**
-<iframe src="https://drive.google.com/file/d/1YRjdllwaTgr4e3BX6oIpFw4BpB2aT2nY/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1YRjdllwaTgr4e3BX6oIpFw4BpB2aT2nY/preview" allow="fullscreen"></iframe>
+<img class="img-iframe" src="../../assets/imgs/transition-grey-6.png">
 
 **Vídeo da Analise do criativo**
-<iframe src="https://drive.google.com/file/d/1Ha3QPbPp83Je9FLDI6ieR8Wd7KLkBU4Y/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1Ha3QPbPp83Je9FLDI6ieR8Wd7KLkBU4Y/preview" allow="fullscreen"></iframe>
+<img class="img-iframe" src="../../assets/imgs/transition-grey-6.png">
 
 ## AP01
 ##Análise de Protocolo 1
