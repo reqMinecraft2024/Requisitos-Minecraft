@@ -7,7 +7,7 @@
 | 31/07/2024 | 0.1 | Criação do documento inicial e adição da introdução | Patrícia Helena |
 | 31/07/2024 | 0.2 | Analise de Protocolo 1 e 2 | Samara Letícia |
 | 31/07/2024 | 0.3 | Analise de Protocolo 3 e 4 | Patrícia Helena |
-| 01/08/2024 | 0.4 | Aplicação de MoSCoW em todas as análises  | Patrícia Helena |
+| 01/08/2024 | 1.0 | Aplicação de MoSCoW em todas as análises  | Patrícia Helena |
 
 
 ## Introdução
