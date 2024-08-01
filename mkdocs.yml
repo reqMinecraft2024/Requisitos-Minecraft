@@ -52,6 +52,8 @@ nav:
     - Brainstorming: Elicitacoes/Brainstorming.md
     - MoSCoW: Elicitacoes/Moscow.md
     - Introspecção: Elicitacoes/Introspeccao.md
+  - Reuniões:
+    - Ata do dia 27/07/2024: reunioes/ata-24-07-24.md
 
 markdown_extensions:
   - attr_list
