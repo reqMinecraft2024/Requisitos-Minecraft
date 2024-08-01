@@ -38,7 +38,7 @@
 |**Contexto:** | Jogo avançado |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  |  Jogador cria [ender pearls](../modelagem/lexico.md#l36-ender-pearls)<br> Jogador usa [enderpearls](../modelagem/lexico.md#l36-ender-pearls) para localizar a fortaleza<br> Jogador entra na sala de portal<br> Jogador coloca os Olhos de Ender no portal<br> Jogador entra no portal |
+|**Episódios:**  |  Jogador cria [ender pearls](../modelagem/lexico.md#l36-ender-pearls)<br> Jogador usa [ender pearls](../modelagem/lexico.md#l36-ender-pearls) para localizar a fortaleza<br> Jogador entra na sala de portal<br> Jogador coloca os Olhos de Ender no portal<br> Jogador entra no portal |
 |**Restrição:**| Carregamento e atualizações rápidas<br> Entrar na plataforma principal do [End](../modelagem/lexico.md#l04-end) |
 |**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Não obter [Enderpearls](../modelagem/lexico.md#l36-ender-pearls) |
 
