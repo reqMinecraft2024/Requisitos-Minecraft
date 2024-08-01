@@ -23,7 +23,7 @@ A técnica MoSCoW ajuda equipes a gerenciar recursos de forma eficaz, assegurand
 
 ## Metodologia
 
-Para aplicar essa técnica, utilizamos um quadro na ferramenta Miro e realizamos uma reunião via Google Meet. Em seguida, usamos as informações obtidas durante o [brainstorming](Brainstorming.md) para dividir os elementos nas quatro categorias do MoSCoW.
+Para aplicar essa técnica, utilizamos um quadro na ferramenta Miro e realizamos uma reunião via Google Meet. Em seguida, usamos as informações obtidas durante o [brainstorming](../Elicitacoes/Brainstorming.md) para dividir os elementos nas quatro categorias do MoSCoW.
 
 ## Quadro MoSCoW
 

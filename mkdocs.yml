@@ -42,14 +42,16 @@ nav:
   - Início: index.md
   - Pré-Rastreabilidade:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
-    - Brainstorming: pre-rastreabilidade/Brainstorming.md
-    - MoSCoW: pre-rastreabilidade/Moscow.md
-    - Introspecção: pre-rastreabilidade/Introspeccao.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md
     - Cenários: modelagem/cenarios.md
+  - Elicitações:
+    - Analise de Protocolo: Elicitacoes/AnaliseProtocolo.md
+    - Brainstorming: Elicitacoes/Brainstorming.md
+    - MoSCoW: Elicitacoes/Moscow.md
+    - Introspecção: Elicitacoes/Introspeccao.md
 
 markdown_extensions:
   - attr_list

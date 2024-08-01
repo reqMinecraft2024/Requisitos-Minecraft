@@ -14,7 +14,7 @@ Introspecção é uma técnica muito rica e profunda. Consiste em entender quais
 
 ## Metodologia
 
-Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na plataforma, com base nas definições estabelecidas após o [Brainstorming](Brainstorming.md) e definição de [personas](../modelagem/personas.md). A introspecção foi estruturada em formato de storytelling, focando nos diversos tipos de usuários da aplicação.
+Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na plataforma, com base nas definições estabelecidas após o [Brainstorming](../Elicitacoes/Brainstorming.md) e definição de [personas](../modelagem/personas.md). A introspecção foi estruturada em formato de storytelling, focando nos diversos tipos de usuários da aplicação.
 
 ## Introspecção 1
 

@@ -10,7 +10,7 @@
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
 
 ## Metodologia
-Para o levantamento dos termos descritos neste documento, o grupo utilizou palavras chaves já levantadas em artefatos anteriores, como por exemplo o [Brainstorming](../pre-rastreabilidade/Brainstorming.md).
+Para o levantamento dos termos descritos neste documento, o grupo utilizou palavras chaves já levantadas em artefatos anteriores, como por exemplo o [Brainstorming](../Elicitacoes/Brainstorming.md).
 
 | Nome   | Léxico  |
 | --- | --- |
