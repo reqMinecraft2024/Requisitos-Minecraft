@@ -45,7 +45,7 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 | INT1.4 | O jogador deve ser capaz de remover blocos | Must | - |
 | INT1.5 | O jogo deve ter um sistema de salvamento automático | Must | - |
 | INT1.6 | O jogador deve ter acesso a todos os [itens](../modelagem/lexico.md#l32-itens) de forma prática | Must | - |
-| INT1.7 | O jogador dever ser capaz de colocar alguns blocos na !!hotbar | Must | - |
+| INT1.7 | O jogador dever ser capaz de colocar alguns blocos na [hotbar](../modelagem/lexico.md#l39-hotbar) | Must | - |
 | INT1.8 | O jogador deve ser capaz de compartilhar o seu mapa com outro jogador | Could | - |
 
 
@@ -93,13 +93,13 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 ## Introspecção 3
 
 ### 3.1 Contexto
-[Victor](../modelagem/personas.md#victor) é apaixonado por jogos que oferecem um alto nível de dificuldade, sempre buscando se desafiar ao conquistar todas as !!conquistas disponíveis. Por isso, ele espera que o jogo ofereça um modo mais desafiador, com inimigos progressivamente mais poderosos. Além disso, ele deseja um sistema de !!conquistas robusto, que torne os desafios ainda mais dinâmicos e estimulantes.
+[Victor](../modelagem/personas.md#victor) é apaixonado por jogos que oferecem um alto nível de dificuldade, sempre buscando se desafiar ao conquistar todas as [conquistas](../modelagem/lexico.md#l40-conquistas) disponíveis. Por isso, ele espera que o jogo ofereça um modo mais desafiador, com inimigos progressivamente mais poderosos. Além disso, ele deseja um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas)robusto, que torne os desafios ainda mais dinâmicos e estimulantes.
 
 
 ### 3.2 Necessidades Técnicas
 * [Modo hardcore](../modelagem/lexico.md#l10-hardcore)
 * Diversidades de inimigos
-* Sistema de !!conquistas
+* Sistema de [conquistas](../modelagem/lexico.md#l40-conquistas)
 * [chefes](../modelagem/lexico.md#l02-chefes)
 
 ### 3.3 Necessidades Individuais
@@ -107,7 +107,7 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 * Conhecimento sobre o jogo
 
 ### 3.4 Necessidades Sociais
-* Compartilhar as suas !!conquistas com outras pessoas
+* Compartilhar as suas [conquistas](../modelagem/lexico.md#l40-conquistas) com outras pessoas
 
 ### 3.5 Requisitos Elicitados
 
@@ -116,9 +116,9 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 | INT3.1 | Deve existir um modo de jogo onde o jogador pode morrer permanentemente([Hardcore](../modelagem/lexico.md#l10-hardcore))  | Should | - |
 | INT3.2 | Cada [dimensão](../modelagem/lexico.md#l33-dimensao) deve ter diferentes inimigos | Must | - |
 | INT3.3 | Devem existir inimigos de diferentes dificuldades | Should | - |
-| INT3.4 | O jogo deve apresentar um sistema de !!conquistas | Should | - |
-| INT3.5 | O jogador deve poder acessar o sistema de !!conquistas a qualquer momento | Should | - |
-| INT3.6 | O jogador deve ser capaz de compartilhar suas !!conquistas com outras pessoas | Won't | - |
+| INT3.4 | O jogo deve apresentar um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) | Should | - |
+| INT3.5 | O jogador deve poder acessar o sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) a qualquer momento | Should | - |
+| INT3.6 | O jogador deve ser capaz de compartilhar suas [conquistas](../modelagem/lexico.md#l40-conquistas) com outras pessoas | Won't | - |
 | INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | - |
 
 
