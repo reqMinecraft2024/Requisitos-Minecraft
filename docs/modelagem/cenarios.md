@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 30/07/2024 |  0.1   | Criação de Cenários | [Samara Letícia](https://github.com/samarawwleticia)|
+| 01/08/2024 | 0.2 | Revisão | Danilo Melo |
 
 ### Cenário 01
 
@@ -16,7 +17,7 @@
 |**Recursos:**| Minecraft Launcher|
 |**Episódios:**  |  Jogador [cria mundo](../modelagem/lexico.md#l25-criar-mundo)<br> Jogador escolhe modo de jogo [sobrevivência](../modelagem/lexico.md#l09-sobrevivência)<br> Jogador escolhe dificuldade do jogo (pacífico, fácil, normal ou difícil)<br> Jogador nomeia o mundo<br> Jogador entra no mundo ([overworld](../modelagem/lexico.md#l05-overworld)) |
 |**Restrição:**| Carregamento e atualizações rápidas<br> Começar em um bioma com bons recursos |
-|**Exceção**| Launcher não carregar o mundo<br> Erro na geração de biomas<br> [estruturas](../modelagem/lexico.md#l03-estruturas-geradas) não encontradas |
+|**Exceção**| Launcher não carregar o mundo<br> Erro na geração de biomas<br> [Estruturas](../modelagem/lexico.md#l03-estruturas-geradas) não encontradas |
 
 ### Cenário 02
 
@@ -38,8 +39,8 @@
 |**Contexto:** | Jogo avançado |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  |  Jogador cria [ender pearls](../modelagem/lexico.md#l36-ender-pearls)<br> Jogador usa [ender pearls](../modelagem/lexico.md#l36-ender-pearls) para localizar a fortaleza<br> Jogador entra na sala de portal<br> Jogador coloca os Olhos de Ender no portal<br> Jogador entra no portal |
+|**Episódios:**  |  Jogador cria olho de ender<br> Jogador usa olho de ender para localizar a fortaleza<br> Jogador entra na sala de portal<br> Jogador coloca os Olhos de Ender no portal<br> Jogador entra no portal |
 |**Restrição:**| Carregamento e atualizações rápidas<br> Entrar na plataforma principal do [End](../modelagem/lexico.md#l04-end) |
-|**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Não obter [Enderpearls](../modelagem/lexico.md#l36-ender-pearls) |
+|**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Não obter [Ender pearls](../modelagem/lexico.md#l36-ender-pearls) |
 
                 

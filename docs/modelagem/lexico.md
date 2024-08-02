@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | 30/07/2024 | 0.1 | Criação do documento inicial e adição dos léxicos de L01 à L38 | Carlos Eduardo Rodrigues |
 | 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
-| 01/08/2024 | 0.3 | Adição dos léxicos L41 | Patrícia Helena|
+| 01/08/2024 | 0.3 | Adição dos léxico L41 | Patrícia Helena|
 
 ## Introdução
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
@@ -328,7 +328,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Noção |	Criatura que pode ser encontrada tanto no Overworld quanto no [Fim](#l04-end). Caracteriza-se por sua habilidade de teletransporte.|
 |Impacto	| Oferece desafios ao jogador com suas habilidades de teletransporte e ataque. <br> Fonte de [Ender Pearls](#l36-ender-pearls), que são úteis para diversos itens e recursos no jogo.|
 
-## L39 Hotbar
+### L39 Hotbar
 | Nome   | Léxico  |
 | --- | --- |
 | **Classificação** | Objeto |
@@ -336,7 +336,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Noção** | Uma parte do inventário que você pode acessar os itens sem precisar abrir o inventário |
 | **Impacto** | Permite que o usuário acesse os itens de maneira rápida e prática |
 
-## L40 Conquistas
+### L40 Conquistas
 | Nome   | Léxico  |
 | --- | --- |
 | **Classificação** | Objeto |
@@ -344,7 +344,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Noção** | Maneira de orientar gradualmente novos jogadores no Minecraft e dar-lhes desafios para completar |
 | **Impacto** | Incentiva o jogador a explorar todas as possibilidades do jogo |
 
-## L41 Multiplayer
+### L41 Multiplayer
 | Nome   | Léxico |
 | --- | --- |
 | **Classificação** | Estado |

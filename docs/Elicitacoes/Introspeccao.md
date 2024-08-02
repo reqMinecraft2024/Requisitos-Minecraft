@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição            | Autor(es)                                    |
 | ---------- | ------ | -------------------- | -------------------------------------------- |
 | 31/07/2024 | 0.1    | Criação do documento | Danilo Melo |
+| 01/08/2024 | 0.2    | Classificação dos requisitos | Danilo Melo |
 
 ---
 
@@ -39,14 +40,14 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
-| INT1.1 | Deve existir um modo de jogo onde o jogador é possuí recursos ilimitados  ([Modo Criativo](../modelagem/lexico.md#l07-criativo))  | Must | - |
-| INT1.2 | O jogador deve ser capaz de voar no [Modo Criativo](../modelagem/lexico.md#l07-criativo)| Must | - |
-| INT1.3 | O jogador deve ser capaz de remover blocos | Must | - |
-| INT1.4 | O jogador deve ser capaz de remover blocos | Must | - |
-| INT1.5 | O jogo deve ter um sistema de salvamento automático | Must | - |
-| INT1.6 | O jogador deve ter acesso a todos os [itens](../modelagem/lexico.md#l32-itens) de forma prática | Must | - |
-| INT1.7 | O jogador dever ser capaz de colocar alguns blocos na [hotbar](../modelagem/lexico.md#l39-hotbar) | Must | - |
-| INT1.8 | O jogador deve ser capaz de compartilhar o seu mapa com outro jogador | Could | - |
+| INT1.1 | Deve existir um modo de jogo onde o jogador é possuí recursos ilimitados  ([Modo Criativo](../modelagem/lexico.md#l07-criativo))  | Must | Funcional |
+| INT1.2 | O jogador deve ser capaz de voar no [Modo Criativo](../modelagem/lexico.md#l07-criativo)| Must | Funcional |
+| INT1.3 | O jogador deve ser capaz de remover blocos | Must | Funcional |
+| INT1.4 | O jogador deve ser capaz de remover blocos | Must | Funcional |
+| INT1.5 | O jogo deve ter um sistema de salvamento automático | Must | Não funcional |
+| INT1.6 | O jogador deve ter acesso a todos os [itens](../modelagem/lexico.md#l32-itens) de forma prática | Must | Funcional |
+| INT1.7 | O jogador dever ser capaz de colocar alguns blocos na [hotbar](../modelagem/lexico.md#l39-hotbar) | Must | Funcional |
+| INT1.8 | O jogador deve ser capaz de compartilhar o seu mapa com outro jogador | Could | Funcional |
 
 
 ---
@@ -77,23 +78,23 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
-| INT2.1 | Deve existir um modo de jogo onde o jogador pode morrer ([sobrevivência](../modelagem/lexico.md#l09-sobrevivencia) sobrevivência)  | Must | - |
-| INT2.2 | O jogador deve ter uma quantidade limitada de vida  | Must | - |
-| INT2.3 | O jogador deve ser capaz de criar [ferramentas](../modelagem/lexico.md#l18-ferramentas)ramentas  | Must | - |
-| INT2.4 | O jogador deve ser capaz de atacar os inimigos | Must | - |
-| INT2.5 | O jogador deve ser capaz de escolher a dificuldade do jogo | Should | - |
-| INT2.6 | Um jogador deve ser capaz de entrar no mundo de outro jogador | Should | - |
-| INT2.7 | O jogador deve ser capaz de acessar o chat | Should | - |
-| INT2.8 | O mundo deve ser gerado com diversos biomas | Must | - |
-| INT2.9 | O jogador deve ser capaz de melhorar o material dos seus [itens](../modelagem/lexico.md#l32-itens) | Must | - |
-| INT2.10 | O jogador deve ser capaz de encantar os seus itens | Should | - |
-| INT2.11 | Quando um inimigo morrer ele deve deixar um [drop](../modelagem/lexico.md#l30-drops) | Must | - |
-| INT2.12 | O jogador deve ter uma barra de fome | Must | - |
+| INT2.1 | Deve existir um modo de jogo onde o jogador pode morrer ([sobrevivência](../modelagem/lexico.md#l09-sobrevivencia) sobrevivência)  | Must | Funcional |
+| INT2.2 | O jogador deve ter uma quantidade limitada de vida  | Must | Funcional |
+| INT2.3 | O jogador deve ser capaz de criar [ferramentas](../modelagem/lexico.md#l18-ferramentas) | Must | Funcional |
+| INT2.4 | O jogador deve ser capaz de atacar os inimigos | Must | Funcional |
+| INT2.5 | O jogador deve ser capaz de escolher a dificuldade do jogo | Should | Não funcional |
+| INT2.6 | Um jogador deve ser capaz de entrar no mundo de outro jogador | Should | Funcional |
+| INT2.7 | O jogador deve ser capaz de acessar o chat | Should | Não funcional |
+| INT2.8 | O mundo deve ser gerado com diversos biomas | Must | Funcional |
+| INT2.9 | O jogador deve ser capaz de melhorar o material dos seus [itens](../modelagem/lexico.md#l32-itens) | Must | Funcional |
+| INT2.10 | O jogador deve ser capaz de encantar os seus itens | Should | Funcional |
+| INT2.11 | Quando um inimigo morrer ele deve deixar um [drop](../modelagem/lexico.md#l30-drops) | Must | Funcional |
+| INT2.12 | O jogador deve ter uma barra de fome | Must | Funcional |
 
 ## Introspecção 3
 
 ### 3.1 Contexto
-[Victor](../modelagem/personas.md#victor) é apaixonado por jogos que oferecem um alto nível de dificuldade, sempre buscando se desafiar ao conquistar todas as [conquistas](../modelagem/lexico.md#l40-conquistas) disponíveis. Por isso, ele espera que o jogo ofereça um modo mais desafiador, com inimigos progressivamente mais poderosos. Além disso, ele deseja um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas)robusto, que torne os desafios ainda mais dinâmicos e estimulantes.
+[Victor](../modelagem/personas.md#victor) é apaixonado por jogos que oferecem um alto nível de dificuldade, sempre buscando se desafiar ao conquistar todas as [conquistas](../modelagem/lexico.md#l40-conquistas) disponíveis. Por isso, ele espera que o jogo ofereça um modo mais desafiador, com inimigos progressivamente mais poderosos. Além disso, ele deseja um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) robusto, que torne os desafios ainda mais dinâmicos e estimulantes.
 
 
 ### 3.2 Necessidades Técnicas
@@ -113,13 +114,13 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
-| INT3.1 | Deve existir um modo de jogo onde o jogador pode morrer permanentemente([Hardcore](../modelagem/lexico.md#l10-hardcore))  | Should | - |
-| INT3.2 | Cada [dimensão](../modelagem/lexico.md#l33-dimensao) deve ter diferentes inimigos | Must | - |
-| INT3.3 | Devem existir inimigos de diferentes dificuldades | Should | - |
-| INT3.4 | O jogo deve apresentar um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) | Should | - |
-| INT3.5 | O jogador deve poder acessar o sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) a qualquer momento | Should | - |
-| INT3.6 | O jogador deve ser capaz de compartilhar suas [conquistas](../modelagem/lexico.md#l40-conquistas) com outras pessoas | Won't | - |
-| INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | - |
+| INT3.1 | Deve existir um modo de jogo onde o jogador pode morrer permanentemente([Hardcore](../modelagem/lexico.md#l10-hardcore))  | Should | Funcional |
+| INT3.2 | Cada [dimensão](../modelagem/lexico.md#l33-dimensao) deve ter diferentes inimigos | Must | Funcional |
+| INT3.3 | Devem existir inimigos de diferentes dificuldades | Should | Funcional |
+| INT3.4 | O jogo deve apresentar um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) | Should | Funcional |
+| INT3.5 | O jogador deve poder acessar o sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) a qualquer momento | Should | Funcional |
+| INT3.6 | O jogador deve ser capaz de compartilhar suas [conquistas](../modelagem/lexico.md#l40-conquistas) com outras pessoas | Won't | Funcional |
+| INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | Não funcional |
 
 
 ## Referências 
