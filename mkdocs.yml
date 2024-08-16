@@ -47,8 +47,9 @@ nav:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md
     - Cenários: modelagem/cenarios.md
+    - Epics: modelagem/Epics.md
   - Elicitações:
-    - Analise de Protocolo: Elicitacoes/AnaliseProtocolo.md
+    - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
     - Brainstorming: Elicitacoes/Brainstorming.md
     - MoSCoW: Elicitacoes/Moscow.md
     - Introspecção: Elicitacoes/Introspeccao.md
