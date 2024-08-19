@@ -118,7 +118,7 @@ Legenda - técnica de priorização:
 **Analisador**: Samara Letícia    
 **Modo de jogo** :  [multiplayer](../modelagem/lexico.md#l41-multiplayer)
 
-O método foi realizado com uma pessoa que já conhecia o minecraft, com objetivo de [socialização](../modelagem/lexico.md#l26-socialização) e [cooperação](../modelagem/lexico.md#l22-cooperacao)
+O método foi realizado com uma pessoa que já conhecia o minecraft, com objetivo de [socialização](../modelagem/lexico.md#l26-socializacao) e [cooperação](../modelagem/lexico.md#l22-cooperacao)
 
 
 #### Resumo da Narração

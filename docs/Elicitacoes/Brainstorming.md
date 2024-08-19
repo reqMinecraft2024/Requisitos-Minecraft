@@ -27,7 +27,7 @@ Na primeira etapa, utilizamos a técnica de Brainwriting por meio de um board no
 | Ferramentas | [Espectador](../modelagem/lexico.md#l06-espectador) | Exploração | Cooperação       |
 | Criaturas | [Criativo](../modelagem/lexico.md#l07-criativo)  | Trocas| Entretenimento   |
 | [Nether](../modelagem/lexico.md#l01-nether)  | [Aventura](../modelagem/lexico.md#l08-aventura)  | Criar Mundo   | Socialização |
-| Biomas| [Sobrevivência](../modelagem/lexico.md#l09-sobrevivência) | [Mineração](../modelagem/lexico.md#l17-mineracao) | [Servidores](../modelagem/lexico.md#l14-servidores) |
+| Biomas| [Sobrevivência](../modelagem/lexico.md#l09-sobrevivencia) | [Mineração](../modelagem/lexico.md#l17-mineracao) | [Servidores](../modelagem/lexico.md#l14-servidores) |
 | Animais   | [Hardcore](../modelagem/lexico.md#l10-hardcore)  | [Craft](../modelagem/lexico.md#l11-craft)   | Chat |
 | Minérios  | | Construção| Eventos  |
 | Armaduras | | [Redstone](../modelagem/lexico.md#l12-redstone)| [Skins](../modelagem/lexico.md#l15-skins)  |
@@ -35,7 +35,7 @@ Na primeira etapa, utilizamos a técnica de Brainwriting por meio de um board no
 | Itens | | Agricultura   | Missões  |
 | Poções| | Encantamentos |   [Mods](../modelagem/lexico.md#l16-mods)|
 | Alimentos | | Criar Animal  |  |
-| [Estruturas](../modelagem/lexico.md#l03-estruturas)  | | Inventário|  |
+| [Estruturas](../modelagem/lexico.md#l03-estruturas-geradas)  | | Inventário|  |
 | [End](../modelagem/lexico.md#l04-end) | | [Farms](../modelagem/lexico.md#l13-farms)   |  |
 | [Overworld](../modelagem/lexico.md#l05-overworld)   | |   |  |
 | Blocos| |   |  |

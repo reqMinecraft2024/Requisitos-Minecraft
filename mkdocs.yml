@@ -48,6 +48,7 @@ nav:
     - Personas: modelagem/personas.md
     - Cenários: modelagem/cenarios.md
     - Epics: modelagem/Epics.md
+    - Casos de uso: modelagem/casos-de-uso.md
   - Elicitações:
     - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
     - Brainstorming: Elicitacoes/Brainstorming.md

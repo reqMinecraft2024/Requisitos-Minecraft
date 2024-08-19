@@ -47,7 +47,7 @@ A jornada típica no Minecraft começa com a coleta de madeira ao derrubar uma �
 
 ## Pontos Fortes
 - **Liberdade criativa:** Permite que os jogadores construam praticamente qualquer coisa que possam imaginar.
-- **Comunidade e [mods](../modelagem/lexico.md#L16-mods):** O Minecraft possui uma grande comunidade de jogadores e desenvolvedores de [mods](../modelagem/lexico.md#L16-mods), que ajudam na expansão do jogo com novas mecânicas, texturas e funcionalidades.
+- **Comunidade e [mods](../modelagem/lexico.md#l16-mods):** O Minecraft possui uma grande comunidade de jogadores e desenvolvedores de [mods](../modelagem/lexico.md#l16-mods), que ajudam na expansão do jogo com novas mecânicas, texturas e funcionalidades.
 - **Multiplataforma:** Está disponível em diversos dispositivos, como PC, consoles, e smartphones.
 - **Atualizações regulares:** Atualizações são lançadas frequentemente, adicionando novos conteúdos e corrigindo problemas.
 
@@ -55,7 +55,7 @@ A jornada típica no Minecraft começa com a coleta de madeira ao derrubar uma �
 - **Gráficos pixelados:** O estilo pode não atrair jogadores que prefiram visuais mais realistas.
 - **Curva de Aprendizado:** O jogo pode ser confuso para novos jogadores.
 - **Monotonia:** Alguns jogadores podem achar a jogabilidade repetitiva. A [mineração](../modelagem/lexico.md#l17-mineracao) e coleta de recursos, pode se tornar monótona.
-- **Performance:** Em dispositivos menos potentes, o jogo pode ter problemas de desempenho, principalmente ao usar [mods](../modelagem/lexico.md#L16-mods) ou recursos gráficos avançados.
+- **Performance:** Em dispositivos menos potentes, o jogo pode ter problemas de desempenho, principalmente ao usar [mods](../modelagem/lexico.md#l16-mods) ou recursos gráficos avançados.
 - **História não linear:** O Minecraft não possui uma história, o que pode não agradar todos os jogadores.
 
 ## Conclusão

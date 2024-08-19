@@ -6,7 +6,8 @@
 | --- | --- | --- | --- |
 | 30/07/2024 | 0.1 | Criação do documento inicial e adição dos léxicos de L01 à L38 | Carlos Eduardo Rodrigues |
 | 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
-| 01/08/2024 | 0.3 | Adição dos léxico L41 | Patrícia Helena|
+| 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
+| 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
 
 ## Introdução
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
@@ -37,7 +38,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Boss, Inimigos Poderosos |
-| **Noção** | [Criaturas](#l19-criaturas) extremamente fortes no jogo, representando desafios para os jogadores. |
+| **Noção** | [Criaturas](#l19-criaturas) extremamente fortes no jogo, representando desafios para os [jogadores](#l42-usuario). |
 | **Impacto** | [Drops](#l30-drops) raros e recompensas valiosas. <br> Elemento central para completar certos objetivos do jogo. |
 
 ### L03 Estruturas geradas
@@ -45,7 +46,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | - |
-| **Noção** | Conjuntos de blocos gerados no jogo que podem conter [recursos](#l31-recursos). |
+| **Noção** | Conjuntos de [blocos](#l44-blocos) gerados no jogo que podem conter [recursos](#l31-recursos). |
 | **Impacto** | Fonte de [exploração](#l21-exploracao) e obtenção de [itens](#l32-itens). <br> Importantes para a narrativa e progresso do jogo. |
 
 ### L04 End
@@ -61,15 +62,15 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Mundo, Superfície |
-| **Noção** | O mundo principal e padrão do Minecraft onde os jogadores começam. |
-| **Impacto** | Ambiente principal para [sobrevivência](#l09-sobrevivencia), construção e [exploração](#l21-exploracao). <br> Contém a maioria dos biomas, [criaturas](#l19-criaturas) e [recursos](#l31-recursos). <br> Base para a maioria das atividades dos jogadores. |
+| **Noção** | O mundo principal e padrão do Minecraft onde os [jogadores](#l42-usuario) começam. |
+| **Impacto** | Ambiente principal para [sobrevivência](#l09-sobrevivencia), construção e [exploração](#l21-exploracao). <br> Contém a maioria dos biomas, [criaturas](#l19-criaturas) e [recursos](#l31-recursos). <br> Base para a maioria das atividades dos [jogadores](#l42-usuario). |
 
 ### L06 Espectador
 | Nome   | Espectador  |
 | --- | --- |
 | **Classificação** | Estado |
 | **Sinônimos** | Observador, Watcher |
-| **Noção** | Modo de jogo que permite aos jogadores voar e atravessar blocos, sem interação direta com o mundo. |
+| **Noção** | Modo de jogo que permite aos [jogadores](#l42-usuario) voar e atravessar [blocos](#l44-blocos), sem interação direta com o mundo. |
 | **Impacto** | Ideal para explorar e observar o mundo sem interferir. <br> Útil para entender a mecânica do jogo e planejar construções. |
 
 ### L07 Criativo
@@ -77,7 +78,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Estado |
 | **Sinônimos** | Modo Criativo, Criação |
-| **Noção** | Modo de jogo onde os jogadores têm acesso ilimitado a todos os blocos e [itens](#l32-itens), e podem voar. |
+| **Noção** | Modo de jogo onde os [jogadores](#l42-usuario) têm acesso ilimitado a todos os [blocos](#l44-blocos) e [itens](#l32-itens), e podem voar. |
 | **Impacto** | Facilita a construção de grandes [estruturas](#l34-estruturas). <br> Permite criatividade sem restrições de [recursos](#l31-recursos). |
 
 ### L08 Aventura
@@ -85,7 +86,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Estado |
 | **Sinônimos** | Modo Aventura, [exploração](#l21-exploracao) |
-| **Noção** | Modo de jogo onde os jogadores podem interagir com objetos e [mobs](#l19-criaturas), mas não podem destruir blocos sem as [ferramentas](#l18-ferramentas) adequadas. |
+| **Noção** | Modo de jogo onde os [jogadores](#l42-usuario) podem interagir com objetos e [mobs](#l19-criaturas), mas não podem destruir [blocos](#l44-blocos) sem as [ferramentas](#l18-ferramentas) adequadas. |
 | **Impacto** | Ideal para mapas customizados e desafios criados pela comunidade. <br> Incentiva a [exploração](#l21-exploracao). |
 
 ### L09 Sobrevivência
@@ -93,7 +94,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Estado |
 | **Sinônimos** | Modo Survival, Resistência |
-| **Noção** | Modo de jogo onde os jogadores devem coletar [recursos](#l31-recursos), [construir](#l11-craft), e sobreviver contra [mobs](#l19-criaturas). |
+| **Noção** | Modo de jogo onde os [jogadores](#l42-usuario) devem coletar [recursos](#l31-recursos), [construir](#l11-craft), e sobreviver contra [mobs](#l19-criaturas). |
 | **Impacto** | Desafio principal do jogo, combina [exploração](#l21-exploracao), coleta de [recursos](#l31-recursos) e combate. |
 
 ### L10 Hardcore
@@ -108,8 +109,8 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | Nome   | Craft  |
 | --- | --- |
 | **Classificação** | Verbo |
-| **Sinônimos** | Construir, Forjar, Fabricar |
-| **Noção** | Ação de combinar [itens](#l32-itens) no Minecraft para criar novos [itens](#l32-itens) ou blocos. |
+| **Sinônimos** | Construir, Forjar, Fabricar, criar |
+| **Noção** | Ação de combinar [itens](#l32-itens) no Minecraft para criar novos [itens](#l32-itens) ou [blocos](#l44-blocos). |
 | **Impacto** | Essencial para a [sobrevivência](#l09-sobrevivencia) e progressão no jogo. <br> Permite a criação de [ferramentas](#l18-ferramentas), armas, armaduras, e outros [itens](#l32-itens) úteis. |
 
 ### L12 Redstone
@@ -125,7 +126,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Fazendas, Cultivos |
-| **Noção** | [Estruturas](#l34-estruturas) criadas pelos jogadores para coletar [recursos](#l31-recursos) automaticamente ou de maneira eficiente. |
+| **Noção** | [Estruturas](#l34-estruturas) criadas pelos [jogadores](#l42-usuario) para coletar [recursos](#l31-recursos) automaticamente ou de maneira eficiente. |
 | **Impacto** | Fonte constante de [recursos](#l31-recursos) como alimentos. <br> Reduz a necessidade de coleta manual. |
 
 ### L14 Servidores
@@ -133,7 +134,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Hosts, Redes |
-| **Noção** | Plataformas online onde jogadores podem se conectar para jogar Minecraft juntos. |
+| **Noção** | Plataformas online onde [jogadores](#l42-usuario) podem se conectar para jogar Minecraft juntos. |
 | **Impacto** | Permite o jogo [multiplayer](#l41-multiplayer). <br> Comunidades e [eventos](#l24-eventos) organizados. |
 
 ### L15 Skins
@@ -141,8 +142,8 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Aparências, Trajes |
-| **Noção** | Personalizações visuais para os personagens dos jogadores no Minecraft. |
-| **Impacto** | Personalização e expressão individual no jogo. <br> Criação e compartilhamento entre jogadores. |
+| **Noção** | Personalizações visuais para os personagens dos [jogadores](#l42-usuario) no Minecraft. |
+| **Impacto** | Personalização e expressão individual no jogo. <br> Criação e compartilhamento entre [jogadores](#l42-usuario). |
 
 ### L16 Mods
 | Nome   | Mods  |
@@ -165,14 +166,14 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Utensílios, Equipamentos |
-| **Noção** | Objetos utilizados pelos jogadores para realizar diversas atividades como [mineração](#l17-mineracao), construção e combate. |
-| **Impacto** | Essenciais para a coleta de [recursos](#l31-recursos) e defesa contra [mobs](#l19-criaturas). <br> Melhoram a eficiência e a capacidade de [sobrevivência](#l09-sobrevivencia) do jogador. |
+| **Noção** | Objetos utilizados pelos [jogadores](#l42-usuario) para realizar diversas atividades como [mineração](#l17-mineracao), construção e combate. |
+| **Impacto** | Essenciais para a coleta de [recursos](#l31-recursos) e defesa contra [mobs](#l19-criaturas). <br> Melhoram a eficiência e a capacidade de [sobrevivência](#l09-sobrevivencia) do [jogador](#l42-usuario). |
 
 ### L19 Criaturas
 | Nome   | Criaturas  |
 | --- | --- |
 | **Classificação** | Objeto |
-| **Sinônimos** | [mobs](#l19-criaturas), Entidades |
+| **Sinônimos** | mobs, Entidades |
 | **Noção** | Seres vivos no Minecraft que podem ser pacíficos, neutros ou hostis. |
 | **Impacto** | Interações diversas como combate, domesticação e [comércio](#l20-trocas). <br> Fonte de [recursos](#l31-recursos) específicos como carne, couro e [drops](#l30-drops) raros. |
 
@@ -181,14 +182,14 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Verbo |
 | **Sinônimos** | Comércio, Negociações |
-| **Noção** | Ação de trocar [itens](#l32-itens) com NPCs ou outros jogadores no Minecraft. |
-| **Impacto** | Possibilidade de adquirir [itens](#l32-itens) raros ou valiosos. <br> Estimula a [interação](#l26-socializacao) e [cooperação](#l22-cooperacao) entre jogadores. |
+| **Noção** | Ação de trocar [itens](#l32-itens) com NPCs ou outros [jogadores](#l42-usuario) no Minecraft. |
+| **Impacto** | Possibilidade de adquirir [itens](#l32-itens) raros ou valiosos. <br> Estimula a [interação](#l26-socializacao) e [cooperação](#l22-cooperacao) entre [jogadores](#l42-usuario). |
 
 ### L21 Exploração
 | Nome   | Exploração  |
 | --- | --- |
 | **Classificação** | Verbo |
-| **Sinônimos** | Aventurar-se, Descobrir |
+| **Sinônimos** | Aventurar-se, Descobrir, explorar |
 | **Noção** | Ato de viajar pelo mundo do Minecraft para descobrir novos biomas, [estruturas geradas](#l03-estruturas-geradas) e [recursos](#l31-recursos). |
 | **Impacto** | Incentiva a descoberta e a expansão do conhecimento do mapa. <br> Crucial para encontrar [recursos](#l31-recursos) e completar desafios. |
 
@@ -197,7 +198,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Verbo |
 | **Sinônimos** | Colaboração, Trabalho em equipe |
-| **Noção** | Ação de trabalhar junto com outros jogadores para alcançar objetivos comuns. |
+| **Noção** | Ação de trabalhar junto com outros [jogadores](#l42-usuario) para alcançar objetivos comuns. |
 | **Impacto** | Facilita grandes projetos de construção e defesa. <br> Promove o jogo em equipe e a construção de comunidades. |
 
 ### L23 Chat
@@ -205,16 +206,16 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Bate-papo, Conversa |
-| **Noção** | Ferramenta de comunicação dentro do jogo para os jogadores interagirem. |
-| **Impacto** | Essencial para a coordenação e [socialização](#l26-socializacao) entre jogadores. <br> Utilizado para trocar informações e organizar [eventos](#l24-eventos). |
+| **Noção** | Ferramenta de comunicação dentro do jogo para os [jogadores](#l42-usuario) interagirem. |
+| **Impacto** | Essencial para a coordenação e [socialização](#l26-socializacao) entre [jogadores](#l42-usuario). <br> Utilizado para trocar informações e organizar [eventos](#l24-eventos). |
 
 ### L24 Eventos
 | Nome   | Eventos  |
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | - |
-| **Noção** | Ocasiões especiais organizadas dentro do jogo, tanto automaticamente quanto por jogadores. |
-| **Impacto** | Proporcionam experiências únicas e recompensas. <br> Estimulam a participação e [interação](#l26-socializacao) dos jogadores. |
+| **Noção** | Ocasiões especiais organizadas dentro do jogo, tanto automaticamente quanto por [jogadores](#l42-usuario). |
+| **Impacto** | Proporcionam experiências únicas e recompensas. <br> Estimulam a participação e [interação](#l26-socializacao) dos [jogadores](#l42-usuario). |
 
 ### L25 Criar Mundo
 | Nome   | Criar Mundo  |
@@ -222,14 +223,14 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Verbo |
 | **Sinônimos** | Gerar Mundo |
 | **Noção** | Ação de iniciar um novo mundo no Minecraft, com configurações personalizáveis. |
-| **Impacto** | Permite personalização do ambiente de jogo. <br> Define as condições iniciais e o tipo de experiência do jogador. |
+| **Impacto** | Permite personalização do ambiente de jogo. <br> Define as condições iniciais e o tipo de experiência do [jogador](#l42-usuario). |
 
 ### L26 Socialização
 | Nome   | Socialização  |
 | --- | --- |
 | **Classificação** | Verbo |
 | **Sinônimos** | Interação, Convivência |
-| **Noção** | Ato de interagir com outros jogadores dentro do jogo. |
+| **Noção** | Ato de interagir com outros [jogadores](#l42-usuario) dentro do jogo. |
 | **Impacto** | Criação de laços e comunidades dentro do jogo. <br> Enriquecimento da experiência de jogo através da [interação](#l26-socializacao) social. |
 
 ### L27 Blaze Rods
@@ -261,7 +262,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | [Itens](#l32-itens) caídos, Recompensas |
-| **Noção** | [Itens](#l32-itens) que são deixados no chão quando [mobs](#l19-criaturas), blocos ou jogadores são destruídos. |
+| **Noção** | [Itens](#l32-itens) que são deixados no chão quando [mobs](#l19-criaturas), [blocos](#l44-blocos) ou [jogadores](#l42-usuario) são destruídos. |
 | **Impacto** | Fonte de [recursos](#l31-recursos) valiosos, como comida, [ferramentas](#l18-ferramentas) e ingredientes de poções. <br> Incentivam o combate e a [exploração](#l21-exploracao), pois [mobs](#l19-criaturas) e [estruturas geradas](#l03-estruturas-geradas) diferentes têm [drops](#l30-drops) variados e úteis. |
 
 ### L31 Recursos
@@ -277,31 +278,31 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |---|---|
 |Classificação|	Objeto|
 |Sinônimos	|Artigos, Objetos|
-|Noção	|Elementos que podem ser coletados, usados, ou armazenados no jogo, e que influenciam a jogabilidade e o progresso do jogador.|
-|Impacto	|Essenciais para o avanço do jogo e para a [sobrevivência](#l09-sobrevivencia) do jogador. Incluem armas, [ferramentas](#l18-ferramentas), [recursos](#l31-recursos) e outros [itens](#l32-itens) que ajudam na [exploração](#l21-exploracao) e construção.|
+|Noção	|Elementos que podem ser coletados, usados, ou armazenados no jogo, e que influenciam a jogabilidade e o progresso do [jogador](#l42-usuario).|
+|Impacto	|Essenciais para o avanço do jogo e para a [sobrevivência](#l09-sobrevivencia) do [jogador](#l42-usuario). Incluem armas, [ferramentas](#l18-ferramentas), [recursos](#l31-recursos) e outros [itens](#l32-itens) que ajudam na [exploração](#l21-exploracao) e construção.|
 
 ### L33 Dimensão
 |Nome |Dimensão|
 |---|---|
 |Classificação | Objeto |
 |Sinônimos	|Mundo, Plano, Região|
-|Noção	|Espaços distintos dentro do jogo, cada um com suas próprias características, blocos e regras.|
-|Impacto |Oferece diferentes experiências e desafios ao jogador, com variações em [recursos](#l31-recursos) e inimigos. <br> Diversidade de gameplay e [exploração](#l21-exploracao).|
+|Noção	|Espaços distintos dentro do jogo, cada um com suas próprias características, [blocos](#l44-blocos) e regras.|
+|Impacto |Oferece diferentes experiências e desafios ao [jogador](#l42-usuario), com variações em [recursos](#l31-recursos) e inimigos. <br> Diversidade de gameplay e [exploração](#l21-exploracao).|
 
 ### L34 Estruturas
 |Nome	|Estruturas |
 |---|---|
 |Classificação	| Objeto|
 |Sinônimos	|Construções, Edifícios, Criações|
-|Noção	|Formações de blocos e elementos criados pelos jogadores dentro do jogo.|
-|Impacto	|Personaliza o ambiente do jogo e pode influenciar a jogabilidade, a estética e a [interação](#l26-socializacao) com outros jogadores.|
+|Noção	|Formações de [blocos](#l44-blocos) e elementos criados pelos [jogadores](#l42-usuario) dentro do jogo.|
+|Impacto	|Personaliza o ambiente do jogo e pode influenciar a jogabilidade, a estética e a [interação](#l26-socializacao) com outros [jogadores](#l42-usuario).|
 
 ### L35 Ender Dragon
 |Nome	|Ender Dragon|
 |---|---|
 |Classificação	|Objeto|
 |Sinônimos	|Dragão do [Fim](#l04-end), Chefe do [Fim](#l04-end)|
-|Noção	|É um dragão poderoso que os jogadores devem derrotar para completar uma das principais metas do jogo.|
+|Noção	|É um dragão poderoso que os [jogadores](#l42-usuario) devem derrotar para completar uma das principais metas do jogo.|
 |Impacto	|Representa o desafio final do jogo. <br> Sua derrota concede experiência e acesso ao portal de saída do [Fim](#l04-end), além de desbloquear conquistas e recompensas.|
 
 ### L36 Ender Pearls
@@ -310,14 +311,14 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Classificação	|Objeto|
 |Sinônimos	|Pérolas do Ender|
 |Noção	|Itens obtidos ao derrotar Endermen ou encontrá-los em baús no [Fim](#l04-end).|
-|Impacto	|Permitem ao jogador teletransportar-se para um local próximo ao lançar a pérola.|
+|Impacto	|Permitem ao [jogador](#l42-usuario) teletransportar-se para um local próximo ao lançar a pérola.|
 
 ### L37 Elytra
 |Nome |Elytra|
 |---|---|
 |Classificação|	Objeto|
 |Sinônimos|	Asas, Equipamento de Voo|
-|Noção	|Equipamento que permite ao jogador planar e voar no jogo.|
+|Noção	|Equipamento que permite ao [jogador](#l42-usuario) planar e voar no jogo.|
 |Impacto	|Expande as possibilidades de exploração e mobilidade.|
 
 ### L38 Enderman
@@ -326,33 +327,55 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Classificação	|Objeto|
 |Sinônimos |	Enderman, Ser do [Fim](#l04-end)|
 |Noção |	Criatura que pode ser encontrada tanto no Overworld quanto no [Fim](#l04-end). Caracteriza-se por sua habilidade de teletransporte.|
-|Impacto	| Oferece desafios ao jogador com suas habilidades de teletransporte e ataque. <br> Fonte de [Ender Pearls](#l36-ender-pearls), que são úteis para diversos itens e recursos no jogo.|
+|Impacto	| Oferece desafios ao [jogador](#l42-usuario) com suas habilidades de teletransporte e ataque. <br> Fonte de [Ender Pearls](#l36-ender-pearls), que são úteis para diversos itens e recursos no jogo.|
 
 ### L39 Hotbar
-| Nome   | Léxico  |
+| Nome   | Hotbar  |
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Barra de atalhos |
-| **Noção** | Uma parte do inventário que você pode acessar os itens sem precisar abrir o inventário |
-| **Impacto** | Permite que o usuário acesse os itens de maneira rápida e prática |
+| **Noção** | Uma parte do [inventário](#l43-inventario) que você pode acessar os [itens](#l32-itens) sem precisar abrir o [inventário](#l43-inventario) |
+| **Impacto** | Permite que o [usuário](#l42-usuario) acesse os [itens](#l32-itens) de maneira rápida e prática |
 
 ### L40 Conquistas
-| Nome   | Léxico  |
+| Nome   | Conquistas  |
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Achievements |
-| **Noção** | Maneira de orientar gradualmente novos jogadores no Minecraft e dar-lhes desafios para completar |
-| **Impacto** | Incentiva o jogador a explorar todas as possibilidades do jogo |
+| **Noção** | Maneira de orientar gradualmente novos [jogadores](#l42-usuario) no Minecraft e dar-lhes desafios para completar |
+| **Impacto** | Incentiva o [jogador](#l42-usuario) a explorar todas as possibilidades do jogo |
 
 ### L41 Multiplayer
-| Nome   | Léxico |
+| Nome   | Multiplayer |
 | --- | --- |
 | **Classificação** | Estado |
 | **Sinônimos** | Modo Multijogador, MP |
-| **Noção** | Modo de jogo onde múltiplos jogadores podem interagir, [socializar](#l26-socializacao) e competir em um mesmo mundo por meio de [servidores](#l14-servidores). |
-| **Impacto** |  Promove a [cooperacao](#l22-cooperacao) e o trabalho em equipe para construir [estruturas](#l34-estruturas) e completar objetivos. Permite competições e minijogos entre jogadores. |
+| **Noção** | Modo de jogo onde múltiplos [jogadores](#l42-usuario) podem interagir, [socializar](#l26-socializacao) e competir em um mesmo mundo por meio de [servidores](#l14-servidores). |
+| **Impacto** |  Promove a [cooperacao](#l22-cooperacao) e o trabalho em equipe para construir [estruturas](#l34-estruturas) e completar objetivos. Permite competições e minijogos entre [jogadores](#l42-usuario). |
 
+### L42 Usuário
+| Nome   | Usuário |
+| --- | --- |
+| **Classificação** | Sujeito |
+| **Sinônimos** | Jogador(es) |
+| **Noção** | A pessoa que interage com o sistema, tomando decisões e controlando o personagem. |
+| **Impacto** | Centrais para o funcionamento do jogo. <br> Criam [estruturas](#l34-estruturas), moldam o ambiente e [interagem](#l26-socializacao) com outros [jogadores](#l42-usuario). |
 
+### L43 Inventário
+| Nome   | Inventário |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | - |
+| **Noção** | Sistema que armazena todos os [itens](#l32-itens) e [blocos](#l44-blocos) que o [usuário](#l42-usuario) coleta ou [cria](#l11-craft) durante o jogo. Permite ao [jogador](#l42-usuario) organizar e utilizar seus [recursos](#l31-recursos). |
+| **Impacto** | O gerenciamento eficaz do [inventário](#l43-inventario) é essencial para a sobrevivência, construção e progresso no jogo, influenciando diretamente as estratégias do [jogador](#l42-usuario). |
+
+### L44 Blocos
+| Nome   | Blocos |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Cubos, Elementos de Construção |
+| **Noção** | Unidades básicas de construção no usados para criar [estruturas](#l34-estruturas), [itens](#l32-itens) e [ferramentas](#l18-ferramentas). |
+| **Impacto** | Fundamentais para o jogo, permitindo ao [jogador](#l42-usuario) construir e modificar o ambiente. |
 
 
 ---

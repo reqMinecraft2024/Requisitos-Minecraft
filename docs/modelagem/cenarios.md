@@ -9,13 +9,13 @@
 
 ### Cenário 01
 
-| **Título:** | Dinâmica do Minecraft [survival](../modelagem/lexico.md#l09-sobrevivência) |
+| **Título:** | Dinâmica do Minecraft [survival](../modelagem/lexico.md#l09-sobrevivencia) |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Descrever o início do Minecraft| 
 |**Contexto:** | Início de Jogo |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  |  Jogador [cria mundo](../modelagem/lexico.md#l25-criar-mundo)<br> Jogador escolhe modo de jogo [sobrevivência](../modelagem/lexico.md#l09-sobrevivência)<br> Jogador escolhe dificuldade do jogo (pacífico, fácil, normal ou difícil)<br> Jogador nomeia o mundo<br> Jogador entra no mundo ([overworld](../modelagem/lexico.md#l05-overworld)) |
+|**Episódios:**  |  Jogador [cria mundo](../modelagem/lexico.md#l25-criar-mundo)<br> Jogador escolhe modo de jogo [sobrevivência](../modelagem/lexico.md#l09-sobrevivencia)<br> Jogador escolhe dificuldade do jogo (pacífico, fácil, normal ou difícil)<br> Jogador nomeia o mundo<br> Jogador entra no mundo ([overworld](../modelagem/lexico.md#l05-overworld)) |
 |**Restrição:**| Carregamento e atualizações rápidas<br> Começar em um bioma com bons recursos |
 |**Exceção**| Launcher não carregar o mundo<br> Erro na geração de biomas<br> [Estruturas](../modelagem/lexico.md#l03-estruturas-geradas) não encontradas |
 
