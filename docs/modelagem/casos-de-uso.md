@@ -8,13 +8,18 @@
 | --- | --- | --- | --- |
 | 18/08/2024 | 0.1 | Criação do documento inicial com diagrama e tabelas da especificação suplementar| Carlos Eduardo |
 | 19/08/2024 | 0.2 | Linkagens com os termos do [léxico](lexico.md) | Carlos Eduardo |
+| 20/08/2024 | 0.3 | Adição do diagrama de criação de [mundos](lexico.md#l05-overworld) e [realms](lexico.md#l45-realms) | Carlos Eduardo |
 
 ## Introdução
 Este documento contém a especificação dos casos de uso, onde o principal objetivo é detalhar as interações entre os [usuários](lexico.md#l42-usuario) e o sistema, uma das melhores formas para a elicitação dos requisitos funcionais.
 
 ## Diagramas dos Casos de Uso
-**Caso de uso geral**
+### Caso de uso geral
 ![Casos de uso](../assets/imgs/Caso%20de%20uso.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Carlos Eduardo</p>
+
+### Criação de [mundos](lexico.md#l05-overworld) e [realms](lexico.md#l45-realms)
+![Casos de uso](../assets/imgs/criar_mundo.jpg)
 <p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Carlos Eduardo</p>
 
 ## Especificação Suplementar
@@ -48,10 +53,10 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Descrição:**|Carregar um [mundo](lexico.md/#l05-overworld) existente. |
 |**Ator(es):**|[Usuário](lexico.md#l42-usuario) |
 |**Pré-Requisitos:**|[Usuário](lexico.md#l42-usuario) deve estar no menu principal do jogo. |
-|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa a lista de [mundo](lexico.md/#l05-overworld)s salvos. <br> 2. [Usuário](lexico.md#l42-usuario) seleciona o [mundo](lexico.md/#l05-overworld) desejado. <br> 3. [Mundo](lexico.md/#l05-overworld) é carregado e o jogador pode jogar. |
+|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa a lista de [mundo](lexico.md/#l05-overworld)s salvos. <br> 2. [Usuário](lexico.md#l42-usuario) seleciona o [mundo](lexico.md/#l05-overworld) desejado. <br> 3. [Mundo](lexico.md/#l05-overworld) é carregado e o [jogador](lexico.md#l42-usuario) pode jogar. |
 |**Fluxo Alternativo:**| 1. [Usuário](lexico.md#l42-usuario) decide não carregar nenhum [mundo](lexico.md/#l05-overworld) e retorna ao menu principal. |
 |**Fluxo de Exceção:**| 1. Ocorre um erro ao carregar o [mundo](lexico.md/#l05-overworld). <br> 2. [Usuário](lexico.md#l42-usuario) é notificado e redirecionado ao menu principal. |
-|**Pós-condições:**| [Mundo](lexico.md/#l05-overworld) existente é carregado para o jogador. |
+|**Pós-condições:**| [Mundo](lexico.md/#l05-overworld) existente é carregado para o [jogador](lexico.md#l42-usuario). |
 
 ### UC04 [Explorar](lexico.md/#l21-exploracao) [mundo](lexico.md/#l05-overworld)
 | [Explorar](lexico.md/#l21-exploracao) [mundo](lexico.md/#l05-overworld) | |
@@ -70,10 +75,10 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Descrição:**|Combater inimigos no jogo. |
 |**Ator(es):**|[Usuário](lexico.md#l42-usuario) |
 |**Pré-Requisitos:**|[Usuário](lexico.md#l42-usuario) deve estar em modo de [sobrevivência](lexico.md/#l09-sobrevivencia) ou similar. |
-|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) encontra inimigos durante a [exploração](lexico.md/#l21-exploracao). <br> 2. [Usuário](lexico.md#l42-usuario) usa armas ou [ferramentas](lexico.md/#l18-ferramentas) para atacar os inimigos. <br> 3. Inimigos são derrotados ou o jogador é derrotado. |
+|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) encontra inimigos durante a [exploração](lexico.md/#l21-exploracao). <br> 2. [Usuário](lexico.md#l42-usuario) usa armas ou [ferramentas](lexico.md/#l18-ferramentas) para atacar os inimigos. <br> 3. Inimigos são derrotados ou o [jogador](lexico.md#l42-usuario) é derrotado. |
 |**Fluxo Alternativo:**| 1. [Usuário](lexico.md#l42-usuario) decide evitar o combate e foge ou se esconde dos inimigos. |
 |**Fluxo de Exceção:**| 1. Jogo trava durante o combate. <br> 2. O jogo é reiniciado. |
-|**Pós-condições:**| Inimigos derrotados ou jogador recomeça após a derrota. |
+|**Pós-condições:**| Inimigos derrotados ou [jogador](lexico.md#l42-usuario) recomeça após a derrota. |
 
 ### UC06 Proteger território
 | Proteger território | |
@@ -125,7 +130,7 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Descrição:**|Adicionar e gerenciar amigos no jogo. |
 |**Ator(es):**|[Usuário](lexico.md#l42-usuario) |
 |**Pré-Requisitos:**|[Usuário](lexico.md#l42-usuario) deve estar conectado a uma rede e ter uma conta microsoft. |
-|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa a lista de amigos. <br> 2. [Usuário](lexico.md#l42-usuario) adiciona novos amigos ou gerencia os existentes. <br> 3. Amizades são atualizadas junto ao servidor do jogo. |
+|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa a lista de amigos. <br> 2. [Usuário](lexico.md#l42-usuario) adiciona novos amigos ou gerencia os existentes. <br> 3. Amizades são atualizadas junto ao [servidor](lexico.md#l14-servidores) do jogo. |
 |**Fluxo Alternativo:**| 1. [Usuário](lexico.md#l42-usuario) decide remover ou bloquear um amigo da lista. |
 |**Fluxo de Exceção:**| 1. Erro ao atualizar a lista de amigos. <br> 2. [Usuário](lexico.md#l42-usuario) tenta novamente ou entra em contato com o suporte. |
 |**Pós-condições:**| Amigos adicionados ou lista de amigos gerenciada. |
@@ -147,10 +152,10 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Descrição:**| Jogar no modo [multiplayer](lexico.md/#l41-multiplayer) com outros [usuários](lexico.md#l42-usuario). |
 |**Ator(es):**| [Usuário](lexico.md#l42-usuario) |
 |**Pré-Requisitos:**| [Usuário](lexico.md#l42-usuario) deve estar conectado à internet e ter uma conta no Minecraft. |
-|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa o menu [multiplayer](lexico.md/#l41-multiplayer). <br> 2. [Usuário](lexico.md#l42-usuario) escolhe um servidor ou insere o IP de um servidor específico. <br> 3. [Usuário](lexico.md#l42-usuario) conecta-se ao servidor e começa a jogar com outros jogadores. |
+|**Fluxo Principal:**| 1. [Usuário](lexico.md#l42-usuario) acessa o menu [multiplayer](lexico.md/#l41-multiplayer). <br> 2. [Usuário](lexico.md#l42-usuario) escolhe um [servidor](lexico.md#l14-servidores) ou insere o IP de um [servidor](lexico.md#l14-servidores) específico. <br> 3. [Usuário](lexico.md#l42-usuario) conecta-se ao [servidor](lexico.md#l14-servidores) e começa a jogar com outros [jogadores](lexico.md#l42-usuario). |
 |**Fluxo Alternativo:**| 1. [Usuário](lexico.md#l42-usuario) decide jogar em modo singleplayer e retorna ao menu principal. |
-|**Fluxo de Exceção:**| 1. Erro de conexão com o servidor. <br> 2. [Usuário](lexico.md#l42-usuario) tenta conectar novamente ou escolhe outro servidor. |
-|**Pós-condições:**| [Usuário](lexico.md#l42-usuario) conectado ao servidor e jogando com outros jogadores. |
+|**Fluxo de Exceção:**| 1. Erro de conexão com o [servidor](lexico.md#l14-servidores). <br> 2. [Usuário](lexico.md#l42-usuario) tenta conectar novamente ou escolhe outro [servidor](lexico.md#l14-servidores). |
+|**Pós-condições:**| [Usuário](lexico.md#l42-usuario) conectado ao [servidor](lexico.md#l14-servidores) e jogando com outros [jogadores](lexico.md#l42-usuario). |
 
 ### UC13 Entrar ou criar conta
 | Entrar ou criar conta | |
@@ -164,7 +169,7 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Pós-condições:**| [Usuário](lexico.md#l42-usuario) autenticado. |
 
 ### UC14 Conectar ou adicionar um [servidor](lexico.md/#l14-servidores)
-| Conectar ou adicionar um servidor | |
+| Conectar ou adicionar um [servidor](lexico.md#l14-servidores) | |
 |---|---|	
 |**Descrição:**| Conectar-se a um [servidor](lexico.md/#l14-servidores) existente ou adicionar um novo. |
 |**Ator(es):**| [Usuário](lexico.md#l42-usuario) |
@@ -195,3 +200,58 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 |**Fluxo Alternativo:**| 1. [Usuário](lexico.md#l42-usuario) decide não salvar e continua jogando. |
 |**Fluxo de Exceção:**| 1. Erro ao salvar o [mundo](lexico.md/#l05-overworld). <br> 2. [Usuário](lexico.md#l42-usuario) tenta novamente ou verifica espaço disponível. |
 |**Pós-condições:**| [mundo](lexico.md/#l05-overworld) salvo e progresso garantido. |
+
+### UC17 Configurações gerais
+| Configurações gerais | |
+|---|---|
+| **Descrição:** | Permite ao [jogador](lexico.md#l42-usuario) ajustar configurações gerais do mundo, como modo de jogo e dificuldade. |
+| **Ator(es):** | [Jogador](lexico.md#l42-usuario) |
+| **Pré-Requisitos:** | O [jogador](lexico.md#l42-usuario) deve estar na tela de configuração do mundo. |
+| **Fluxo Principal:** | 1. O [jogador](lexico.md#l42-usuario) acessa a seção de configurações gerais.<br>2. O [jogador](lexico.md#l42-usuario) ajusta as opções de modo de jogo e dificuldade.<br>3. O [jogador](lexico.md#l42-usuario) confirma as configurações e prossegue para a próxima etapa. |
+| **Fluxo Alternativo:** | 1. O [jogador](lexico.md#l42-usuario) decide manter as configurações padrão.<br>2. O [jogador](lexico.md#l42-usuario) confirma as configurações e prossegue para a próxima etapa. |
+| **Fluxo de Exceção:** | 1. Falha ao aplicar as configurações.<br>2. O jogo solicita que o [jogador](lexico.md#l42-usuario) ajuste as configurações novamente. |
+| **Pós-condições:** | As configurações gerais são aplicadas e o [jogador](lexico.md#l42-usuario) pode continuar a configuração do mundo. |
+
+### UC18 Criar no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms)
+| Criar no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms) | |
+|---|---|
+| **Descrição:** | Permite ao [jogador](lexico.md#l42-usuario) criar um mundo no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms). |
+| **Ator(es):** | [Jogador](lexico.md#l42-usuario) |
+| **Pré-Requisitos:** | O [jogador](lexico.md#l42-usuario) deve estar logado em sua conta da Microsoft e ter uma assinatura ativa do [Realms](lexico.md#l45-realms). |
+| **Fluxo Principal:** | 1. O [jogador](lexico.md#l42-usuario) seleciona a opção para criar no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms).<br>2. O [jogador](lexico.md#l42-usuario) escolhe um nome e configuracões para o [Realms](lexico.md#l45-realms).<br>3. O [jogador](lexico.md#l42-usuario) confirma e o mundo é criado no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms). |
+| **Fluxo Alternativo:** | 1. O [jogador](lexico.md#l42-usuario) decide criar o mundo localmente em vez de usar o [Realms](lexico.md#l45-realms).<br>2. O [jogador](lexico.md#l42-usuario) retorna à opção de criação de mundo local. |
+| **Fluxo de Exceção:** | 1. Falha ao conectar ao [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms).<br>2. O jogo notifica o [jogador](lexico.md#l42-usuario) e permite tentar novamente ou retornar ao menu principal. |
+| **Pós-condições:** | O mundo é criado no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms) e fica disponível para o [jogador](lexico.md#l42-usuario) e seus amigos convidados. |
+
+### UC19 Selecionar grupamento
+| Selecionar grupamento | |
+|---|---|
+| **Descrição:** | Permite ao [jogador](lexico.md#l42-usuario) escolher a quantidade de [jogadores](lexico.md#l42-usuario) que poderão jogar simultaneamente no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms) (2 ou 10). |
+| **Ator(es):** | [Jogador](lexico.md#l42-usuario) |
+| **Pré-Requisitos:** | O [jogador](lexico.md#l42-usuario) deve estar na etapa de criação no [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms). |
+| **Fluxo Principal:** | 1. O [jogador](lexico.md#l42-usuario) acessa a opção de seleção de grupamento.<br>2. O [jogador](lexico.md#l42-usuario) escolhe entre as opções de 2 ou 10 [jogadores](lexico.md#l42-usuario).<br>3. O [jogador](lexico.md#l42-usuario) confirma a escolha e prossegue com a criação. |
+| **Fluxo Alternativo:** | 1. O [jogador](lexico.md#l42-usuario) é direcionado à escolha padrão ou retorna à tela anterior. |
+| **Fluxo de Exceção:** | 1. O [jogador](lexico.md#l42-usuario) encontra problemas ao selecionar o grupamento.<br>2. O jogo notifica o [jogador](lexico.md#l42-usuario) para tentar novamente ou escolher outra opção. |
+| **Pós-condições:** | O grupamento é selecionado, permitindo a criação do mundo com o número especificado de [jogadores](lexico.md#l42-usuario) simultâneos. |
+
+### UC20 Selecionar nome do [realm](lexico.md#l45-realms)
+| Selecionar nome do [realm](lexico.md#l45-realms) | |
+|---|---|
+| **Descrição:** | Permite ao [jogador](lexico.md#l42-usuario) escolher o nome do [Realm](lexico.md#l45-realms) onde o mundo será criado. |
+| **Ator(es):** | [Jogador](lexico.md#l42-usuario) |
+| **Pré-Requisitos:** | O [jogador](lexico.md#l42-usuario) deve estar na etapa de criação do mundo no [Realms](lexico.md#l45-realms). O [jogador](lexico.md#l42-usuario) deve estar conectado à internet. |
+| **Fluxo Principal:** | 1. O [jogador](lexico.md#l42-usuario) acessa a opção para nomear o [Realm](lexico.md#l45-realms).<br>2. O [jogador](lexico.md#l42-usuario) digita o nome desejado.<br>3. O [jogador](lexico.md#l42-usuario) confirma o nome e prossegue com a criação do mundo. |
+| **Fluxo Alternativo:** | 1. O [jogador](lexico.md#l42-usuario) decide utilizar um nome sugerido automaticamente pelo jogo.<br>2. O [jogador](lexico.md#l42-usuario) confirma o nome sugerido e prossegue. |
+| **Fluxo de Exceção:** | 1. O nome escolhido já está em uso ou é inválido.<br>2. O jogo solicita que o [jogador](lexico.md#l42-usuario) escolha outro nome. |
+| **Pós-condições:** | O nome do [Realm](lexico.md#l45-realms) é registrado e o [jogador](lexico.md#l42-usuario) pode continuar com a criação do mundo. |
+
+### UC21 Aceitar termos e condições [realms](lexico.md#l45-realms)
+| Aceitar termos e condições [realms](lexico.md#l45-realms) | |
+|---|---|
+| **Descrição:** | Requer que o [jogador](lexico.md#l42-usuario) aceite os termos e condições para utilizar o [servidor](lexico.md#l14-servidores) [Realms](lexico.md#l45-realms). |
+| **Ator(es):** | [Jogador](lexico.md#l42-usuario) |
+| **Pré-Requisitos:** | O [jogador](lexico.md#l42-usuario) deve estar na etapa de criação do mundo no [Realms](lexico.md#l45-realms). O [jogador](lexico.md#l42-usuario) deve estar conectado à internet. |
+| **Fluxo Principal:** | 1. O [jogador](lexico.md#l42-usuario) é apresentado aos termos e condições.<br>2. O [jogador](lexico.md#l42-usuario) lê e aceita os termos e condições.<br>3. O [jogador](lexico.md#l42-usuario) prossegue com a criação do [servidor](lexico.md#l14-servidores) [realms](lexico.md#l45-realms). |
+| **Fluxo Alternativo:** | 1. O [jogador](lexico.md#l42-usuario) decide não aceitar os termos e condições.<br>2. O [jogador](lexico.md#l42-usuario) é impedido de prosseguir com a criação do mundo no [Realms](lexico.md#l45-realms). |
+| **Fluxo de Exceção:** | 1. Falha ao registrar a aceitação dos termos e condições.<br>2. O jogo solicita que o [jogador](lexico.md#l42-usuario) tente aceitar os termos novamente. |
+| **Pós-condições:** | Os termos e condições são aceitos e o [jogador](lexico.md#l42-usuario) pode continuar a criação do mundo no [Realms](lexico.md#l45-realms). |

@@ -8,6 +8,7 @@
 | 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
 | 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
 | 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
+| 20/08/2024 | 0.5 | Adição do léxico L45 | Carlos Eduardo |
 
 ## Introdução
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
@@ -377,6 +378,13 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Noção** | Unidades básicas de construção no usados para criar [estruturas](#l34-estruturas), [itens](#l32-itens) e [ferramentas](#l18-ferramentas). |
 | **Impacto** | Fundamentais para o jogo, permitindo ao [jogador](#l42-usuario) construir e modificar o ambiente. |
 
+### L45 Realms
+| Nome   | Realms  |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Servidor Realms, Mundo Realms |
+| **Noção** | Serviço de hospedagem de [servidores](#l14-servidores) online oferecido pela Mojang, que permite aos [jogadores](#l42-usuario) criar e gerenciar mundos privados onde até 10 jogadores podem jogar simultaneamente. |
+| **Impacto** | Facilita a criação e administração de mundos [multiplayer](#l41-multiplayer) de forma segura e controlada. <br> Oferece uma experiência de jogo privada para amigos e convidados. |
 
 ---
 ## Referências:
