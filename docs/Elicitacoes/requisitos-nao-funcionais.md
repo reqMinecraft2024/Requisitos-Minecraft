@@ -7,7 +7,7 @@
 | 21/08/2024 | 0.1    | Criação do documento | Carlos Eduardo |
 
 ## Introdução
-Abaixo estão reunidos os requisitos que foram observados no minecraft a respeito da qualidade do sistema, como desempenho, segurança, e usabilidade. Estes requisitos ajudam a garantir que o jogo ofereça uma experiência de usuário satisfatória. 
+Abaixo estão reunidos os requisitos que foram observados no minecraft a respeito da qualidade do sistema, como desempenho, segurança e usabilidade. Estes requisitos ajudam a garantir que o jogo ofereça uma experiência de usuário satisfatória. 
 
 ## Requisitos Elicitados
 | **Categoria**     |**Requisito**  |
