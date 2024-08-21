@@ -50,6 +50,7 @@ nav:
     - Epics: modelagem/Epics.md
     - Casos de uso: modelagem/casos-de-uso.md
     - Especificações Suplementares: modelagem/especificacaoSuplementar.md
+    - Backlog do Produto: modelagem/backlog.md
   - Elicitações:
     - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
     - Brainstorming: Elicitacoes/Brainstorming.md
