@@ -320,7 +320,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 |Classificação|	Objeto|
 |Sinônimos|	Asas, Equipamento de Voo|
 |Noção	|Equipamento que permite ao [jogador](#l42-usuario) planar e voar no jogo.|
-|Impacto	|Expande as possibilidades de exploração e mobilidade.|
+|Impacto	|Expande as possibilidades de [exploração](#l21-exploracao) e mobilidade.|
 
 ### L38 Enderman
 |Nome|	Enderman|
@@ -344,7 +344,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Classificação** | Objeto |
 | **Sinônimos** | Achievements |
 | **Noção** | Maneira de orientar gradualmente novos [jogadores](#l42-usuario) no Minecraft e dar-lhes desafios para completar |
-| **Impacto** | Incentiva o [jogador](#l42-usuario) a explorar todas as possibilidades do jogo |
+| **Impacto** | Incentiva o [jogador](#l42-usuario) a [explorar](#l21-exploracao) todas as possibilidades do jogo |
 
 ### L41 Multiplayer
 | Nome   | Multiplayer |
@@ -385,6 +385,47 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Sinônimos** | Servidor Realms, Mundo Realms |
 | **Noção** | Serviço de hospedagem de [servidores](#l14-servidores) online oferecido pela Mojang, que permite aos [jogadores](#l42-usuario) criar e gerenciar mundos privados onde até 10 jogadores podem jogar simultaneamente. |
 | **Impacto** | Facilita a criação e administração de mundos [multiplayer](#l41-multiplayer) de forma segura e controlada. <br> Oferece uma experiência de jogo privada para amigos e convidados. |
+
+### L46 Biomas
+| Nome   | Biomas  |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Ambientes naturais|
+| **Noção** | Regiões distintas no mundo do Minecraft que apresentam diferentes tipos de terrenos, climas, vegetações, e vida selvagem. |
+| **Impacto** | Diversificação do ambiente de jogo, proporcionando variação na jogabilidade e [exploração](#l21-exploracao). Influência no tipo de [recursos](#l31-recursos) disponíveis, como madeira e plantas. |
+
+### L47 Villager
+| Nome   | Villager  |
+| --- | --- |
+| **Classificação** | Entidade |
+| **Sinônimos** | Aldeão |
+| **Noção** | [Mob](#l19-criaturas) que habita as [vilas](l50-vila) e interage com o jogador através do [comércio](#l20-trocas) de [itens](#l32-itens) e profissões, onde suas variam de acordo com [biomas](#l46-biomas) e suas profissões |
+| **Impacto** | Importante para o [comércio](#l20-trocas) de [recursos](#l31-recursos) e desenvolvimento das [vilas](l50-vila). Essencial para a obtenção de [itens](#l32-itens) raros e especializados por meio de [trocas](#l20-trocas). Pode ser usado para fazer [farms](#l13-farms)|
+
+### L48 Pillager
+| Nome   | Pillager  |
+| --- | --- |
+| **Classificação** | Entidade |
+| **Sinônimos** | Saqueador |
+| **Noção** | [Mob](#l19-criaturas) inimigo hostil que ataca [vilas](l50-vila) e jogadores, associado às invasões de [vilas](l50-vila). |
+| **Impacto** | Ameaça constante para [vilas](l50-vila) e jogadores, criando desafios de defesa. Cria situações de conflito que podem levar a batalhas e recompensas valiosas. |
+
+
+### L49 Spawners
+| Nome   | Spawners  |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Geradores de Monstros |
+| **Noção** | Blocos que geram constantemente [mobs](#l19-criaturas) em determinadas áreas, encontrados principalmente em masmorras e fortalezas. |
+| **Impacto** | Fonte contínua de [mobs](#l19-criaturas) para combate. Pode ser usado para o [farms](#l13-farms) de [recursos](#l31-recursos) específicos. Facilita a criação de armadilhas e fazendas automatizadas de [mobs](#l19-criaturas) para obtenção de [itens](#l32-itens). Pode aumentar a dificuldade de [exploração](#l21-exploracao).|
+
+### L50 Vila
+| Nome   | Vila  |
+| --- | --- |
+| **Classificação** | Estrutura |
+| **Sinônimos** | Aldeia, Povoado |
+| **Noção** | Conjunto de [estruturas geradas](#l03-estruturas-geradas) e entidades que formam uma comunidade autossustentável no Minecraft. As vilas geralmente incluem casas, plantações, e outras [estruturas](#l03-estruturas-geradas), sendo habitadas principalmente por [villagers](l47-villager). |
+| **Impacto** | Centro de [comércio](#l20-trocas), onde jogadores podem interagir com [villagers](l47-villager) para [trocar](#l20-trocas) [itens](#l32-itens) e obter [recursos](#l31-recursos) valiosos. Fonte de [recursos](#l31-recursos) sustentáveis, como alimentos e materiais, através das plantações e criações dentro da vila.  Ponto estratégico para defesa contra ataques de [pillagers](l48-pillager), incentivando a construção de muralhas e outros sistemas de proteção. |
 
 ---
 ## Referências:
