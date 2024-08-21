@@ -43,6 +43,7 @@ nav:
   - Pré-Rastreabilidade:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
+    - Argumentação: pre-rastreabilidade/argumentacao.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md
