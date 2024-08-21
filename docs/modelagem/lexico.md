@@ -9,6 +9,8 @@
 | 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
 | 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
 | 20/08/2024 | 0.5 | Adição do léxico L45 | Carlos Eduardo |
+| 21/08/2024 | 0.8 | Adição do léxico L46 ao L50 | Patricia Helena|
+
 
 ## Introdução
 Este artefato trata-se de um conjunto de termos e definições que possuem o objetivo de eliminar ambiguidades e garantir uma comunicação clara e precisa entre todos os integrantes do grupo.
