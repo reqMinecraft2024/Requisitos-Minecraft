@@ -1,6 +1,6 @@
 # Especificações Suplementares
 
-## Histórico de Versões
+**Histórico de Revisão**
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
