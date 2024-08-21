@@ -51,6 +51,7 @@ nav:
     - Casos de uso: modelagem/casos-de-uso.md
     - Especificações Suplementares: modelagem/especificacaoSuplementar.md
     - Backlog do Produto: modelagem/backlog.md
+    - NFR: modelagem/NFR.md
   - Elicitações:
     - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
     - Brainstorming: Elicitacoes/Brainstorming.md
