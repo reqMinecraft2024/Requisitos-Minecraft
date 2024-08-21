@@ -22,7 +22,7 @@ Este documento contém a especificação dos casos de uso, onde o principal obje
 ![Casos de uso](../assets/imgs/criar_mundo.jpg)
 <p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Carlos Eduardo</p>
 
-## Especificação Suplementar
+## Especificação do caso de uso
 
 
 ### UC01 [Criar mundo](../modelagem/lexico.md#l25-criar-mundo)
