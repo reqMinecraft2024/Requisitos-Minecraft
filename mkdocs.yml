@@ -49,6 +49,7 @@ nav:
     - Cenários: modelagem/cenarios.md
     - Epics: modelagem/Epics.md
     - Casos de uso: modelagem/casos-de-uso.md
+    - Especificações Suplementares: modelagem/especificacaoSuplementar.md
   - Elicitações:
     - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
     - Brainstorming: Elicitacoes/Brainstorming.md
