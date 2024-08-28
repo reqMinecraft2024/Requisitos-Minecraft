@@ -8,6 +8,10 @@
 
 A argumentação em requisitos de software é o processo de justificar e validar as necessidades de um sistema, construindo uma base lógica e convincente para cada requisito. Ela visa garantir que os requisitos sejam claros, completos e alinhados com os objetivos do projeto, evitando mal-entendidos e facilitando a tomada de decisões durante o desenvolvimento.
 
+![Diagrama - Argumentacao 1](../assets/imgs/arg1.png)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Diagrama de Argumentação 1</p>
+
+
 ## **Questão:** Fazer apenas dois casos de uso será o suficiente para o nosso projeto?
 
 **P1** - Sim, pois eles cobrem os principais fluxos do sistema, garantindo que as funcionalidades essenciais estejam completamente descritas e validadas.
@@ -20,7 +24,8 @@ A argumentação em requisitos de software é o processo de justificar e validar
 
 Terão apenas dois casos de uso, e se necessário, faremos mais.
 
-![Diagrama - Argumentacao 1](../assets/imgs/arg1.png)
+![Diagrama - Argumentacao 2](../assets/imgs/arg2.png)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Diagrama de Argumentação 2</p>
 
 ## **Questão:** É necessário fazer uma pesquisa de interesses com jogadores de minecraft para cobrir bem os requisitos?
 
@@ -33,5 +38,3 @@ Terão apenas dois casos de uso, e se necessário, faremos mais.
 ### **Conclusão**
 
 Fizemos um questionário para jogadores de minecraft a respeito do jogo.
-
-![Diagrama - Argumentacao 2](../assets/imgs/arg2.png)
