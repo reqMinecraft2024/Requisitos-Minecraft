@@ -44,6 +44,14 @@ nav:
     - Visão Geral: pre-rastreabilidade/visao-geral.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
     - Argumentação: pre-rastreabilidade/argumentacao.md
+  - Elicitações:
+    - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
+    - Brainstorming: Elicitacoes/Brainstorming.md
+    - MoSCoW: Elicitacoes/Moscow.md
+    - Introspecção: Elicitacoes/Introspeccao.md
+    - SWOT: Elicitacoes/SWOT.md
+    - Questionários e pesquisas: Elicitacoes/questionarios-e-pesquisas.md
+    - Requisitos não funcionais: Elicitacoes/requisitos-nao-funcionais.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md
@@ -53,14 +61,9 @@ nav:
     - Especificações Suplementares: modelagem/especificacaoSuplementar.md
     - Backlog do Produto: modelagem/backlog.md
     - NFR: modelagem/NFR.md
-  - Elicitações:
-    - Análise de Protocolo: Elicitacoes/AnaliseProtocolo.md
-    - Brainstorming: Elicitacoes/Brainstorming.md
-    - MoSCoW: Elicitacoes/Moscow.md
-    - Introspecção: Elicitacoes/Introspeccao.md
-    - SWOT: Elicitacoes/SWOT.md
-    - Questionários e pesquisas: Elicitacoes/questionarios-e-pesquisas.md
-    - Requisitos não funcionais: Elicitacoes/requisitos-nao-funcionais.md
+  - Análise:
+    - Inspeção Cenários: Analise/cenarios.md
+
   - Reuniões:
     - Ata do dia 27/07/2024: reunioes/ata-24-07-24.md
     - Ata do dia 14/08/2024: reunioes/ata-14-08-24.md
