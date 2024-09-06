@@ -1,40 +1,71 @@
-# Argumentação
+# Léxico
 
 **Histórico de Revisão**
 
-| Data       | Versão | Descrição                      | Autor             |
-| :--------: | :----: | :----------:                   | :---------------: |
-| 20/08/2024 |  0.1   | Criação dos Argumentos | [Samara Letícia](https://github.com/samarawwleticia)|
+| Data   | Versão  | Descrição | Autor(es)|
+| --- | --- | --- | --- |
+| 30/07/2024 | 0.1 | Criação do documento inicial e adição dos léxicos de L01 à L38 | Carlos Eduardo Rodrigues |
+| 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
+| 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
+| 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
+| 20/08/2024 | 0.5 | Adição do léxico L45 | Carlos Eduardo |
+| 21/08/2024 | 0.8 | Adição do léxico L46 ao L50 | Patricia Helena|
 
-A argumentação em requisitos de software é o processo de justificar e validar as necessidades de um sistema, construindo uma base lógica e convincente para cada requisito. Ela visa garantir que os requisitos sejam claros, completos e alinhados com os objetivos do projeto, evitando mal-entendidos e facilitando a tomada de decisões durante o desenvolvimento.
 
-![Diagrama - Argumentacao 1](../assets/imgs/arg1.png)
-<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Diagrama de Argumentação 1</p>
+## Metodologia
+Utilizando a metodologia de inspeção por meio de um checklist, as características de cada [cenário] foram verificadas individualmente, resultando em uma resposta para cada pergunta do checklist, podendo ser 'sim' ou 'não'. Esse processo permite uma averiguação da qualidade de cada um dos cenários, assegurando que os requisitos estejam em conformidade com os padrões esperados.
 
 
-## **Questão:** Fazer apenas dois casos de uso será o suficiente para o nosso projeto?
 
-**P1** - Sim, pois eles cobrem os principais fluxos do sistema, garantindo que as funcionalidades essenciais estejam completamente descritas e validadas.
+## Checklist
+|| Perguntas                                                                       |
+|----|-----------------------------------------------------------------------------|
+| 1  | O cenário possui um título descritivo?                                      |
+| 2  | O objetivo usado naquele cenário claramente?                                |
+| 3  | O cenário possui um contexto claro?                                         |
+| 4  | Os atores pertencentes do cenário estão descritos?                          |
+| 5  | O cenário descreve os recursos necessários?                                 |
+| 6  | O cenário possui episódios coerentes?                                       |
+| 7  | O cenário descreve as restrições possiveis?                                 |
+| 8  | As possiveis restrições estao descritas?                                    |
+| 9  | O cenário possui (hyperlinks) com os léxicos? Se sim, estão todos em ordem? |
 
-**P2** - Sim, pois não seria possível capturar todos os cenários possíveis uma vez que é um jogo de exploração livre.
 
-**P3** - Não, pois dois casos de uso podem não capturar todas as variáveis e cenários possíveis, o que pode resultar em lacunas na cobertura de requisitos e funcionalidades importantes do sistema.
+## Cenário 1 - Dinâmica do Minecraft survival
+|Critérios| Verificação  | Problema                                                             |
+|-------- |------------- |--------------------------------------------------------------------- |
+|    1    |      ✓       |
+|    2    |      X       |
+|    3    |      X       | Falta da descrição do local, tempo e pré-condição
+|    4    |              |
+|    5    |              |
+|    6    |              |
+|    7    |              |
+|    8    |              |
+|    9    |              |
 
-### **Conclusão**
+## Cenário 1 - Dinâmica do Minecraft survival
+|Critérios|              | Problema                                                             |
+|-------- |--------------|--------------------------------------------------------------------- |
+|    1    |      ✓       |
+|    2    |      X       |
+|    3    |      X       |
+|    4    |              |
+|    5    |              |
+|    6    |              |
+|    7    |              |
+|    8    |              |
+|    9    |              |
 
-Terão apenas dois casos de uso, e se necessário, faremos mais.
-
-![Diagrama - Argumentacao 2](../assets/imgs/arg2.png)
-<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Diagrama de Argumentação 2</p>
-
-## **Questão:** É necessário fazer uma pesquisa de interesses com jogadores de minecraft para cobrir bem os requisitos?
-
-**P1** - Sim. A pesquisa de interesses reduz o risco de falhas ao detalhar os recursos ou projetos relacionados a Minecraft.
-
-**P2** - Sim, com uma pesquisa bem conduzida, é possível identificar as funcionalidades ou elementos do projeto que têm maior impacto.
-
-**P3** - Não acho que seja necessário porque sozinhos já conseguiríamos identificar os pontos principais do jogo.
-
-### **Conclusão**
-
-Fizemos um questionário para jogadores de minecraft a respeito do jogo.
+## Cenário 1 - Dinâmica do Minecraft survival
+|Critérios|              | Problema                                                             |
+|-------- |--------------|--------------------------------------------------------------------- |
+|    1    |      ✓       |
+|    2    |      X       |
+|    3    |      X       |
+|    4    |              |
+|    5    |              |
+|    6    |              |
+|    7    |              |
+|    8    |              |
+|    9    |              |
