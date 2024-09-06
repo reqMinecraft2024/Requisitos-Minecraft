@@ -9,7 +9,8 @@
 | 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
 | 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
 | 20/08/2024 | 0.5 | Adição do léxico L45 | Carlos Eduardo |
-| 21/08/2024 | 0.8 | Adição do léxico L46 ao L50 | Patricia Helena|
+| 21/08/2024 | 0.6 | Adição do léxico L46 ao L50 | Patricia Helena|
+| 06/09/2024 | 0.7 | Adição do léxico L51| Samara Letícia|
 
 
 ## Introdução
@@ -428,6 +429,14 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Sinônimos** | Aldeia, Povoado |
 | **Noção** | Conjunto de [estruturas geradas](#l03-estruturas-geradas) e entidades que formam uma comunidade autossustentável no Minecraft. As vilas geralmente incluem casas, plantações, e outras [estruturas](#l03-estruturas-geradas), sendo habitadas principalmente por [villagers](#l47-villager). |
 | **Impacto** | Centro de [comércio](#l20-trocas), onde jogadores podem interagir com [villagers](#l47-villager) para [trocar](#l20-trocas) [itens](#l32-itens) e obter [recursos](#l31-recursos) valiosos. Fonte de [recursos](#l31-recursos) sustentáveis, como alimentos e materiais, através das plantações e criações dentro da vila.  Ponto estratégico para defesa contra ataques de [pillagers](#l48-pillager), incentivando a construção de muralhas e outros sistemas de proteção. |
+
+### L50 Texturas
+| Nome   | Texturas  |
+| --- | --- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Aldeia, Povoado |
+| **Noção** | Elementos visuais que revestem blocos, itens, criaturas, e outros componentes do jogo, definindo a aparência desses objetos. Recursos visuais aplicados a objetos e superfícies, sendo manipuladas e usadas como parte do design gráfico. |
+| **Impacto** | Dão um visual único ao Minecraft, trazendo uma nova experiência de imersão ao jogo. Podem facilitar a identificação de alguns blocos ou itens. Exigem um maior-desempenho da máquina, tornando o jogo mais lento em alguns computadores  |
 
 ---
 ## Referências:
