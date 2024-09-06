@@ -430,7 +430,7 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | **Noção** | Conjunto de [estruturas geradas](#l03-estruturas-geradas) e entidades que formam uma comunidade autossustentável no Minecraft. As vilas geralmente incluem casas, plantações, e outras [estruturas](#l03-estruturas-geradas), sendo habitadas principalmente por [villagers](#l47-villager). |
 | **Impacto** | Centro de [comércio](#l20-trocas), onde jogadores podem interagir com [villagers](#l47-villager) para [trocar](#l20-trocas) [itens](#l32-itens) e obter [recursos](#l31-recursos) valiosos. Fonte de [recursos](#l31-recursos) sustentáveis, como alimentos e materiais, através das plantações e criações dentro da vila.  Ponto estratégico para defesa contra ataques de [pillagers](#l48-pillager), incentivando a construção de muralhas e outros sistemas de proteção. |
 
-### L50 Texturas
+### L51 Texturas
 | Nome   | Texturas  |
 | --- | --- |
 | **Classificação** | Objeto |
