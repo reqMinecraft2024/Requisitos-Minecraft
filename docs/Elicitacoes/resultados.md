@@ -33,7 +33,7 @@
 | RF23 | Em Jogos multiplayer deve ser possível a criação e agendamento de eventos e competições especiais para os jogadores. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap4.5#ap04-requisitos-elicitados) |
 
 
-### Requisitos Não Funcionais
+## Requisitos Não Funcionais
 
 |Código|Requisito|Técnica(s)|
 |---|---|---|
