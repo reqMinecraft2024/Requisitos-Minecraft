@@ -6,8 +6,17 @@
 | :--------: | :----: | :----------:                   | :---------------: |
 | 30/07/2024 |  0.1   | Criação de Cenários | [Samara Letícia](https://github.com/samarawwleticia)|
 | 01/08/2024 | 0.2 | Revisão | Danilo Melo |
+| 06/09/2024 | 0.3 | Atualizações e adições de cenários| Samara Letícia |
 
-### Cenário 01
+## Introdução
+
+Os cenários são empregados como uma ferramenta para modelar as interações usuário-sistema. Essa abordagem permite detalhar os fluxos de trabalho, desde a iniciação até a conclusão de uma tarefa, considerando as diversas possibilidades e exceções. Através da análise de cenários, é possível identificar requisitos funcionais e não funcionais de forma mais precisa, garantindo a qualidade e a usabilidade do sistema desenvolvido.
+
+## Metodologia
+
+A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e na análise de fluxos de interação, além do uso de brainstorming.
+
+## Cenário 01
 
 | **Título:** | Dinâmica do Minecraft [survival](../modelagem/lexico.md#l09-sobrevivencia) |
 | ----------  | -----------------------------  |
@@ -19,7 +28,7 @@
 |**Restrição:**| Carregamento e atualizações rápidas<br> Começar em um bioma com bons recursos |
 |**Exceção**| Launcher não carregar o mundo<br> Erro na geração de biomas<br> [Estruturas](../modelagem/lexico.md#l03-estruturas-geradas) não encontradas |
 
-### Cenário 02
+## Cenário 02
 
 | **Título:** | Dinâmica do Minecraft [criativo](../modelagem/lexico.md#l07-criativo) |
 | ----------  | -----------------------------  |
@@ -31,7 +40,7 @@
 |**Restrição:**| Bom desempenho do jogo<br> Localizar facilmente os [recursos](../modelagem/lexico.md#l31-recursos) |
 |**Exceção**| Falta de memória para carregar a construção<br> Desempenho lento do jogo |
 
-### Cenário 03
+## Cenário 03
 
 | **Título:** | Ir ao [end](../modelagem/lexico.md#l04-end) |
 | ----------  | -----------------------------  |
@@ -43,7 +52,7 @@
 |**Restrição:**| Carregamento e atualizações rápidas<br> Entrar na plataforma principal do [End](../modelagem/lexico.md#l04-end) |
 |**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Não obter [Ender pearls](../modelagem/lexico.md#l36-ender-pearls) |
 
-### Cenário 04
+## Cenário 04
 
 | **Título:** | Derrotar o Ender Dragon |
 | ----------  | -----------------------------  |
@@ -55,7 +64,7 @@
 |**Restrição:**| Ter todos os itens necessários para o combate |
 |**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Ser morto pelo Ender Dragon |                
 
-### Cenário 05
+## Cenário 05
 
 | **Título:** | Derrotar o Warden |
 | ----------  | -----------------------------  |
@@ -67,7 +76,7 @@
 |**Restrição:**| Ter todos os itens necessários para o combate |
 |**Exceção**| Jogador é derrotado pelo Warden<br> Jogador perde todos os itens durante a batalha<br> Jogador não consegue encontrar Cidade Ancestral|
 
-### Cenário 06
+## Cenário 06
 
 | **Título:** | Chocar um Ovo de Farejador |
 | ----------  | -----------------------------  |
@@ -79,7 +88,7 @@
 |**Restrição:**| Ter todos os itens necessários para crafitar um pincel<br> Achar Ovo de Farejador com facilidade |
 |**Exceção**| Jogador não consegue localizar uma ruína<br> Jogador não consegue encontrar Ovo de Farejador |
 
-### Cenário 07
+## Cenário 07
 
 | **Título:** | Derrotar um Mob Simples (Zumbi, Esqueleto, Creeper) |
 | ----------  | -----------------------------  |
@@ -91,7 +100,7 @@
 |**Restrição:**| Utilizar armas e armadura forte |
 |**Exceção**| Jogador é derrotado pelo Mob<br> Jogador perde todos os itens durante a batalha |
 
-### Cenário 08
+## Cenário 08
 
 | **Título:** | Fazer uma Farm de Pedra |
 | ----------  | -----------------------------  |
@@ -103,7 +112,7 @@
 |**Restrição:**| Boa construção e otimização |
 |**Exceção**| Não conseguir encontrar lava<br> Não utilizar corretamente a redstone<br> Farm falhar ao produzir pedra |
 
-### Cenário 09
+## Cenário 09
 
 | **Título:** | Crafitar uma Cama |
 | ----------  | -----------------------------  |
@@ -115,7 +124,7 @@
 |**Restrição:**| Obter todos os itens necessários |
 |**Exceção**| Jogador não encontra lãs da mesma coloração<br> Jogador não encontra ovelhas<br> Jogador não obtem recursos suficientes |
 
-### Cenário 10
+## Cenário 10
 
 | **Título:** | Reproduzir Villagers |
 | ----------  | -----------------------------  |
@@ -127,7 +136,7 @@
 |**Restrição:**| Villagers disponíveis, espaço suficiente |
 |**Exceção**| Villagers não se reproduzem |
 
-### Cenário 11
+## Cenário 11
 
 | **Título:** | Voar com Elytra |
 | ----------  | -----------------------------  |
@@ -139,7 +148,7 @@
 |**Restrição:**| Durabilidade da Elytra e número de foguetes |
 |**Exceção**| Elytra quebra durante o jogo<br> Não obtém os recursos necessários para crafitar foguetes |
 
-### Cenário 12
+## Cenário 12
 
 | **Título:** | Domar um Lobo |
 | ----------  | -----------------------------  |
@@ -151,7 +160,7 @@
 |**Restrição:**| Ter ossos suficientes |
 |**Exceção**| Lobo não é domado<br> Jogador não encontra um Lobo |
 
-### Cenário 13
+## Cenário 13
 
 | **Título:** | Encontrar um tesouro escondido |
 | ----------  | -----------------------------  |
