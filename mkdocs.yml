@@ -52,6 +52,7 @@ nav:
     - SWOT: Elicitacoes/SWOT.md
     - Questionários e pesquisas: Elicitacoes/questionarios-e-pesquisas.md
     - Requisitos não funcionais: Elicitacoes/requisitos-nao-funcionais.md
+    - Resultados das elicitações: Elicitacoes/resultados.md
   - Modelagem:
     - Léxico: modelagem/lexico.md
     - Personas: modelagem/personas.md

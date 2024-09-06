@@ -6,6 +6,7 @@
 | ---------- | ------ | -------------------- | -------------------------------------------- |
 | 31/07/2024 | 0.1    | Criação do documento | Danilo Melo |
 | 01/08/2024 | 0.2    | Classificação dos requisitos | Danilo Melo |
+| 06/09/2024 | 0.3 | Correção de duplicata | Carlos Eduardo |
 
 ---
 
@@ -43,11 +44,10 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 | INT1.1 | Deve existir um modo de jogo onde o jogador é possuí recursos ilimitados  ([Modo Criativo](../modelagem/lexico.md#l07-criativo))  | Must | Funcional |
 | INT1.2 | O jogador deve ser capaz de voar no [Modo Criativo](../modelagem/lexico.md#l07-criativo)| Must | Funcional |
 | INT1.3 | O jogador deve ser capaz de remover blocos | Must | Funcional |
-| INT1.4 | O jogador deve ser capaz de remover blocos | Must | Funcional |
-| INT1.5 | O jogo deve ter um sistema de salvamento automático | Must | Não funcional |
-| INT1.6 | O jogador deve ter acesso a todos os [itens](../modelagem/lexico.md#l32-itens) de forma prática | Must | Funcional |
-| INT1.7 | O jogador dever ser capaz de colocar alguns blocos na [hotbar](../modelagem/lexico.md#l39-hotbar) | Must | Funcional |
-| INT1.8 | O jogador deve ser capaz de compartilhar o seu mapa com outro jogador | Could | Funcional |
+| INT1.4 | O jogo deve ter um sistema de salvamento automático | Must | Não funcional |
+| INT1.5 | O jogador deve ter acesso a todos os [itens](../modelagem/lexico.md#l32-itens) de forma prática | Must | Funcional |
+| INT1.6 | O jogador dever ser capaz de colocar alguns blocos na [hotbar](../modelagem/lexico.md#l39-hotbar) | Must | Funcional |
+| INT1.7 | O jogador deve ser capaz de compartilhar o seu mapa com outro jogador | Could | Funcional |
 
 
 ---
