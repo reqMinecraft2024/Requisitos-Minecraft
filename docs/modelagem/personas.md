@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 30/07/2024 |  0.1   | Criação das Personas | [Samara Letícia](https://github.com/samarawwleticia)|
+| 06/09/2024 | 0.2 | Atualização | [Samara Letícia](https://github.com/samarawwleticia) |
 
 ## Introdução
 
@@ -12,13 +13,17 @@ Personas são perfis fictícios que representam os usuários de um projeto. Elas
 
 ## Metodologia
 
-Conforme descrito no livro "Interação Humano-Computador" de Simone Barbosa e Bruno Dias, uma persona abrange aspectos como identidade, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas.
+Para essa documentação, além de discutirmos sobre as nossas próprias experiências com o jogo, entrevistamos diferentes jogadores de minecraft para saber sobre suas principais atividades, gameplay e o modo como o utilizavam. A partir disso, criamos as seguintes personas: Sarah, Arthur e Victor.
 
 ## Personas
 
 ![RichPicture - Personas](../assets/imgs/Personas.png)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Personas - Versão 0.1 - Visão Geral</p>
 
 ### Sarah
+
+![Persona - Sarah](../assets/imgs/personasarah.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Persona Sarah by Freepik </p>
 
 **Perfil de Sarah**
 
@@ -34,6 +39,9 @@ Sarah, uma jovem de 19 anos, é apaixonada por criar construções inovadoras qu
 1. Ela enfrenta desafios devido às limitações do jogo, e a necessidade de adaptar suas ideias dentro das condições impostas pelo jogo.
 
 ### Arthur
+
+![Persona - Arthur](../assets/imgs/personaarthur.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Persona Arthur by Freepik </p>
 
 **Perfil de Artur**
 
@@ -52,6 +60,9 @@ Artur, um garoto de 11 anos, é um grande fã do Minecraft e adora jogar com seu
 
 ### Victor
 
+![Persona - Victor](../assets/imgs/personavictor.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Persona Arthur by Freepik </p>
+
 **Perfil de Victor**
 
 - Idade: 22 anos.
@@ -69,7 +80,6 @@ Victor é um jogador dedicado do Minecraft que se destaca no modo Hardcore. Seu 
 ### Conclusão
 
 Essas personas representam diferentes tipos de jogadores de Minecraft que podem se beneficiar de recursos personalizados no jogo. Cada uma delas tem necessidades e desafios específicos que devem ser atendidos para tornar a experiência de jogo mais eficaz e divertida.
-
 
 
 
