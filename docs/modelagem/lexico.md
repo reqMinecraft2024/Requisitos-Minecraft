@@ -401,16 +401,16 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Entidade |
 | **Sinônimos** | Aldeão |
-| **Noção** | [Mob](#l19-criaturas) que habita as [vilas](l50-vila) e interage com o jogador através do [comércio](#l20-trocas) de [itens](#l32-itens) e profissões, onde suas variam de acordo com [biomas](#l46-biomas) e suas profissões |
-| **Impacto** | Importante para o [comércio](#l20-trocas) de [recursos](#l31-recursos) e desenvolvimento das [vilas](l50-vila). Essencial para a obtenção de [itens](#l32-itens) raros e especializados por meio de [trocas](#l20-trocas). Pode ser usado para fazer [farms](#l13-farms)|
+| **Noção** | [Mob](#l19-criaturas) que habita as [vilas](#l50-vila) e interage com o jogador através do [comércio](#l20-trocas) de [itens](#l32-itens) e profissões, onde suas variam de acordo com [biomas](#l46-biomas) e suas profissões |
+| **Impacto** | Importante para o [comércio](#l20-trocas) de [recursos](#l31-recursos) e desenvolvimento das [vilas](#l50-vila). Essencial para a obtenção de [itens](#l32-itens) raros e especializados por meio de [trocas](#l20-trocas). Pode ser usado para fazer [farms](#l13-farms)|
 
 ### L48 Pillager
 | Nome   | Pillager  |
 | --- | --- |
 | **Classificação** | Entidade |
 | **Sinônimos** | Saqueador |
-| **Noção** | [Mob](#l19-criaturas) inimigo hostil que ataca [vilas](l50-vila) e jogadores, associado às invasões de [vilas](l50-vila). |
-| **Impacto** | Ameaça constante para [vilas](l50-vila) e jogadores, criando desafios de defesa. Cria situações de conflito que podem levar a batalhas e recompensas valiosas. |
+| **Noção** | [Mob](#l19-criaturas) inimigo hostil que ataca [vilas](#l50-vila) e jogadores, associado às invasões de [vilas](#l50-vila). |
+| **Impacto** | Ameaça constante para [vilas](#l50-vila) e jogadores, criando desafios de defesa. Cria situações de conflito que podem levar a batalhas e recompensas valiosas. |
 
 
 ### L49 Spawners
@@ -426,8 +426,8 @@ Para o levantamento dos termos descritos neste documento, o grupo utilizou palav
 | --- | --- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Aldeia, Povoado |
-| **Noção** | Conjunto de [estruturas geradas](#l03-estruturas-geradas) e entidades que formam uma comunidade autossustentável no Minecraft. As vilas geralmente incluem casas, plantações, e outras [estruturas](#l03-estruturas-geradas), sendo habitadas principalmente por [villagers](l47-villager). |
-| **Impacto** | Centro de [comércio](#l20-trocas), onde jogadores podem interagir com [villagers](l47-villager) para [trocar](#l20-trocas) [itens](#l32-itens) e obter [recursos](#l31-recursos) valiosos. Fonte de [recursos](#l31-recursos) sustentáveis, como alimentos e materiais, através das plantações e criações dentro da vila.  Ponto estratégico para defesa contra ataques de [pillagers](l48-pillager), incentivando a construção de muralhas e outros sistemas de proteção. |
+| **Noção** | Conjunto de [estruturas geradas](#l03-estruturas-geradas) e entidades que formam uma comunidade autossustentável no Minecraft. As vilas geralmente incluem casas, plantações, e outras [estruturas](#l03-estruturas-geradas), sendo habitadas principalmente por [villagers](#l47-villager). |
+| **Impacto** | Centro de [comércio](#l20-trocas), onde jogadores podem interagir com [villagers](#l47-villager) para [trocar](#l20-trocas) [itens](#l32-itens) e obter [recursos](#l31-recursos) valiosos. Fonte de [recursos](#l31-recursos) sustentáveis, como alimentos e materiais, através das plantações e criações dentro da vila.  Ponto estratégico para defesa contra ataques de [pillagers](#l48-pillager), incentivando a construção de muralhas e outros sistemas de proteção. |
 
 ---
 ## Referências:

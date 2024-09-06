@@ -40,8 +40,8 @@ extra_css:
 
 nav:
   - Início: index.md
+  - Visão Geral: visao-geral.md
   - Pré-Rastreabilidade:
-    - Visão Geral: pre-rastreabilidade/visao-geral.md
     - Rich Picture: pre-rastreabilidade/Rich Picture.md
     - Argumentação: pre-rastreabilidade/argumentacao.md
   - Elicitações:
