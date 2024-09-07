@@ -1,4 +1,4 @@
-# Requisitos não funcionais
+# Observação dos Requisitos não funcionais 
 
 **Histórico de Revisão**
 

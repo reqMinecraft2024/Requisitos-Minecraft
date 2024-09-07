@@ -82,9 +82,9 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 | INT2.2 | O jogador deve ter uma quantidade limitada de vida  | Must | Funcional |
 | INT2.3 | O jogador deve ser capaz de criar [ferramentas](../modelagem/lexico.md#l18-ferramentas) | Must | Funcional |
 | INT2.4 | O jogador deve ser capaz de atacar os inimigos | Must | Funcional |
-| INT2.5 | O jogador deve ser capaz de escolher a dificuldade do jogo | Should | Não funcional |
+| INT2.5 | O jogador deve ser capaz de escolher a dificuldade do jogo | Should | Funcional |
 | INT2.6 | Um jogador deve ser capaz de entrar no mundo de outro jogador | Should | Funcional |
-| INT2.7 | O jogador deve ser capaz de acessar o chat | Should | Não funcional |
+| INT2.7 | O jogador deve ser capaz de acessar o chat | Should | Funcional |
 | INT2.8 | O mundo deve ser gerado com diversos biomas | Must | Funcional |
 | INT2.9 | O jogador deve ser capaz de melhorar o material dos seus [itens](../modelagem/lexico.md#l32-itens) | Must | Funcional |
 | INT2.10 | O jogador deve ser capaz de encantar os seus itens | Should | Funcional |
@@ -120,7 +120,7 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 | INT3.4 | O jogo deve apresentar um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) | Should | Funcional |
 | INT3.5 | O jogador deve poder acessar o sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) a qualquer momento | Should | Funcional |
 | INT3.6 | O jogador deve ser capaz de compartilhar suas [conquistas](../modelagem/lexico.md#l40-conquistas) com outras pessoas | Won't | Funcional |
-| INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | Não funcional |
+| INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | Funcional |
 
 
 ## Referências 
