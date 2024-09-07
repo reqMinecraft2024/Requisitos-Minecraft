@@ -9,7 +9,7 @@
 
 |Código|Requisito|Técnica(s)|
 |---|---|---|
-| RF1 | O usuário deve ser capaz de criar uma conta no Minecraft. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap1.1#ap01-requisitos-elicitados) |
+| RF1 | O usuário deve ser capaz de criar, entrar e gerenciar uma conta no Minecraft. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap1.1#ap01-requisitos-elicitados) |
 | RF2 | O usuário deve ser capaz de se locomover utilizando o teclado. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap1.2#ap01-requisitos-elicitados) |
 | RF3 | O usuário deve ser capaz de interagir com o mundo utilizando o mouse. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap1.3#ap01-requisitos-elicitados) |
 | RF4 | Os recursos devem ser armazenados no inventário do usuário. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap1.4#ap01-requisitos-elicitados), [Brainstorming](Brainstorming.md#brainwriting), [MoSCoW](Moscow.md#quadro-moscow), [Introspeccao](Introspeccao.md?h=int1.5#15-requisitos-elicitados) |
@@ -21,7 +21,7 @@
 | RF10 | No modo hardcore, após a morte, o usuário deve ser capaz de entrar apenas no modo espectador, sem interagir com o mundo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.2#ap02-requisitos-elicitados) |
 | RF11 | No modo hardcore, o jogo deve ser definido automaticamente na dificuldade mais alta e não pode ser alterado. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.3#ap02-requisitos-elicitados) |
 | RF12 | No modo hardcore, os comandos de cheats devem estar desabilitados para garantir a integridade do desafio. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.4#ap02-requisitos-elicitados) |
-| RF13 | No modo criativo, o inventário deve conter todos os itens do jogo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.1#ap03-requisitos-elicitados) |
+| RF13 | Deve existir um modo de jogo onde o jogador pode exercitar a sua criatividade | Análise de Protocolo |
 | RF14 | No modo criativo, o usuário deve ser capaz de sobrevoar rapidamente pelo mapa para facilitar as criações. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.2#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.2#15-requisitos-elicitados) |
 | RF15 | O usuário deve ser capaz de colocar e quebrar blocos com apenas um comando no modo criativo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.3#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.3#15-requisitos-elicitados) |
 | RF16 | O usuário deve ter acesso a todos os itens do jogo no modo criativo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.4#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.1#15-requisitos-elicitados) |

@@ -3,28 +3,28 @@
 
 | Data   | Versão  | Descrição | Autor(es)|
 | --- | --- | --- | --- |
-| 07/09/2024 | 0.1 | Criação do documento | Carlos Eduardo Rodrigues |
+| 07/09/2024 | 0.1 | Criação do documento e adição de algumas telas | Carlos Eduardo Rodrigues |
 
 |Código|Requisito|Tela|
 |---|---|---|
-| RF1 | O usuário deve ser capaz de criar uma conta no Minecraft. |  |
-| RF2 | O usuário deve ser capaz de se locomover utilizando o teclado. |  |
-| RF3 | O usuário deve ser capaz de interagir com o mundo utilizando o mouse. |  |
-| RF4 | Os recursos devem ser armazenados no inventário do usuário. | |
+| RF1 | O usuário deve ser capaz de criar, entrar e gerenciar uma conta no Minecraft. | [Veja aqui](imgs/1.png) |
+| RF2 | O usuário deve ser capaz de se locomover utilizando o teclado. | [Veja aqui](imgs/2.png) |
+| RF3 | O usuário deve ser capaz de interagir com o mundo utilizando o mouse. | [Veja aqui](imgs/3.png) |
+| RF4 | Os recursos devem ser armazenados no inventário do usuário. | [Veja aqui](imgs/4.png) |
 | RF5 | O jogo deve possuir um dicionário com a explicação de todos os itens descobertos pelo usuário. |  |
-| RF6 | O usuário deve precisar de uma mesa de trabalho para fabricar ferramentas eficientes. | |
-| RF7 | O jogo deve permitir que, através de minérios, o usuário crie novas ferramentas. | |
-| RF8 | O jogo deve oferecer diferentes tipos de alimentos para evitar que o personagem do usuário morra de fome. | |
+| RF6 | O usuário deve precisar de uma mesa de trabalho para fabricar ferramentas eficientes. | [Veja aqui](imgs/6.png) |
+| RF7 | O jogo deve permitir que, através de minérios, o usuário crie novas ferramentas. | [Veja aqui](imgs/7.png) |
+| RF8 | O jogo deve oferecer diferentes tipos de alimentos para evitar que o personagem do usuário morra de fome. | [Veja aqui](imgs/8.png) |
 | RF9 | No modo hardcore, o usuário deve ter apenas uma vida, tornando o jogo mais desafiador e definitivo. |  |
 | RF10 | No modo hardcore, após a morte, o usuário deve ser capaz de entrar apenas no modo espectador, sem interagir com o mundo. | |
 | RF11 | No modo hardcore, o jogo deve ser definido automaticamente na dificuldade mais alta e não pode ser alterado. |  |
 | RF12 | No modo hardcore, os comandos de cheats devem estar desabilitados para garantir a integridade do desafio. | |
-| RF13 | No modo criativo, o inventário deve conter todos os itens do jogo. |  |
-| RF14 | No modo criativo, o usuário deve ser capaz de sobrevoar rapidamente pelo mapa para facilitar as criações. | |
+| RF13 |  Deve existir um modo de jogo onde o jogador pode exercitar a sua criatividade |  |
+| RF14 | No modo criativo, o usuário deve ser capaz de sobrevoar rapidamente pelo mapa para facilitar as criações. | [Veja aqui](imgs/14.png) |
 | RF15 | O usuário deve ser capaz de colocar e quebrar blocos com apenas um comando no modo criativo. |  |
-| RF16 | O usuário deve ter acesso a todos os itens do jogo no modo criativo. | |
-| RF17 | O usuário não deve precisar se preocupar com vida ou barra de fome no modo criativo, focando apenas em criar. |  |
-| RF18 | Mobs hostis devem ignorar a presença do usuário no modo criativo. ||
+| RF16 | O usuário deve ter acesso a todos os itens do jogo no modo criativo. | [Veja aqui](imgs/16.png) |
+| RF17 | O usuário não deve precisar se preocupar com vida ou barra de fome no modo criativo, focando apenas em criar. | [Veja aqui](imgs/17.png) |
+| RF18 | Mobs hostis devem ignorar a presença do usuário no modo criativo. | [Veja aqui](imgs/18.png) |
 | RF19 | No modo criativo, usuário deve ser capaz de alterar o clima e a hora do dia conforme necessário para suas criações. | |
 | RF20 | Deve haver um sistema de chat para comunicação entre os jogadores, com suporte a comandos especiais. |  |
 | RF21 | Jogos multiplayer devem permitir a criação e personalização de diversos modos de jogo, como construção, sobrevivência e PvP. |  |
