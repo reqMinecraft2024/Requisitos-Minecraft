@@ -3,7 +3,7 @@
 
 | Data   | Versão  | Descrição | Autor(es)|
 | --- | --- | --- | --- |
-| 07/09/2024 | 0.1 | Criação do documento e adição dos requisitos funcionais | Samara Letícia |
+| 08/09/2024 | 0.1 | Criação do documento e adição dos requisitos funcionais | Samara Letícia |
 
 ## Introdução
 
@@ -56,7 +56,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF14](../pos-rastreabilidade/imgs/14.png)
 
 ### RF15 - O usuário deve ser capaz de colocar e quebrar blocos com apenas um comando no modo criativo. 
-![RF15](../pos-rastreabilidade/imgs/15.mp4)
+![RF15](../pos-rastreabilidade/imgs/15.gif)
 
 ### RF16 - O usuário deve ter acesso a todos os itens do jogo no modo criativo. 
 ![RF16](../pos-rastreabilidade/imgs/16.png)
@@ -68,7 +68,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF18](../pos-rastreabilidade/imgs/18.png)
 
 ### RF19 - No modo criativo, usuário deve ser capaz de alterar o clima e a hora do dia conforme necessário para suas criações. 
-![RF19](../pos-rastreabilidade/imgs/19.mp4)
+![RF19](../pos-rastreabilidade/imgs/19.gif)
 
 ### RF20 - Deve haver um sistema de chat para comunicação entre os jogadores, com suporte a comandos especiais. 
 ![RF20](../pos-rastreabilidade/imgs/20.jpeg)
@@ -128,7 +128,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF38](../pos-rastreabilidade/imgs/38.png)
 
 ### RF39 - O jogador deve poder acessar o sistema de conquistas a qualquer momento
-![RF39](../pos-rastreabilidade/imgs/39.mp4)
+![RF39](../pos-rastreabilidade/imgs/39.gif)
 
 ### RF40 - O jogador deve ser capaz de compartilhar suas conquistas com outros jogadores
 
@@ -146,7 +146,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF44](../pos-rastreabilidade/imgs/44.png)
 
 ### RF45 - Deve haver armas de dano em área para facilitar combates enfrentando múltiplos inimigos de uma só vez 
-![RF45](../pos-rastreabilidade/imgs/45.mp4)
+![RF45](../pos-rastreabilidade/imgs/45.gif)
 
 ### RF46 - Os biomas do Nether, devem possuir desafios e recompensas únicas para incentivar a exploração do submundo.
 ![RF46](../pos-rastreabilidade/imgs/46.png)
