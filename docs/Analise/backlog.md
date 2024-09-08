@@ -13,8 +13,8 @@ Durante o processo de inspeção dos itens do backlog, cada item foi verificado 
 |Nº| Perguntas                                                                       |
 |----|-----------------------------------------------------------------------------|
 | 1  | A história é clara e objetiva?                                      |
-| 2  | A história é separada por tema?                                |
-| 3  | A história apresenta épico?                                         |
+| 2  | A história apresenta épico?                                |
+| 3  | A história é separada por tema?                                         |
 | 4  | A história possui um ID em ordem crescente?                          |
 | 5  | A história é priorizada pelo modelo MoSCoW?                                 |
 | 6  | A história identifica o usuário principal?                                     |
