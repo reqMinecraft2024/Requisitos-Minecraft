@@ -27,6 +27,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF04](../pos-rastreabilidade/imgs/4.png)
 
 ### RF05 - O jogo deve possuir um dicionário com a explicação de todos os itens descobertos pelo usuário. 
+![RF05](../pos-rastreabilidade/imgs/5.jpeg)
 
 ### RF06 - O usuário deve precisar de uma mesa de trabalho para fabricar ferramentas eficientes.
 ![RF06](../pos-rastreabilidade/imgs/6.png)
