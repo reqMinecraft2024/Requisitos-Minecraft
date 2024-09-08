@@ -64,16 +64,17 @@ nav:
     - NFR: modelagem/NFR.md
   - Análise:
     - Inspeção Argumentação: Analise/argumentacao.md
-    - Inspeção Cenários: Analise/cenarios.md
     - Inspeção Backlog do Produto: Analise/backlog.md
-    - Inspeção Personas: Analise/personas.md
     - Inspeção Casos de Uso: Analise/CasosDeUso.md
+    - Inspeção Cenários: Analise/cenarios.md
+    - Inspeção Epics: Analise/epics.md
+    - Inspeção Especificações Suplementares: Analise/EspecificacaoSuplementar.md
     - Inspeção Léxico: Analise/lexicos.md
-    - Inspeção de Rich Picture: Analise/richpicture.md
-    - Inspeção de NFR: Analise/NFR.md
-    - Inspeção de Epics: Analise/epics.md
+    - Inspeção NFR: Analise/NFR.md
+    - Inspeção Personas: Analise/personas.md
+    - Inspeção Rich Picture: Analise/richpicture.md
+    - Validação: Analise/validacao.md
   - Pós-Rastreabilidade:
-    - Validação: pos-rastreabilidade/validacao.md
     - Forward-From: pos-rastreabilidade/forward-from.md
   - Reuniões:
     - Ata do dia 27/07/2024: reunioes/ata-24-07-24.md
