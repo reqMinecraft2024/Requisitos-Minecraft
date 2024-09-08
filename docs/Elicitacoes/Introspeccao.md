@@ -41,7 +41,7 @@ Foi feita uma introspecção ao visualizar diferentes fluxos de usuários na pla
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
-| INT1.1 | Deve existir um modo de jogo onde o jogador é possuí recursos ilimitados  ([Modo Criativo](../modelagem/lexico.md#l07-criativo))  | Must | Funcional |
+| INT1.1 | Deve existir um modo de jogo onde o jogador possuí recursos ilimitados  ([Modo Criativo](../modelagem/lexico.md#l07-criativo))  | Must | Funcional |
 | INT1.2 | O jogador deve ser capaz de voar no [Modo Criativo](../modelagem/lexico.md#l07-criativo)| Must | Funcional |
 | INT1.3 | O jogador deve ser capaz de remover blocos | Must | Funcional |
 | INT1.4 | O jogo deve ter um sistema de salvamento automático | Must | Não funcional |
@@ -78,7 +78,7 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 
 | Código       | Descrição | Prioridade        | Classificação  |
 | ---------- | -------- | -------------------- | -------------------------------------------- |
-| INT2.1 | Deve existir um modo de jogo onde o jogador pode morrer ([sobrevivência](../modelagem/lexico.md#l09-sobrevivencia) sobrevivência)  | Must | Funcional |
+| INT2.1 | Deve existir um modo de jogo onde o jogador pode morrer ([sobrevivência](../modelagem/lexico.md#l09-sobrevivencia))  | Must | Funcional |
 | INT2.2 | O jogador deve ter uma quantidade limitada de vida  | Must | Funcional |
 | INT2.3 | O jogador deve ser capaz de criar [ferramentas](../modelagem/lexico.md#l18-ferramentas) | Must | Funcional |
 | INT2.4 | O jogador deve ser capaz de atacar os inimigos | Must | Funcional |

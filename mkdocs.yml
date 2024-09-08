@@ -66,6 +66,8 @@ nav:
     - Inspeção Cenários: Analise/cenarios.md
     - Inspeção Backlog do Produto: Analise/backlog.md
     - Inspeção Personas: Analise/personas.md
+    - Inspeção Casos de Uso: Analise/CasosDeUso.md
+    - Inspeção Léxico: Analise/lexicos.md
   - Pós-Rastreabilidade:
     - Forward-From: pos-rastreabilidade/forward-from.md
   - Reuniões:
