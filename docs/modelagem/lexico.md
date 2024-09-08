@@ -7,7 +7,7 @@
 | 30/07/2024 | 0.1 | Criação do documento inicial e adição dos léxicos de L01 à L38 | Carlos Eduardo Rodrigues |
 | 01/08/2024 | 0.2 | Adição dos léxicos L39 e L40 | Danilo Melo|
 | 01/08/2024 | 0.3 | Adição do léxico L41 | Patrícia Helena|
-| 19/08/2024 | 0.4 | Adição dos léxico L42 à L44 e correções | Carlos Eduardo |
+| 19/08/2024 | 0.4 | Adição dos léxicos L42 à L44 e correções | Carlos Eduardo |
 | 20/08/2024 | 0.5 | Adição do léxico L45 | Carlos Eduardo |
 | 21/08/2024 | 0.6 | Adição do léxico L46 ao L50 | Patricia Helena|
 | 06/09/2024 | 0.7 | Adição do léxico L51| Samara Letícia|

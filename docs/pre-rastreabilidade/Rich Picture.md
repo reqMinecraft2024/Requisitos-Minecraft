@@ -5,6 +5,7 @@
 | Data       | Versão | Descrição                                                                                 | Autor(es)   |
 | ---------- | ------ | ----------------------------------------------------------------------------------------- | ----------- |
 | 26/07/2024 | 0.1    | Criação do documento e adição da visão geral, exploração, personagem e criação de mundos. | Danilo Melo |
+| 08/09/2024 | 0.2    | Adição da descrição das imagens | Danilo Melo |
 
 ---
 ## Introdução
@@ -21,12 +22,17 @@ Para o desenvolvimento do Rich Picture neste projeto, utilizou-se a ferramenta M
 
 ## Visão Geral
 ![RichPicture - Visão geral](../assets/imgs/RichPicture%20-%20Visão%20geral.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Danilo Melo</p>
 
 ## Exploração
 ![RichPicture - Exploração](../assets/imgs/RichPicture%20-%20Exploração.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Danilo Melo</p>
 
 ## Personagem
 ![RichPicture - Personagem](../assets/imgs/RichPicture%20-%20Personagem.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Danilo Melo</p>
 
 ## Criação de Mundos
 ![RichPicture - Criação de mundo.jpg](../assets/imgs/RichPicture%20-%20Criação%20de%20mundo.jpg)
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Danilo Melo</p>
+
