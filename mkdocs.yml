@@ -63,6 +63,7 @@ nav:
     - Backlog do Produto: modelagem/backlog.md
     - NFR: modelagem/NFR.md
   - Análise:
+    - Inspeção Argumentação: Analise/argumentacao.md
     - Inspeção Cenários: Analise/cenarios.md
     - Inspeção Backlog do Produto: Analise/backlog.md
     - Inspeção Personas: Analise/personas.md
