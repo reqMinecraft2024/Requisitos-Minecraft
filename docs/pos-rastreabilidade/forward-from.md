@@ -49,6 +49,7 @@
 |RF39|O jogador deve poder acessar o sistema de conquistas a qualquer momento||
 |RF40|O jogador deve ser capaz de compartilhar suas conquistas com outros jogadores||
 |RF41|O jogo deve possuir chefes||
+|RF42|Deve haver blocos decorativos para expandir as opções de construção e paisagismo.||
 |RF43| Deve haver ruínas, cavernas, montanhas e masmorras subterrâneas, com desafios e recompensas para que os jogadores realizem explorações. ||
 |RF44| Deve haver armaduras para os jogadores e seus animais de combate. ||
 |RF45| Deve haver armas de dano em área para facilitar combates enfrentando múltiplos inimigos de uma só vez ||
