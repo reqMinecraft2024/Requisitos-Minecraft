@@ -68,6 +68,9 @@ nav:
     - Inspeção Personas: Analise/personas.md
     - Inspeção Casos de Uso: Analise/CasosDeUso.md
     - Inspeção Léxico: Analise/lexicos.md
+    - Inspeção de Rich Picture: Analise/richpicture.md
+    - Inspeção de NFR: Analise/NFR.md
+    - Inspeção de Epics: Analise/epics.md
   - Pós-Rastreabilidade:
     - Forward-From: pos-rastreabilidade/forward-from.md
   - Reuniões:
