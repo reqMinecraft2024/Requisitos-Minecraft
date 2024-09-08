@@ -73,6 +73,7 @@ nav:
     - Inspeção de NFR: Analise/NFR.md
     - Inspeção de Epics: Analise/epics.md
   - Pós-Rastreabilidade:
+    - Validação: pos-rastreabilidade/validacao.md
     - Forward-From: pos-rastreabilidade/forward-from.md
   - Reuniões:
     - Ata do dia 27/07/2024: reunioes/ata-24-07-24.md

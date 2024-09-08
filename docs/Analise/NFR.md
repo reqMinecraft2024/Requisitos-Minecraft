@@ -6,7 +6,7 @@
 
 
 ## Metodologia
-O processo de inspeção dos diagramas Rich Picture foi realizado utilizando uma metodologia baseada em checklist. Para cada pergunta do checklist, uma resposta binária foi atribuída, avaliando se o item atende aos critérios.
+O processo de inspeção dos NFR Framework foi realizado utilizando uma metodologia baseada em checklist. Para cada pergunta do checklist, uma resposta binária foi atribuída, avaliando se o item atende aos critérios.
 
 ## Checklist
 | Nº  | Perguntas                                                                                |
