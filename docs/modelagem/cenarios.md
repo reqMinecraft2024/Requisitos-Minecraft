@@ -8,6 +8,7 @@
 | 01/08/2024 | 0.2 | Revisão | Danilo Melo |
 | 06/09/2024 | 0.3 | Atualizações e adições de cenários| Samara Letícia |
 | 08/09/2024 | 0.4 | Adição de mais cenários | Samara Letícia |
+| 09/09/2024 | 0.5 | Linkagem dos cenários aos lexicos | Samara Letícia |
 
 ## Introdução
 
@@ -55,13 +56,13 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 
 ## Cenário 04
 
-| **Título:** | Derrotar o Ender Dragon |
+| **Título:** | Derrotar o [Ender Dragon](../modelagem/lexico.md#l35-ender-dragon) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Derrotar o Ender Dragon e completar o jogo | 
+|**Objetivo:**|   Derrotar o [Ender Dragon](../modelagem/lexico.md#l35-ender-dragon) e completar o jogo | 
 |**Contexto:** | Final do jogo |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher, armas, armaduras, poções|
-|**Episódios:**  |  Jogador encontra a fortaleza do End<br> Jogador ativa o portal do End<br> Jogador vai ao End<br> Jogador destrói cristais do End<br> Jogador ataca o Dragão até derrotá-lo |
+|**Episódios:**  |  Jogador encontra a fortaleza do [end](../modelagem/lexico.md#l04-end)<br> Jogador ativa o portal do [end](../modelagem/lexico.md#l04-end)<br> Jogador vai ao [end](../modelagem/lexico.md#l04-end)<br> Jogador destrói cristais do [end](../modelagem/lexico.md#l04-end)<br> Jogador ataca o Dragão até derrotá-lo |
 |**Restrição:**| Ter todos os itens necessários para o combate |
 |**Exceção**| Launcher não carregar o [End](../modelagem/lexico.md#l04-end)<br> Cair no vazio<br> Não localizar a fortaleza<br> Ser morto pelo Ender Dragon |                
 
@@ -91,31 +92,31 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 
 ## Cenário 07
 
-| **Título:** | Derrotar um Mob Simples (Zumbi, Esqueleto, Creeper) |
+| **Título:** | Derrotar um [Mob](../modelagem/lexico.md#l19-criaturas) Simples (Zumbi, Esqueleto, Creeper) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Derrotar um mob simples | 
+|**Objetivo:**|   Derrotar um [mob](../modelagem/lexico.md#l19-criaturas) simples | 
 |**Contexto:** | Jogo Inicial |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  | Jogador espera anoitecer<br> Jogador encontra mob<br> Jogador ataca mob até derrotá-lo |
+|**Episódios:**  | Jogador espera anoitecer<br> Jogador encontra [mob](../modelagem/lexico.md#l19-criaturas)<br> Jogador ataca [mob](../modelagem/lexico.md#l19-criaturas) até derrotá-lo |
 |**Restrição:**| Utilizar armas e armadura forte |
-|**Exceção**| Jogador é derrotado pelo Mob<br> Jogador perde todos os itens durante a batalha |
+|**Exceção**| Jogador é derrotado pelo [Mob](../modelagem/lexico.md#l19-criaturas)<br> Jogador perde todos os [itens](../modelagem/lexico.md#l32-itens) durante a batalha |
 
 ## Cenário 08
 
-| **Título:** | Fazer uma Farm de Pedra |
+| **Título:** | Fazer uma [Farm](../modelagem/lexico.md#l13-farms) de Pedra |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Criar uma Farm automática de pedra | 
+|**Objetivo:**|   Criar uma [Farm](../modelagem/lexico.md#l13-farms) automática de pedra | 
 |**Contexto:** | Jogo Inicial |
 |**Atores:** |Jogador|
-|**Recursos:**| Minecraft Launcher, lava, água, redstone |
-|**Episódios:**  | Jogador coleta materiais<br> Jogador utiliza materiais para construir a farm de pedra<br> Jogador coleta as pedras |
+|**Recursos:**| Minecraft Launcher, lava, água, [redstone](../modelagem/lexico.md#l12-redstone) |
+|**Episódios:**  | Jogador coleta materiais<br> Jogador utiliza materiais para construir a [farm](../modelagem/lexico.md#l13-farms) de pedra<br> Jogador coleta as pedras |
 |**Restrição:**| Boa construção e otimização |
-|**Exceção**| Não conseguir encontrar lava<br> Não utilizar corretamente a redstone<br> Farm falhar ao produzir pedra |
+|**Exceção**| Não conseguir encontrar lava<br> Não utilizar corretamente a [redstone](../modelagem/lexico.md#l12-redstone)<br> [Farm](../modelagem/lexico.md#l13-farms) falhar ao produzir pedra |
 
 ## Cenário 09
 
-| **Título:** | Crafitar uma Cama |
+| **Título:** | [Crafitar](../modelagem/lexico.md#l11-craft) uma Cama |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Construir uma cama no minecraft utilizando a mesa de construção | 
 |**Contexto:** | Jogo Inicial |
@@ -127,27 +128,27 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 
 ## Cenário 10
 
-| **Título:** | Reproduzir Villagers |
+| **Título:** | Reproduzir [Villagers](../modelagem/lexico.md#l47-villager) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Reproduzir villagers no jogo | 
+|**Objetivo:**|   Reproduzir [villagers](../modelagem/lexico.md#l47-villager) no jogo | 
 |**Contexto:** | Jogo Normal |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher, comida, camas|
-|**Episódios:**  | Jogador encontra vila<br> Jogador posiciona cama perto dos villagers<br> Jogador coloca dá comida a 2 villagers<br> Villagers se reproduzem |
-|**Restrição:**| Villagers disponíveis, espaço suficiente |
-|**Exceção**| Villagers não se reproduzem |
+|**Episódios:**  | Jogador encontra [vila](../modelagem/lexico.md#l50-vila)<br> Jogador posiciona cama perto dos [villagers](../modelagem/lexico.md#l47-villager)<br> Jogador coloca dá comida a 2  [villagers](../modelagem/lexico.md#l47-villager)<br> [Villagers](../modelagem/lexico.md#l47-villager) se reproduzem |
+|**Restrição:**| [Villagers](../modelagem/lexico.md#l47-villager) disponíveis, espaço suficiente |
+|**Exceção**| [Villagers](../modelagem/lexico.md#l47-villager) não se reproduzem |
 
 ## Cenário 11
 
-| **Título:** | Voar com Elytra |
+| **Título:** | Voar com [Elytra](../modelagem/lexico.md#l37-elytra) |
 | ----------  | -----------------------------  |
-|**Objetivo:**| Voar utilizando a Elytra | 
+|**Objetivo:**| Voar utilizando a [Elytra](../modelagem/lexico.md#l37-elytra) | 
 |**Contexto:** | Jogo Avançado |
 |**Atores:** |Jogador|
-|**Recursos:**| Minecraft Launcher, Elytra|
-|**Episódios:**  | Jogador crafita foguetes<br> Jogador equipa a Elytra<br> Jogador aciona foguete enquanto o segura  |
-|**Restrição:**| Durabilidade da Elytra e número de foguetes |
-|**Exceção**| Elytra quebra durante o jogo<br> Não obtém os recursos necessários para crafitar foguetes |
+|**Recursos:**| Minecraft Launcher, [Elytra](../modelagem/lexico.md#l37-elytra)|
+|**Episódios:**  | Jogador [crafita](../modelagem/lexico.md#l11-craft) foguetes<br> Jogador equipa a [Elytra](../modelagem/lexico.md#l37-elytra)<br> Jogador aciona foguete enquanto o segura  |
+|**Restrição:**| Durabilidade da [Elytra](../modelagem/lexico.md#l37-elytra) e número de foguetes |
+|**Exceção**| [Elytra](../modelagem/lexico.md#l37-elytra) quebra durante o jogo<br> Não obtém os recursos necessários para crafitar foguetes |
 
 ## Cenário 12
 
@@ -169,16 +170,16 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Contexto:** | Jogo Normal |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  | Jogador encontra Naufrágio<br> Jogador obtém mapa do tesouro<br> Jogador procura o tesouro utilizando o mapa<br> Jogador obtém tesouro escondido |
-|**Restrição:**| Encontrar um mapa do tesouro<br> Encontrar um naufrágio<br> Localização precisa |
-|**Exceção**| Naufrágio não produz mapa do tesouro<br> Jogador não consegue localizar o tesouro|
+|**Episódios:**  | Jogador encontra [Naufrágio](../modelagem/lexico.md#l03-estruturas-geradas)<br> Jogador obtém mapa do tesouro<br> Jogador procura o tesouro utilizando o mapa<br> Jogador obtém tesouro escondido |
+|**Restrição:**| Encontrar um mapa do tesouro<br> Encontrar um [Naufrágio](../modelagem/lexico.md#l03-estruturas-geradas)<br> Localização precisa |
+|**Exceção**| [Naufrágio](../modelagem/lexico.md#l03-estruturas-geradas) não produz mapa do tesouro<br> Jogador não consegue localizar o tesouro|
 
 ## Cenário 14
 
 | **Título:** | Adicionar um amigo (versão Bedrock) |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Conectar com amigos na versão Bedrock | 
-|**Contexto:** | Multiplayer |
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Bedrock Edition|
 |**Episódios:**  |  Jogador abre o menu de amigos<br> Jogador seleciona a opção de adicionar amigo<br> Jogador insere o gamertag do amigo<br> Jogador confirma a solicitação de amizade<br>|
@@ -190,19 +191,19 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 | **Título:** | Conectar-se com amigo (versão Java) |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Conectar com amigos na versão Java | 
-|**Contexto:** | Multiplayer |
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Java Edition |
-|**Episódios:**  |  Jogador abre o menu de multiplayer<br> Jogador insere o endereço IP do servidor onde o amigo está jogando<br> Jogador se conecta ao servidor<br> Jogador entra no mesmo servidor onde o amigo está jogando<br>|
-|**Restrição:**| Servidor configurado corretamente<br> Amigo deve estar online |
-|**Exceção**| Falha na conexão com o servidor<br> IP do servidor inválido |
+|**Episódios:**  |  Jogador abre o menu de [multiplayer](../modelagem/lexico.md#l41-multiplayer)<br> Jogador insere o endereço IP do [servidor](../modelagem/lexico.md#l14-servidores) onde o amigo está jogando<br> Jogador se conecta ao [servidor](../modelagem/lexico.md#l14-servidores)<br> Jogador entra no mesmo [servidor](../modelagem/lexico.md#l14-servidores) onde o amigo está jogando<br>|
+|**Restrição:**| [Servidor](../modelagem/lexico.md#l14-servidores) configurado corretamente<br> Amigo deve estar online |
+|**Exceção**| Falha na conexão com o [servidor](../modelagem/lexico.md#l14-servidores)<br> IP do [servidor](../modelagem/lexico.md#l14-servidores) inválido |
 
 ## Cenário 16
 
 | **Título:** | Adicionar um amigo (através do QRCode) |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Adicionar um amigo utilizando o QRCode | 
-|**Contexto:** | Multiplayer |
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Bedrock Edition, Dispositivo com câmera, QRCode |
 |**Episódios:**  |  Jogador acessa câmera do seu dispositivo<br> Jogador escaneia o código QR fornecido pelo amigo<br> Jogador confirma a solicitação de amizade<br>|
@@ -211,51 +212,51 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 
 ## Cenário 17
 
-| **Título:** | Entrar em um realms |
+| **Título:** | Entrar em um [realms](../modelagem/lexico.md#l45-realms) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Entrar em um servidor realms | 
-|**Contexto:** | Multiplayer |
+|**Objetivo:**|   Entrar em um [servidor](../modelagem/lexico.md#l14-servidores) [realms](../modelagem/lexico.md#l45-realms) | 
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer)  |
 |**Atores:** |Jogador|
-|**Recursos:**| Minecraft Realms, Convite para realms |
-|**Episódios:**  | Jogador abre o menu de realms<br> Jogador seleciona o convite recebido para o realms<br> Jogador confirma a entrada no servidor realms<br> Jogador entra no mundo do realms|
+|**Recursos:**| Minecraft [Realms](../modelagem/lexico.md#l45-realms), Convite para [realms](../modelagem/lexico.md#l45-realms) |
+|**Episódios:**  | Jogador abre o menu de [realms](../modelagem/lexico.md#l45-realms)<br> Jogador seleciona o convite recebido para o [realms](../modelagem/lexico.md#l45-realms)<br> Jogador confirma a entrada no [servidor](../modelagem/lexico.md#l14-servidores) realms<br> Jogador entra no mundo do [realms](../modelagem/lexico.md#l45-realms)|
 |**Restrição:**| Convite válido<br> Conexão estável com a internet |
-|**Exceção**| Convite inválido<br> Realms não acessível<br> Realms atingiu limite de usuários |
+|**Exceção**| Convite inválido<br> [Realms](../modelagem/lexico.md#l45-realms) não acessível<br> [Realms](../modelagem/lexico.md#l45-realms) atingiu limite de usuários |
 
 ## Cenário 18
 
-| **Título:** | Criar um realms |
+| **Título:** | Criar um [realms](../modelagem/lexico.md#l45-realms) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Criar um servidor realms para multiplayer | 
-|**Contexto:** | Multiplayer |
+|**Objetivo:**|   Criar um [servidor](../modelagem/lexico.md#l14-servidores) [realms](../modelagem/lexico.md#l45-realms) para [multiplayer](../modelagem/lexico.md#l41-multiplayer) | 
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Realms, Assinatura de Minecraft Realms |
-|**Episódios:**  | Jogador abre o menu de realms<br> Jogador seleciona a opção de criar realms<br> Jogador define o nome e as configurações do realms<br> Jogador confirma a criação do realms|
+|**Episódios:**  | Jogador abre o menu de [realms](../modelagem/lexico.md#l45-realms)<br> Jogador seleciona a opção de criar [realms](../modelagem/lexico.md#l45-realms)<br> Jogador define o nome e as configurações do [realms](../modelagem/lexico.md#l45-realms)<br> Jogador confirma a criação do [realms](../modelagem/lexico.md#l45-realms)|
 |**Restrição:**| Assinatura ativa<br> Conexão estável com a internet |
-|**Exceção**| Falha na criação do realms<br> Assinatura expirada |
+|**Exceção**| Falha na criação do [realms](../modelagem/lexico.md#l45-realms)<br> Assinatura expirada |
 
 ## Cenário 19
 
 | **Título:** | Utilizar um baú |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Armazenar e organizar itens no baú | 
+|**Objetivo:**|   Armazenar e organizar [itens](../modelagem/lexico.md#l32-itens) no baú | 
 |**Contexto:** | Jogo Normal |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Baú |
-|**Episódios:**  |  Jogador abre o inventário<br> Jogador coloca o baú no mundo<br> Jogador interage com o baú<br> Jogador arrasta os itens do inventário para o baú<br> Jogador fecha o inventário |
+|**Episódios:**  |  Jogador abre o inventário<br> Jogador coloca o baú no mundo<br> Jogador interage com o baú<br> Jogador arrasta os [itens](../modelagem/lexico.md#l32-itens) do inventário para o baú<br> Jogador fecha o inventário |
 |**Restrição:**| O baú deve estar colocado em um local acessível |
-|**Exceção**| Baú cheio<br> Itens não transferidos corretamente |
+|**Exceção**| Baú cheio<br> [itens](../modelagem/lexico.md#l32-itens) não transferidos corretamente |
 
 ## Cenário 20
 
 | **Título:** | Criar picareta de ferro |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Criar uma picareta de ferro para mineração | 
-|**Contexto:** | Jogo no modo sobrevivência |
+|**Contexto:** | Jogo no modo [sobrevivência](../modelagem/lexico.md#l09-sobrevivência) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Bancada de trabalho, Ferro fundido, Graveto |
 |**Episódios:**  | Jogador coleta minério de ferro<br> Jogador funde o minério de ferro em lingotes usando uma fornalha<br> Jogador abre a bancada de trabalho<br> Jogador insere 3 lingotes de ferro e 2 gravetos na bancada de trabalho<br> Jogador coleta a picareta de ferro criada|
 |**Restrição:**| O jogador deve ter os materiais necessários |
-|**Exceção**| Materiais insuficientes<br> Erro ao colocar os itens na bancada |
+|**Exceção**| Materiais insuficientes<br> Erro ao colocar os [itens](../modelagem/lexico.md#l32-itens) na bancada |
 
 ## Cenário 21
 
@@ -265,7 +266,7 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Contexto:** | Jogo no modo sobrevivência |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Comida (maçã, pão, carne, etc.) |
-|**Episódios:**  |  Jogador seleciona a comida no inventário<br> Jogador come a comida (utilizando o botão de interação)<br> Barra de fome do jogador aumenta, e a saúde começa a se regenerar|
+|**Episódios:**  |  Jogador seleciona a comida no [inventario](../modelagem/lexico.md#l43-inventário)<br> Jogador come a comida (utilizando o botão de interação)<br> Barra de fome do jogador aumenta, e a saúde começa a se regenerar|
 |**Restrição:**| O jogador só pode comer se sua barra de fome não estiver cheia |
 |**Exceção**| Jogador tentar comer sem estar com fome<br> Comida insuficiente para restaurar a barra de fome |
 
@@ -276,58 +277,58 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Objetivo:**|   Alterar o modo de jogo (sobrevivência, criativo, aventura, espectador) | 
 |**Contexto:** | Durante o jogo |
 |**Atores:** |Jogador|
-|**Recursos:**| Minecraft, Chat |
-|**Episódios:**  |  Jogador abre o menu de comandos<br> Jogador digita o comando ```/gamemode``` [modo] (sobrevivência, criativo, aventura, espectador)<br> Jogador confirma a alteração do modo de jogo|
-|**Restrição:**| O jogador deve ter permissão de administrador no servidor ou em singleplayer |
+|**Recursos:**| Minecraft, [Chat](../modelagem/lexico.md#l23-chat) |
+|**Episódios:**  |  Jogador abre o menu de comandos<br> Jogador digita o comando ```/gamemode``` [modo] ([sobrevivência](../modelagem/lexico.md#l09-sobrevivência), [criativo](../modelagem/lexico.md#l07-criativo), [aventura](../modelagem/lexico.md#l08-aventura), [espectador](../modelagem/lexico.md#l06-espectador))<br> Jogador confirma a alteração do modo de jogo|
+|**Restrição:**| O jogador deve ter permissão de administrador no [servidor](../modelagem/lexico.md#l14-servidores) ou em singleplayer |
 |**Exceção**| Comando inválido<br> Permissão insuficiente para alterar o modo de jogo |
 
 ## Cenário 23
 
-| **Título:** | Buscar item no modo criativo |
+| **Título:** | Buscar item no modo [criativo](../modelagem/lexico.md#l07-criativo) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Adicionar itens do inventário criativo ao inventário do jogador | 
-|**Contexto:** | Jogo no modo criativo |
+|**Objetivo:**|   Adicionar itens do [inventario](../modelagem/lexico.md#l43-inventário) [criativo](../modelagem/lexico.md#l07-criativo) ao [inventario](../modelagem/lexico.md#l43-inventário) do jogador | 
+|**Contexto:** | Jogo no modo [criativo](../modelagem/lexico.md#l07-criativo) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft |
-|**Episódios:**  |  Jogador abre o inventário criativo<br> Jogador busca o item desejado, digitando o nome na barra de pesquisa<br> Jogador arrasta o item para o inventário pessoal|
-|**Restrição:**| O jogador deve estar no modo criativo |
-|**Exceção**| Item não encontrado no inventário criativo |
+|**Episódios:**  |  Jogador abre o [inventario](../modelagem/lexico.md#l43-inventário) [criativo](../modelagem/lexico.md#l07-criativo)<br> Jogador busca o item desejado, digitando o nome na barra de pesquisa<br> Jogador arrasta o item para o [inventario](../modelagem/lexico.md#l43-inventário) pessoal|
+|**Restrição:**| O jogador deve estar no modo [criativo](../modelagem/lexico.md#l07-criativo) |
+|**Exceção**| Item não encontrado no [inventario](../modelagem/lexico.md#l43-inventário) [criativo](../modelagem/lexico.md#l07-criativo) |
 
 ## Cenário 24
 
-| **Título:** | Usar comando ```/time``` no modo criativo |
+| **Título:** | Usar comando ```/time``` no modo [criativo](../modelagem/lexico.md#l07-criativo) |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Alterar o horário no jogo usando o comando ```/time``` | 
-|**Contexto:** | Jogo no modo criativo |
+|**Contexto:** | Jogo no modo [criativo](../modelagem/lexico.md#l07-criativo) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft |
 |**Episódios:**  |  Jogador abre o menu de comandos<br> Jogador digita ```/time set [day/night/noon/midnight]``` ou ```/time set [valor]```<br> O horário do jogo é alterado de acordo com o comando inserido|
-|**Restrição:**| O jogador deve estar no modo criativo ou ter permissões de administrador |
+|**Restrição:**| O jogador deve estar no modo [criativo](../modelagem/lexico.md#l07-criativo) ou ter permissões de administrador |
 |**Exceção**| Comando inválido<br> Permissão insuficiente para usar o comando |
 
 ## Cenário 25
 
-| **Título:** | Jogar Build Wars em um servidor |
+| **Título:** | Jogar Build Wars em um [servidor](../modelagem/lexico.md#l14-servidores) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Competir em um minigame de construção (Build Wars) em um servidor | 
-|**Contexto:** | Multiplayer, servidores minigame |
+|**Objetivo:**|   Competir em um minigame de construção (Build Wars) em um [servidor](../modelagem/lexico.md#l14-servidores) | 
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer), servidores minigame |
 |**Atores:** |Jogador, outros jogadores|
 |**Recursos:**| Minecraft, servidor Build Wars |
-|**Episódios:**  |  Jogador entra em um servidor de minigames<br> Jogador seleciona o modo Build Wars no servidor<br> Jogador recebe um tema para construir<br> Jogador utiliza blocos criativos para construir dentro do tempo limite<br> Votações ocorrem após a conclusão das construções|
+|**Episódios:**  |  Jogador entra em um  [servidor](../modelagem/lexico.md#l14-servidores) de minigames<br> Jogador seleciona o modo Build Wars no  [servidor](../modelagem/lexico.md#l14-servidores)<br> Jogador recebe um tema para construir<br> Jogador utiliza blocos criativos para construir dentro do tempo limite<br> Votações ocorrem após a conclusão das construções|
 |**Restrição:**| Conexão estável com a internet<br> Tempo limitado para construir |
-|**Exceção**|  Desconexão durante o jogo<br> Erro no servidor |
+|**Exceção**|  Desconexão durante o jogo<br> Erro no  [servidor](../modelagem/lexico.md#l14-servidores) |
 
 ## Cenário 26
 
-| **Título:** | Explorar mundo Hardcore |
+| **Título:** | Explorar mundo [Hardcore](../modelagem/lexico.md#l10-hardcore) |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Experimentar a dinâmica do modo de jogo Hardcore | 
-|**Contexto:** | Multiplayer ou singleplayer |
+|**Objetivo:**|   Experimentar a dinâmica do modo de jogo [Hardcore](../modelagem/lexico.md#l10-hardcore) | 
+|**Contexto:** | [Multiplayer](../modelagem/lexico.md#l41-multiplayer) ou singleplayer |
 |**Atores:** |Jogador |
 |**Recursos:**| Minecraft Java Edition |
-|**Episódios:**  |  Jogador entra no menu principal<br> Jogador seleciona modo de jogo<br> Jogador seleciona criar mundo<br> Jogador coloca mundo no modo hardcore<br> Jogador entra no mundo<br> Jogador explora o mundo<br> |
-|**Restrição:**| Conseguir bons recursos no modo hardcore |
-|**Exceção**| Jogo corrompido<br> Ser derrotado e perder mapa hardcore<br> |
+|**Episódios:**  |  Jogador entra no menu principal<br> Jogador seleciona modo de jogo<br> Jogador seleciona [criar mundo](../modelagem/lexico.md#l25-criar-mundo)<br> Jogador coloca mundo no modo [hardcore](../modelagem/lexico.md#l10-hardcore)<br> Jogador entra no mundo<br> Jogador explora o mundo<br> |
+|**Restrição:**| Conseguir bons recursos no modo [hardcore](../modelagem/lexico.md#l10-hardcore) |
+|**Exceção**| Jogo corrompido<br> Ser derrotado e perder mapa [hardcore](../modelagem/lexico.md#l10-hardcore) |
 
 ## Cenário 27
 
@@ -346,11 +347,11 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 | **Título:** | Melhorar um capacete de diamante para netherita |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Atualizar um capacete de diamante para netherita | 
-|**Contexto:** | Jogo no modo sobrevivência |
+|**Contexto:** | Jogo no modo [sobrevivencia](../modelagem/lexico.md#l09-sobrevivência) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Mesa de ferraria, Molde de ferraria, Capacete de diamante, Lingote de netherita |
-|**Episódios:**  |  Jogador abre a mesa de ferraria<br> Jogador coloca o molde de ferraria, capacete de diamante e o lingote de netherita na mesa de ferraria<br> Capacete de diamante é atualizado para capacete de netherita<br> Jogador confirma atualização colocando o novo capacete no inventário|
-|**Restrição:**| Jogador deve ter todos os itens necessários |
+|**Episódios:**  |  Jogador abre a mesa de ferraria<br> Jogador coloca o molde de ferraria, capacete de diamante e o lingote de netherita na mesa de ferraria<br> Capacete de diamante é atualizado para capacete de netherita<br> Jogador confirma atualização colocando o novo capacete no [inventario](../modelagem/lexico.md#l43-inventário)|
+|**Restrição:**| Jogador deve ter todos os [itens](../modelagem/lexico.md#l32-itens) necessários |
 |**Exceção**| Materiais insuficientes para a atualização |
 
 ## Cenário 29
@@ -358,7 +359,7 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 | **Título:** | Consertar um arco |
 | ----------  | -----------------------------  |
 |**Objetivo:**|  Consertar um arco quebrado usando uma bigorna ou mesa de trabalho | 
-|**Contexto:** | Jogo no modo sobrevivência |
+|**Contexto:** | Jogo no modo [sobrevivencia](../modelagem/lexico.md#l09-sobrevivência) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Bigorna ou mesa de trabalho, Arcos quebrados ou materiais |
 |**Episódios:**  |  Jogador abre a bigorna ou mesa de trabalho<br> Jogador coloca o arco quebrado e outro arco na bigorna ou mesa<br> Jogador confirma a reparação<br> Arco é reparado|
@@ -370,7 +371,7 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 | **Título:** | Obter carne podre |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Coletar carne podre de um zumbi | 
-|**Contexto:** | Jogo no modo sobrevivência |
+|**Contexto:** | Jogo no modo [sobrevivencia](../modelagem/lexico.md#l09-sobrevivência) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft |
 |**Episódios:**  |  Jogador encontra um zumbi<br> Jogador derrota o zumbi<br> Carne podre é dropada pelo zumbi<br> Jogador coleta a carne podre|
@@ -382,7 +383,7 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 | **Título:** | Encantar uma espada |
 | ----------  | -----------------------------  |
 |**Objetivo:**|   Encantar uma espada para obter propriedades especiais | 
-|**Contexto:** | Jogo no modo sobrevivência |
+|**Contexto:** | Jogo no modo [sobrevivencia](../modelagem/lexico.md#l09-sobrevivência) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft, Mesa de encantamentos, Espada, Lápis-lazúli |
 |**Episódios:**  |  Jogador abre a mesa de encantamentos<br> Jogador coloca a espada e os lápis-lazúli na mesa de encantamentos<br> Jogador seleciona o encantamento desejado<br> Jogador confirma o encantamento<br> Espada é encantada com as propriedades selecionadas|
