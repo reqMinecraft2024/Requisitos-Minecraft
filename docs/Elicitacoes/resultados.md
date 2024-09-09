@@ -6,6 +6,7 @@
 | 07/09/2024 | 0.2 | Adição RF24 a RF52 e RNF2 | Carlos Eduardo Rodrigues |
 | 08/09/2024 | 0.3 | Adição RF53| Carlos Eduardo Rodrigues |
 | 09/09/2024 | 0.4 | Adição RF54 a RF60 e RNF3 a RNF25 | Danilo Melo |
+| 09/09/2024 | 0.5 | Adição RF61 | Carlos Eduardo Rodrigues |
 
 ## Requisitos Funcionais
 
@@ -71,6 +72,7 @@
 |RF58| Deve haver opção de narração | [NFR](../modelagem/NFR.md) |
 |RF59| Deve haver opção de altocontraste | [NFR](../modelagem/NFR.md) |
 |RF60| Deve haver temas e pacotes de recursos | [NFR](../modelagem/NFR.md) |
+|RF61| Deve haver uma barra indicando o nível da armadura | [Brainstorming](Brainstorming.md#brainwriting), [Questionário](questionarios-e-pesquisas.md?h=qp18#requisitos-elicitados) |
 
 ## Requisitos Não Funcionais
 

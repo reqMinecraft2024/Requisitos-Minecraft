@@ -4,6 +4,7 @@
 | Data   | Versão  | Descrição | Autor(es)|
 | --- | --- | --- | --- |
 | 08/09/2024 | 0.1 | Criação do documento e adição dos requisitos funcionais | Samara Letícia |
+| 09/09/2024 | 0.2 | Adição RF54 a RF61 | Carlos Eduardo Rodrigues |
 
 ## Introdução
 
@@ -172,3 +173,27 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 
 ### RF53 - O jogador deve ser capaz de criar novos mundos no minecraft
 ![RF53](../pos-rastreabilidade/imgs/53.png)
+
+### RF54 - Deve haver uma interface intuitiva
+![RF54](../pos-rastreabilidade/imgs/54.png)
+
+### RF55 - Deve haver opções de acessibilidade
+![RF55](../pos-rastreabilidade/imgs/55.png)
+
+### RF56 - Deve haver dicas contextuais
+![RF56](../pos-rastreabilidade/imgs/56.png)
+
+### RF57 - Deve haver opções de legenda
+![RF57](../pos-rastreabilidade/imgs/57.png)
+
+### RF58 - Deve haver opção de narração 
+![RF58](../pos-rastreabilidade/imgs/58.png)
+
+### RF59 - Deve haver opção de altocontraste 
+![RF59](../pos-rastreabilidade/imgs/59.png)
+
+### RF60 - Deve haver temas e pacotes de recursos
+![RF60](../pos-rastreabilidade/imgs/60.png)
+
+### RF61 - Deve haver uma barra indicando o nível da armadura
+![RF61](../pos-rastreabilidade/imgs/61.png)

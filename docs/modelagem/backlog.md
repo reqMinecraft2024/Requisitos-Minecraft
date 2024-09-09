@@ -10,6 +10,7 @@
 ## Metodologia
 Para o desenvolvimento do backlog do produto, foram utilizados como base os artefatos do brainstorming, introspecção e casos de uso.
 
+## Tabela
 
 | ID    | Tema              | Eu, como   | Desejo                                | Para que eu possa          |
 |-------|-------------------|------------|---------------------------------------|----------------------------|

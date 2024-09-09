@@ -37,7 +37,7 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Contexto:** | Modo de Jogo: [criativo](../modelagem/lexico.md#l07-criativo) |
 |**Atores:** |Jogador|
 |**Recursos:**| Minecraft Launcher|
-|**Episódios:**  |  Jogador escolhe coordenadas da construção<br> Jogador abre o inventário<br> Jogador escolhe [recursos](../modelagem/lexico.md#l31-recursos)<br> Jogador coloca [recursos](../modelagem/lexico.md#l31-recursos) no mundo, construindo a [estrutura](../modelagem/lexico.md#l34-estruturas) desejada  |
+|**Episódios:**  |  Jogador escolhe coordenadas da construção<br> Jogador abre o inventário<br> Jogador escolhe [recursos](../modelagem/lexico.md#l31-recursos)<br> Jogador coloca [recursos](../modelagem/lexico.md#l31-recursos) no mundo, construindo a [estrutura](../modelagem/lexico.md#l34-estruturas) desejada. <br> Mobs hostis ignoram a presença do jogador. <br> Jogador é capaz de quebrar itens com apenas um clique. <br> Jogador não se preocupa com fome ou vida.  |
 |**Restrição:**| Bom desempenho do jogo<br> Localizar facilmente os [recursos](../modelagem/lexico.md#l31-recursos) |
 |**Exceção**| Falta de memória para carregar a construção<br> Desempenho lento do jogo |
 
