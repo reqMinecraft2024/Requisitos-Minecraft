@@ -63,7 +63,7 @@ Este documento tem o objetivo de evidenciar onde os requisitos foram implementad
 |RF50| Deve haver diferentes tipos de minérios e recursos | [Veja aqui](../Analise/validacao.md#rf50-deve-haver-diferentes-tipos-de-minerios-e-recursos) | [US007](../modelagem/backlog.md#tabela), [UC09](../modelagem/casos-de-uso.md#uc09-coletar-recursos) |
 |RF51| Deve haver diferentes tipos de mobs de animais. | [Veja aqui](../Analise/validacao.md#rf51-deve-haver-diferentes-tipos-de-mobs-de-animais) | - |
 |RF52| Deve haver eventos e desafios temporários com recompensas exclusivas| [Veja aqui](../Analise/validacao.md#rf52-deve-haver-eventos-e-desafios-temporarios-com-recompensas-exclusivas) | - |
-|RF53| O jogador deve ser capaz de criar novos mundos no minecraft | [Veja aqui](../Analise/validacao.md#rf53-o-jogador-deve-ser-capaz-de-criar-novos-mundos-no-minecraft) | [UC01](../modelagem/casos-de-uso.md#uc01-criar-mundo), [US001](../modelagem/backlog.md#tabela), [C01](../modelagem/cenarios.md#cenario-01) |
+|RF53| O jogador deve ser capaz de criar novos mundos no minecraft | [Veja aqui](../Analise/validacao.md#rf53-o-jogador-deve-ser-capaz-de-criar-novos-mundos-no-minecraft) | [UC01](../modelagem/casos-de-uso.md#uc01-criar-mundo), [US001](../modelagem/backlog.md#tabela), [C32](../modelagem/cenarios.md#cenario-01) |
 |RF54| Deve haver uma interface intuitiva | [Veja aqui](../Analise/validacao.md#rf54-deve-haver-uma-interface-intuitiva) |-|
 |RF55| Deve haver opções de acessibilidade | [Veja aqui](../Analise/validacao.md#rf55-deve-haver-opcoes-de-acessibilidade) |-|
 |RF56| Deve haver dicas contextuais | [Veja aqui](../Analise/validacao.md#rf56-deve-haver-dicas-contextuais) |-|
