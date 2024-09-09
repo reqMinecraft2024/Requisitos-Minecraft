@@ -5,6 +5,7 @@
 | 06/09/2024 | 0.1 | Criação do documento inicial e adição dos RF1 a RF23 e RNF1  | Carlos Eduardo Rodrigues |
 | 07/09/2024 | 0.2 | Adição RF24 a RF52 e RNF2 | Carlos Eduardo Rodrigues |
 | 08/09/2024 | 0.3 | Adição RF53| Carlos Eduardo Rodrigues |
+| 09/09/2024 | 0.4 | Adição RF54 a RF60 e RNF3 a RNF25 | Danilo Melo |
 
 ## Requisitos Funcionais
 
@@ -63,7 +64,13 @@
 |RF51| Deve haver diferentes tipos de mobs de animais. | [Questionário](questionarios-e-pesquisas.md?h=qp13+qp10#requisitos-elicitados)|
 |RF52| Deve haver eventos e desafios temporários com recompensas exclusivas| [Questionário](questionarios-e-pesquisas.md?h=qp18#requisitos-elicitados)|
 |RF53| O jogador deve ser capaz de criar novos mundos no minecraft | [Brainstorming](Brainstorming.md#brainwriting), [Análise de protocolo](AnaliseProtocolo.md) |
-
+|RF54| Deve haver uma interface intuitiva | [NFR](../modelagem/NFR.md) |
+|RF55| Deve haver opções de acessibilidade | [NFR](../modelagem/NFR.md) |
+|RF56| Deve haver dicas contextuais | [NFR](../modelagem/NFR.md) |
+|RF57| Deve haver opções de legenda | [NFR](../modelagem/NFR.md) |
+|RF58| Deve haver opção de narração | [NFR](../modelagem/NFR.md) |
+|RF59| Deve haver opção de altocontraste | [NFR](../modelagem/NFR.md) |
+|RF60| Deve haver temas e pacotes de recursos | [NFR](../modelagem/NFR.md) |
 
 ## Requisitos Não Funcionais
 
@@ -71,3 +78,26 @@
 |---|---|---|
 | RNF1 | O servidor deve suportar a conexão simultânea de múltiplos jogadores sem queda de desempenho. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap4.1#ap04-requisitos-elicitados) |
 | RNF2 | O jogo deve ter um sistema de salvamento automático | [Introspeccao](Introspeccao.md?h=int1.4#15-requisitos-elicitados)|
+| RNF3 | Deve haver compatibilidade entre diferentes dispositivos  | [NFR](../modelagem/NFR.md) |
+| RNF4 | A latência entre os jogadores e a resposta do servidor deve ser mínima  | [NFR](../modelagem/NFR.md) |
+| RNF5 | Um servidor deve limitar a capacidade máxima de jogadores  | [NFR](../modelagem/NFR.md) |
+| RNF6 | O mapa deve ser carregado de acordo com o campo de visão do jogador  | [NFR](../modelagem/NFR.md) |
+| RNF7       | O jogo deve ter um tempo de resposta rápido para ações dos [jogadores](../modelagem/lexico.md#l42-usuario), como movimentação e interação com [blocos](../modelagem/lexico.md#l44-blocos). | [Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF8       | O jogo deve minimizar a latência de rede para garantir uma experiência de jogo suave em modos [multiplayer](../modelagem/lexico.md#l41-multiplayer). |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF9       | O [chat](../modelagem/lexico.md#l23-chat) deve funcionar de forma fluida e sem atrasos perceptíveis. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF10      | Deve haver opções para ajustar a qualidade gráfica, incluindo resolução, distância de renderização e efeitos visuais. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF11      | O jogo deve ter mecanismos para proteger as contas dos [jogadores](../modelagem/lexico.md#l42-usuario) contra acessos não autorizados. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF12      | A interface do [usuário](../modelagem/lexico.md#l42-usuario) deve ser intuitiva e fácil de navegar. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF13      | O jogo deve fornecer feedback visual e auditivo claro para as ações dos [jogadores](../modelagem/lexico.md#l42-usuario). |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF14      | O [jogador](../modelagem/lexico.md#l42-usuario) deve ser capaz de personalizar atalhos de teclado e controles. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF15      | O jogo deve incluir um sistema de ajuda relevante durante a gameplay. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF16      | O jogo deve ser compatível com diferentes plataformas como PC, consoles e dispositivos móveis. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF17      | Deve haver suporte para diferentes resoluções e configurações de gráficos. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF18      | O jogo deve oferecer suporte a [mods](../modelagem/lexico.md#l16-mods) e plugins em diferentes plataformas. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF19      | O jogo deve suportar múltiplos idiomas. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF20      | O jogo deve permitir a personalização de [skins](../modelagem/lexico.md#l15-skins) e pacotes de textura. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF21      | O menu de pausa deve ser acessível durante o jogo e deve permitir que os [jogadores](../modelagem/lexico.md#l42-usuario) acessem as configurações ou saiam do jogo facilmente. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF22      | O jogo deve permitir que os [jogadores](../modelagem/lexico.md#l42-usuario) personalizem os controles de entrada de acordo com suas preferências. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF23      | O jogo deve permitir aos [jogadores](../modelagem/lexico.md#l42-usuario) ajustar o volume do som e da música separadamente. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF24      | O jogo deve ter um sistema de salvamento automático para evitar perda de progresso. |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
+| RNF25      | Deve ser possível desativar o salvamento automático  | [NFR](../modelagem/NFR.md) |[Requisitos não funcionais](requisitos-nao-funcionais.md) |
