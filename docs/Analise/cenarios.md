@@ -4,6 +4,8 @@
 | Data   | Versão  | Descrição | Autor(es)|
 | --- | --- | --- | --- |
 | 07/09/2024 | 0.1 | Criação do documento | Patricia Helena |
+| 09/09/2024 | 0.2 | correção dos cenários | Patricia Helena |
+
 
 
 ## Metodologia
