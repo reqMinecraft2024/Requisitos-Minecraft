@@ -61,3 +61,4 @@
 |RF50| Deve haver diferentes tipos de minérios e recursos | [Veja aqui](../Analise/validacao.md#rf50-deve-haver-diferentes-tipos-de-minerios-e-recursos) | |
 |RF51| Deve haver diferentes tipos de mobs de animais. | [Veja aqui](../Analise/validacao.md#rf51-deve-haver-diferentes-tipos-de-mobs-de-animais) | |
 |RF52| Deve haver eventos e desafios temporários com recompensas exclusivas| [Veja aqui](../Analise/validacao.md#rf52-deve-haver-eventos-e-desafios-temporarios-com-recompensas-exclusivas) | |
+|RF53| O jogador deve ser capaz de criar novos mundos no minecraft | [Veja aqui](../Analise/validacao.md#rf53-o-jogador-deve-ser-capaz-de-criar-novos-mundos-no-minecraft) | |

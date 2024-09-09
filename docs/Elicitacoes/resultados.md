@@ -2,8 +2,9 @@
 
 | Data   | Versão  | Descrição | Autor(es)|
 | --- | --- | --- | --- |
-| 06/09/2024 | 0.1 | Criação do documento inicial e adição dos RF1 à RF23 e RNF1  | Carlos Eduardo Rodrigues |
-| 07/09/2024 | 0.2 | Adição RF24 à RF52 e RNF2 | Carlos Eduardo Rodrigues |
+| 06/09/2024 | 0.1 | Criação do documento inicial e adição dos RF1 a RF23 e RNF1  | Carlos Eduardo Rodrigues |
+| 07/09/2024 | 0.2 | Adição RF24 a RF52 e RNF2 | Carlos Eduardo Rodrigues |
+| 08/09/2024 | 0.3 | Adição RF53| Carlos Eduardo Rodrigues |
 
 ## Requisitos Funcionais
 
@@ -21,7 +22,7 @@
 | RF10 | No modo hardcore, após a morte, o usuário deve ser capaz de entrar apenas no modo espectador, sem interagir com o mundo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.2#ap02-requisitos-elicitados) |
 | RF11 | No modo hardcore, o jogo deve ser definido automaticamente na dificuldade mais alta e não pode ser alterado. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.3#ap02-requisitos-elicitados) |
 | RF12 | No modo hardcore, os comandos de cheats devem estar desabilitados para garantir a integridade do desafio. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap2.4#ap02-requisitos-elicitados) |
-| RF13 | Deve existir um modo de jogo onde o jogador pode exercitar a sua criatividade | Análise de Protocolo |
+| RF13 | Deve existir um modo de jogo onde o jogador pode exercitar a sua criatividade | [Análise de protocolo](AnaliseProtocolo.md) |
 | RF14 | No modo criativo, o usuário deve ser capaz de sobrevoar rapidamente pelo mapa para facilitar as criações. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.2#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.2#15-requisitos-elicitados) |
 | RF15 | O usuário deve ser capaz de colocar e quebrar blocos com apenas um comando no modo criativo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.3#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.3#15-requisitos-elicitados) |
 | RF16 | O usuário deve ter acesso a todos os itens do jogo no modo criativo. | [Análise de Protocolo](AnaliseProtocolo.md?h=ap3.4#ap03-requisitos-elicitados), [Introspeccao](Introspeccao.md?h=int1.1#15-requisitos-elicitados) |
@@ -61,6 +62,7 @@
 |RF50| Deve haver diferentes tipos de minérios e recursos | [Questionário](questionarios-e-pesquisas.md?h=qp12#requisitos-elicitados)|
 |RF51| Deve haver diferentes tipos de mobs de animais. | [Questionário](questionarios-e-pesquisas.md?h=qp13+qp10#requisitos-elicitados)|
 |RF52| Deve haver eventos e desafios temporários com recompensas exclusivas| [Questionário](questionarios-e-pesquisas.md?h=qp18#requisitos-elicitados)|
+|RF53| O jogador deve ser capaz de criar novos mundos no minecraft | [Brainstorming](Brainstorming.md#brainwriting), [Análise de protocolo](AnaliseProtocolo.md) |
 
 
 ## Requisitos Não Funcionais

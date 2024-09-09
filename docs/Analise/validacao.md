@@ -169,3 +169,6 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 
 ### RF52 - Deve haver eventos e desafios temporários com recompensas exclusivas
 ![RF52](../pos-rastreabilidade/imgs/52.jpeg)
+
+### RF53 - O jogador deve ser capaz de criar novos mundos no minecraft
+![RF53](../pos-rastreabilidade/imgs/53.png)
