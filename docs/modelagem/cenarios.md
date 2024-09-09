@@ -7,6 +7,7 @@
 | 30/07/2024 |  0.1   | Criação de Cenários | [Samara Letícia](https://github.com/samarawwleticia)|
 | 01/08/2024 | 0.2 | Revisão | Danilo Melo |
 | 06/09/2024 | 0.3 | Atualizações e adições de cenários| Samara Letícia |
+| 08/09/2024 | 0.4 | Adição de mais cenários | Samara Letícia |
 
 ## Introdução
 
@@ -171,3 +172,219 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Episódios:**  | Jogador encontra Naufrágio<br> Jogador obtém mapa do tesouro<br> Jogador procura o tesouro utilizando o mapa<br> Jogador obtém tesouro escondido |
 |**Restrição:**| Encontrar um mapa do tesouro<br> Encontrar um naufrágio<br> Localização precisa |
 |**Exceção**| Naufrágio não produz mapa do tesouro<br> Jogador não consegue localizar o tesouro|
+
+## Cenário 14
+
+| **Título:** | Adicionar um amigo (versão Bedrock) |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Conectar com amigos na versão Bedrock | 
+|**Contexto:** | Multiplayer |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft Bedrock Edition|
+|**Episódios:**  |  Jogador abre o menu de amigos<br> Jogador seleciona a opção de adicionar amigo<br> Jogador insere o gamertag do amigo<br> Jogador confirma a solicitação de amizade<br>|
+|**Restrição:**| Conexão estável com a internet<br> Amigo deve ter uma conta na mesma plataforma |
+|**Exceção**| Gamertag inválido<br> Amigo não aparecer online |
+
+## Cenário 15
+
+| **Título:** | Conectar-se com amigo (versão Java) |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Conectar com amigos na versão Java | 
+|**Contexto:** | Multiplayer |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft Java Edition |
+|**Episódios:**  |  Jogador abre o menu de multiplayer<br> Jogador insere o endereço IP do servidor onde o amigo está jogando<br> Jogador se conecta ao servidor<br> Jogador entra no mesmo servidor onde o amigo está jogando<br>|
+|**Restrição:**| Servidor configurado corretamente<br> Amigo deve estar online |
+|**Exceção**| Falha na conexão com o servidor<br> IP do servidor inválido |
+
+## Cenário 16
+
+| **Título:** | Adicionar um amigo (através do QRCode) |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Adicionar um amigo utilizando o QRCode | 
+|**Contexto:** | Multiplayer |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft Bedrock Edition, Dispositivo com câmera, QRCode |
+|**Episódios:**  |  Jogador acessa câmera do seu dispositivo<br> Jogador escaneia o código QR fornecido pelo amigo<br> Jogador confirma a solicitação de amizade<br>|
+|**Restrição:**| QRCode válido<br> Conexão estável com a internet |
+|**Exceção**| QRCode não reconhecido<br> |
+
+## Cenário 17
+
+| **Título:** | Entrar em um realms |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Entrar em um servidor realms | 
+|**Contexto:** | Multiplayer |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft Realms, Convite para realms |
+|**Episódios:**  | Jogador abre o menu de realms<br> Jogador seleciona o convite recebido para o realms<br> Jogador confirma a entrada no servidor realms<br> Jogador entra no mundo do realms|
+|**Restrição:**| Convite válido<br> Conexão estável com a internet |
+|**Exceção**| Convite inválido<br> Realms não acessível<br> Realms atingiu limite de usuários |
+
+## Cenário 18
+
+| **Título:** | Criar um realms |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Criar um servidor realms para multiplayer | 
+|**Contexto:** | Multiplayer |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft Realms, Assinatura de Minecraft Realms |
+|**Episódios:**  | Jogador abre o menu de realms<br> Jogador seleciona a opção de criar realms<br> Jogador define o nome e as configurações do realms<br> Jogador confirma a criação do realms|
+|**Restrição:**| Assinatura ativa<br> Conexão estável com a internet |
+|**Exceção**| Falha na criação do realms<br> Assinatura expirada |
+
+## Cenário 19
+
+| **Título:** | Utilizar um baú |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Armazenar e organizar itens no baú | 
+|**Contexto:** | Jogo Normal |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Baú |
+|**Episódios:**  |  Jogador abre o inventário<br> Jogador coloca o baú no mundo<br> Jogador interage com o baú<br> Jogador arrasta os itens do inventário para o baú<br> Jogador fecha o inventário |
+|**Restrição:**| O baú deve estar colocado em um local acessível |
+|**Exceção**| Baú cheio<br> Itens não transferidos corretamente |
+
+## Cenário 20
+
+| **Título:** | Criar picareta de ferro |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Criar uma picareta de ferro para mineração | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Bancada de trabalho, Ferro fundido, Graveto |
+|**Episódios:**  | Jogador coleta minério de ferro<br> Jogador funde o minério de ferro em lingotes usando uma fornalha<br> Jogador abre a bancada de trabalho<br> Jogador insere 3 lingotes de ferro e 2 gravetos na bancada de trabalho<br> Jogador coleta a picareta de ferro criada|
+|**Restrição:**| O jogador deve ter os materiais necessários |
+|**Exceção**| Materiais insuficientes<br> Erro ao colocar os itens na bancada |
+
+## Cenário 21
+
+| **Título:** | Alimentar-se |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Recuperar a barra de fome e saúde | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Comida (maçã, pão, carne, etc.) |
+|**Episódios:**  |  Jogador seleciona a comida no inventário<br> Jogador come a comida (utilizando o botão de interação)<br> Barra de fome do jogador aumenta, e a saúde começa a se regenerar|
+|**Restrição:**| O jogador só pode comer se sua barra de fome não estiver cheia |
+|**Exceção**| Jogador tentar comer sem estar com fome<br> Comida insuficiente para restaurar a barra de fome |
+
+## Cenário 22
+
+| **Título:** | Alterar modo de jogo |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Alterar o modo de jogo (sobrevivência, criativo, aventura, espectador) | 
+|**Contexto:** | Durante o jogo |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Chat |
+|**Episódios:**  |  Jogador abre o menu de comandos<br> Jogador digita o comando ```/gamemode``` [modo] (sobrevivência, criativo, aventura, espectador)<br> Jogador confirma a alteração do modo de jogo|
+|**Restrição:**| O jogador deve ter permissão de administrador no servidor ou em singleplayer |
+|**Exceção**| Comando inválido<br> Permissão insuficiente para alterar o modo de jogo |
+
+## Cenário 23
+
+| **Título:** | Buscar item no modo criativo |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Adicionar itens do inventário criativo ao inventário do jogador | 
+|**Contexto:** | Jogo no modo criativo |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft |
+|**Episódios:**  |  Jogador abre o inventário criativo<br> Jogador busca o item desejado, digitando o nome na barra de pesquisa<br> Jogador arrasta o item para o inventário pessoal|
+|**Restrição:**| O jogador deve estar no modo criativo |
+|**Exceção**| Item não encontrado no inventário criativo |
+
+## Cenário 24
+
+| **Título:** | Usar comando ```/time``` no modo criativo |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Alterar o horário no jogo usando o comando ```/time``` | 
+|**Contexto:** | Jogo no modo criativo |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft |
+|**Episódios:**  |  Jogador abre o menu de comandos<br> Jogador digita ```/time set [day/night/noon/midnight]``` ou ```/time set [valor]```<br> O horário do jogo é alterado de acordo com o comando inserido|
+|**Restrição:**| O jogador deve estar no modo criativo ou ter permissões de administrador |
+|**Exceção**| Comando inválido<br> Permissão insuficiente para usar o comando |
+
+## Cenário 25
+
+| **Título:** | Jogar Build Wars em um servidor |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Competir em um minigame de construção (Build Wars) em um servidor | 
+|**Contexto:** | Multiplayer, servidores minigame |
+|**Atores:** |Jogador, outros jogadores|
+|**Recursos:**| Minecraft, servidor Build Wars |
+|**Episódios:**  |  Jogador entra em um servidor de minigames<br> Jogador seleciona o modo Build Wars no servidor<br> Jogador recebe um tema para construir<br> Jogador utiliza blocos criativos para construir dentro do tempo limite<br> Votações ocorrem após a conclusão das construções|
+|**Restrição:**| Conexão estável com a internet<br> Tempo limitado para construir |
+|**Exceção**|  Desconexão durante o jogo<br> Erro no servidor |
+
+## Cenário 26
+
+| **Título:** | Compartilhar mapa com outro jogador |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Compartilhar o arquivo de um mapa personalizado com outro jogador | 
+|**Contexto:** | Multiplayer ou singleplayer |
+|**Atores:** |Jogadores|
+|**Recursos:**| Minecraft, Arquivo do mapa (.zip), Software de compartilhamento (e-mail, plataforma de nuvem) |
+|**Episódios:**  |  Jogador localiza o arquivo do mapa salvo em seu dispositivo<br> Jogador compacta o arquivo do mapa (.zip)<br> Jogador envia o arquivo para o destinatário através de uma plataforma de compartilhamento (e-mail, Google Drive, etc.)<br> Destinatário baixa o arquivo e o coloca na pasta de saves do Minecraft|
+|**Restrição:**| Arquivo do mapa corretamente compactado<br> Plataforma de compartilhamento acessível |
+|**Exceção**| Erro ao transferir o arquivo<br> Mapa corrompido ao abrir |
+
+## Cenário 27
+
+| **Título:** | Alterar dificuldade do jogo |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Alterar a dificuldade do jogo (pacífico, fácil, normal, difícil) | 
+|**Contexto:** | Durante o jogo |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft |
+|**Episódios:**  |  Jogador abre o menu de configurações<br> Jogador seleciona a opção de alterar a dificuldade<br> Jogador escolhe entre pacífico, fácil, normal ou difícil<br> A dificuldade do jogo é alterada|
+|**Restrição:**|Jogador deve ter permissão para alterar a dificuldade |
+|**Exceção**| Comando inválido<br> Permissão insuficiente para mudar a dificuldade |
+
+## Cenário 28
+
+| **Título:** | Melhorar um capacete de diamante para netherita |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Atualizar um capacete de diamante para netherita | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Mesa de ferraria, Molde de ferraria, Capacete de diamante, Lingote de netherita |
+|**Episódios:**  |  Jogador abre a mesa de ferraria<br> Jogador coloca o molde de ferraria, capacete de diamante e o lingote de netherita na mesa de ferraria<br> Capacete de diamante é atualizado para capacete de netherita<br> Jogador confirma atualização colocando o novo capacete no inventário|
+|**Restrição:**| Jogador deve ter todos os itens necessários |
+|**Exceção**| Materiais insuficientes para a atualização |
+
+## Cenário 29
+
+| **Título:** | Consertar um arco |
+| ----------  | -----------------------------  |
+|**Objetivo:**|  Consertar um arco quebrado usando uma bigorna ou mesa de trabalho | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Bigorna ou mesa de trabalho, Arcos quebrados ou materiais |
+|**Episódios:**  |  Jogador abre a bigorna ou mesa de trabalho<br> Jogador coloca o arco quebrado e outro arco na bigorna ou mesa<br> Jogador confirma a reparação<br> Arco é reparado|
+|**Restrição:**| O jogador deve ter um arco quebrado e os materiais necessários|
+|**Exceção**| Materiais insuficientes para o reparo<br> Arco não reparável (durabilidade esgotada) |
+
+## Cenário 30
+
+| **Título:** | Obter carne podre |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Coletar carne podre de um zumbi | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft |
+|**Episódios:**  |  Jogador encontra um zumbi<br> Jogador derrota o zumbi<br> Carne podre é dropada pelo zumbi<br> Jogador coleta a carne podre|
+|**Restrição:**| O jogador deve derrotar o zumbi antes que ele desapareça<br> Carne podre só é dropada por zumbis|
+|**Exceção**| Carne podre não é dropada (erros no drop)<br> Zumbi desapareceu antes da coleta |
+
+## Cenário 31
+
+| **Título:** | Encantar uma espada |
+| ----------  | -----------------------------  |
+|**Objetivo:**|   Encantar uma espada para obter propriedades especiais | 
+|**Contexto:** | Jogo no modo sobrevivência |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft, Mesa de encantamentos, Espada, Lápis-lazúli |
+|**Episódios:**  |  Jogador abre a mesa de encantamentos<br> Jogador coloca a espada e os lápis-lazúli na mesa de encantamentos<br> Jogador seleciona o encantamento desejado<br> Jogador confirma o encantamento<br> Espada é encantada com as propriedades selecionadas|
+|**Restrição:**| Jogador deve ter a quantidade necessária de lápis-lazúli e nível de experiência<br> A mesa de encantamentos deve estar em um local apropriado |
+|**Exceção**| Encantamento não aplicado (problemas na mesa ou falta de recursos)<br> Espada não encantada conforme o desejado<br> Não possuir experiência o suficiente |
