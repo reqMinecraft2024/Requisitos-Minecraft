@@ -389,3 +389,15 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 |**Episódios:**  |  Jogador abre a mesa de encantamentos<br> Jogador coloca a espada e os lápis-lazúli na mesa de encantamentos<br> Jogador seleciona o encantamento desejado<br> Jogador confirma o encantamento<br> Espada é encantada com as propriedades selecionadas|
 |**Restrição:**| Jogador deve ter a quantidade necessária de lápis-lazúli e nível de experiência<br> A mesa de encantamentos deve estar em um local apropriado |
 |**Exceção**| Encantamento não aplicado (problemas na mesa ou falta de recursos)<br> Espada não encantada conforme o desejado<br> Não possuir experiência o suficiente |
+
+## Cenário 32
+
+| **Título:** | [Criar Mundo](../modelagem/lexico.md#l25-criar-mundo) |
+| ----------  | -----------------------------  |
+|**Objetivo:**|    [Criar mundo](../modelagem/lexico.md#l25-criar-mundo) no minecraft | 
+|**Contexto:** | Começo do Jogo |
+|**Atores:** |Jogador|
+|**Recursos:**| Minecraft |
+|**Episódios:**  |  Jogador abre o Launcher<br> Jogador clica no botão de Jogar<br> Jogador clica em [criar mundo](../modelagem/lexico.md#l25-criar-mundo)<br> Jogador nomeia o mundo<br> Jogador escolhe modo de jogo ([sobrevivência](../modelagem/lexico.md#l09-sobrevivência), [criativo](../modelagem/lexico.md#l07-criativo), [aventura](../modelagem/lexico.md#l08-aventura), [espectador](../modelagem/lexico.md#l06-espectador))<br> Jogador escolhe dificuldade do jogo<br> Jogador configura o mundo de acordo com suas preferências<br> Jogador cria o mundo |
+|**Restrição:**| O jogador deve ter qualquer versão do minecraft |
+|**Exceção**| Falha ao gerar o mundo<br> Falha ao abrir o launcher |
