@@ -62,6 +62,7 @@ nav:
     - Especificações Suplementares: modelagem/especificacaoSuplementar.md
     - Backlog do Produto: modelagem/backlog.md
     - NFR: modelagem/NFR.md
+    - GORE i*: modelagem/iStar.md
   - Análise:
     - Inspeção Argumentação: Analise/argumentacao.md
     - Inspeção Backlog do Produto: Analise/backlog.md
