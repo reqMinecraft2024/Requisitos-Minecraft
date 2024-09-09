@@ -7,6 +7,8 @@
 | 08/09/2024 | 0.2 | Adição das telas RF15, RF19, RF20, RF24, RF26 a RF28, RF30, RF31, RF34 a RF36 | Carlos Eduardo Rodrigues |
 | 08/09/2024 | 0.3 | Linkagem das demais telas dos requisitos funcionais | Carlos Eduardo Rodrigues |
 
+Este documento tem o objetivo de evidenciar onde os requisitos foram implementados. Ele serve como uma ferramenta de rastreabilidade, garantindo que cada requisito levantado tenha correspondência com uma implementação específica.
+
 |Código|Requisito|Tela|Artefato(s)|
 |---|---|---|---|
 | RF1 | O usuário deve ser capaz de criar, entrar e gerenciar uma conta no Minecraft. | [Veja aqui](../Analise/validacao.md#rf01-o-usuario-deve-ser-capaz-de-criar-entrar-e-gerenciar-uma-conta-no-minecraft) | [UC13](../modelagem/casos-de-uso.md#uc13-entrar-ou-criar-conta) |
