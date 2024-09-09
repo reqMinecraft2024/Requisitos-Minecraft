@@ -319,15 +319,15 @@ A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e 
 
 ## Cenário 26
 
-| **Título:** | Compartilhar mapa com outro jogador |
+| **Título:** | Explorar mundo Hardcore |
 | ----------  | -----------------------------  |
-|**Objetivo:**|   Compartilhar o arquivo de um mapa personalizado com outro jogador | 
+|**Objetivo:**|   Experimentar a dinâmica do modo de jogo Hardcore | 
 |**Contexto:** | Multiplayer ou singleplayer |
-|**Atores:** |Jogadores|
-|**Recursos:**| Minecraft, Arquivo do mapa (.zip), Software de compartilhamento (e-mail, plataforma de nuvem) |
-|**Episódios:**  |  Jogador localiza o arquivo do mapa salvo em seu dispositivo<br> Jogador compacta o arquivo do mapa (.zip)<br> Jogador envia o arquivo para o destinatário através de uma plataforma de compartilhamento (e-mail, Google Drive, etc.)<br> Destinatário baixa o arquivo e o coloca na pasta de saves do Minecraft|
-|**Restrição:**| Arquivo do mapa corretamente compactado<br> Plataforma de compartilhamento acessível |
-|**Exceção**| Erro ao transferir o arquivo<br> Mapa corrompido ao abrir |
+|**Atores:** |Jogador |
+|**Recursos:**| Minecraft Java Edition |
+|**Episódios:**  |  Jogador entra no menu principal<br> Jogador seleciona modo de jogo<br> Jogador seleciona criar mundo<br> Jogador coloca mundo no modo hardcore<br> Jogador entra no mundo<br> Jogador explora o mundo<br> |
+|**Restrição:**| Conseguir bons recursos no modo hardcore |
+|**Exceção**| Jogo corrompido<br> Ser derrotado e perder mapa hardcore<br> |
 
 ## Cenário 27
 
