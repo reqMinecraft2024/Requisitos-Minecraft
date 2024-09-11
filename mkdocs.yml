@@ -85,6 +85,7 @@ nav:
   - Entregas:
     - Primeira entrega em vídeo: entregas/primeira-entrega.md
     - Segunda entrega em vídeo: entregas/segunda-entrega.md
+    - Terceira entrega em vídeo: entregas/terceira-entrega.md
 
 markdown_extensions:
   - attr_list
