@@ -75,6 +75,7 @@ nav:
     - Inspeção Personas: Analise/personas.md
     - Inspeção Rich Picture: Analise/richpicture.md
     - Validação: Analise/validacao.md
+    - Validação Protótipo: Analise/validacaoPrototipo.md
   - Pós-Rastreabilidade:
     - Forward-From: pos-rastreabilidade/forward-from.md
     - Backward-From: pos-rastreabilidade/backward-from.md
