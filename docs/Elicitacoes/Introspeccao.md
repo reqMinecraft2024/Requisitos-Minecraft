@@ -119,7 +119,7 @@ Após explorar diversos jogos de exploração, [Arthur](../modelagem/personas.md
 | INT3.3 | Devem existir inimigos de diferentes dificuldades | Should | Funcional |
 | INT3.4 | O jogo deve apresentar um sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) | Should | Funcional |
 | INT3.5 | O jogador deve poder acessar o sistema de [conquistas](../modelagem/lexico.md#l40-conquistas) a qualquer momento | Should | Funcional |
-| INT3.6 | O jogador deve ser capaz de personalizar seu personagem | Won't | Funcional |
+| INT3.6 | O jogador deve ser capaz de personalizar seu personagem | Must | Funcional |
 | INT3.7 | O jogo deve possuir [chefes](../modelagem/lexico.md#l02-chefes) | Must | Funcional |
 
 
