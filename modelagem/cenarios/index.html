@@ -1,0 +1,3454 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../personas/">
+      
+      
+        <link rel="next" href="../Epics/">
+      
+      
+      <link rel="icon" href="../../assets/imgs/icone.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Cenários - Requisitos Minecraft</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenarios" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Requisitos Minecraft" class="md-header__button md-logo" aria-label="Requisitos Minecraft" data-md-component="logo">
+      
+  <img src="../../assets/imgs/logo-minecraft.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos Minecraft
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label=""  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/reqMinecraft2024/Requisitos-Minecraft" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos Minecraft
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos Minecraft" class="md-nav__button md-logo" aria-label="Requisitos Minecraft" data-md-component="logo">
+      
+  <img src="../../assets/imgs/logo-minecraft.png" alt="logo">
+
+    </a>
+    Requisitos Minecraft
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/reqMinecraft2024/Requisitos-Minecraft" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos Minecraft
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao-geral/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/Rich%20Picture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/argumentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argumentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitações
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/AnaliseProtocolo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Análise de Protocolo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Moscow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MoSCoW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Introspeccao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/SWOT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SWOT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/questionarios-e-pesquisas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionários e pesquisas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/requisitos-nao-funcionais/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos não funcionais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados das elicitações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 01
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 02
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 03
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 04
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 05
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 06
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 07
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 08
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 09
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 17
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 18
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 19
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 20
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 22
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 23
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 24
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 25
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 26
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 27
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 28
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 29
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 30
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 31
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 32
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Epics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos-de-uso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificações Suplementares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NFR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iStar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GORE i*
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Análise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/argumentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Argumentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/CasosDeUso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/epics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Epics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/EspecificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Especificações Suplementares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Léxico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/NFR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/richpicture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/validacaoPrototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Pós-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos-rastreabilidade/forward-from/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos-rastreabilidade/backward-from/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reuniões
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/ata-24-07-24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata do dia 27/07/2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/ata-14-08-24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata do dia 14/08/2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/primeira-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primeira entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/segunda-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Segunda entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/terceira-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terceira entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 01
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 02
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 03
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 04
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 05
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 06
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 07
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 08
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 09
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 17
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 18
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 19
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 20
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 22
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 23
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 24
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 25
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 26
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 27
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 28
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 29
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 30
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 31
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenario-32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 32
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="cenarios">Cenários</h1>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">30/07/2024</td>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;">Criação de Cenários</td>
+<td style="text-align: center;"><a href="https://github.com/samarawwleticia">Samara Letícia</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/08/2024</td>
+<td style="text-align: center;">0.2</td>
+<td style="text-align: center;">Revisão</td>
+<td style="text-align: center;">Danilo Melo</td>
+</tr>
+<tr>
+<td style="text-align: center;">06/09/2024</td>
+<td style="text-align: center;">0.3</td>
+<td style="text-align: center;">Atualizações e adições de cenários</td>
+<td style="text-align: center;">Samara Letícia</td>
+</tr>
+<tr>
+<td style="text-align: center;">08/09/2024</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">Adição de mais cenários</td>
+<td style="text-align: center;">Samara Letícia</td>
+</tr>
+<tr>
+<td style="text-align: center;">09/09/2024</td>
+<td style="text-align: center;">0.5</td>
+<td style="text-align: center;">Linkagem dos cenários aos lexicos</td>
+<td style="text-align: center;">Samara Letícia</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<p>Os cenários são empregados como uma ferramenta para modelar as interações usuário-sistema. Essa abordagem permite detalhar os fluxos de trabalho, desde a iniciação até a conclusão de uma tarefa, considerando as diversas possibilidades e exceções. Através da análise de cenários, é possível identificar requisitos funcionais e não funcionais de forma mais precisa, garantindo a qualidade e a usabilidade do sistema desenvolvido.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A metodologia utilizada neste trabalho baseia-se na modelagem de casos de uso e na análise de fluxos de interação, além do uso de brainstorming.</p>
+<h2 id="cenario-01">Cenário 01</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Dinâmica do Minecraft <a href="../lexico/#l09-sobrevivencia">survival</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Descrever o início do Minecraft</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Início de Jogo</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador <a href="../lexico/#l25-criar-mundo">cria mundo</a><br> Jogador escolhe modo de jogo <a href="../lexico/#l09-sobrevivencia">sobrevivência</a><br> Jogador escolhe dificuldade do jogo (pacífico, fácil, normal ou difícil)<br> Jogador nomeia o mundo<br> Jogador entra no mundo (<a href="../lexico/#l05-overworld">overworld</a>)</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Carregamento e atualizações rápidas<br> Começar em um bioma com bons recursos</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Launcher não carregar o mundo<br> Erro na geração de biomas<br> <a href="../lexico/#l03-estruturas-geradas">Estruturas</a> não encontradas</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-02">Cenário 02</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Dinâmica do Minecraft <a href="../lexico/#l07-criativo">criativo</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Criar uma <a href="../lexico/#l34-estruturas">construção</a> no Minecraft</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Modo de Jogo: <a href="../lexico/#l07-criativo">criativo</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador escolhe coordenadas da construção<br> Jogador abre o inventário<br> Jogador escolhe <a href="../lexico/#l31-recursos">recursos</a><br> Jogador coloca <a href="../lexico/#l31-recursos">recursos</a> no mundo, construindo a <a href="../lexico/#l34-estruturas">estrutura</a> desejada. <br> Mobs hostis ignoram a presença do jogador. <br> Jogador é capaz de quebrar itens com apenas um clique. <br> Jogador não se preocupa com fome ou vida.</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Bom desempenho do jogo<br> Localizar facilmente os <a href="../lexico/#l31-recursos">recursos</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Falta de memória para carregar a construção<br> Desempenho lento do jogo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-03">Cenário 03</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Ir ao <a href="../lexico/#l04-end">end</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Descrever como chegar a dimensão <a href="../lexico/#l04-end">end</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo avançado</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador cria olho de ender<br> Jogador usa olho de ender para localizar a fortaleza<br> Jogador entra na sala de portal<br> Jogador coloca os Olhos de Ender no portal<br> Jogador entra no portal</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Carregamento e atualizações rápidas<br> Entrar na plataforma principal do <a href="../lexico/#l04-end">End</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Launcher não carregar o <a href="../lexico/#l04-end">End</a><br> Cair no vazio<br> Não localizar a fortaleza<br> Não obter <a href="../lexico/#l36-ender-pearls">Ender pearls</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-04">Cenário 04</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Derrotar o <a href="../lexico/#l35-ender-dragon">Ender Dragon</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Derrotar o <a href="../lexico/#l35-ender-dragon">Ender Dragon</a> e completar o jogo</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Final do jogo</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, armas, armaduras, poções</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra a fortaleza do <a href="../lexico/#l04-end">end</a><br> Jogador ativa o portal do <a href="../lexico/#l04-end">end</a><br> Jogador vai ao <a href="../lexico/#l04-end">end</a><br> Jogador destrói cristais do <a href="../lexico/#l04-end">end</a><br> Jogador ataca o Dragão até derrotá-lo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Ter todos os itens necessários para o combate</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Launcher não carregar o <a href="../lexico/#l04-end">End</a><br> Cair no vazio<br> Não localizar a fortaleza<br> Ser morto pelo Ender Dragon</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-05">Cenário 05</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Derrotar o Warden</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Derrotar o Warden no subterrâneo</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Avançado</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, armadura, armas</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra cidade ancestral<br> Jogador atrai o Warden com vibrações<br> Jogador ataca o Warden com estratégia à distância e corpo-a-corpo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Ter todos os itens necessários para o combate</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogador é derrotado pelo Warden<br> Jogador perde todos os itens durante a batalha<br> Jogador não consegue encontrar Cidade Ancestral</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-06">Cenário 06</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Chocar um Ovo de Farejador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Obter um Farejador</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Avançado</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, pincel</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra ruínas<br> Jogador utiliza pincel nos blocos para tentar obter Ovo de Farejador<br> Jogador coloca ovo de farejador sobre bloco de terra ou musgo<br> Farejador sai do ovo depois de um determinado tempo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Ter todos os itens necessários para crafitar um pincel<br> Achar Ovo de Farejador com facilidade</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogador não consegue localizar uma ruína<br> Jogador não consegue encontrar Ovo de Farejador</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-07">Cenário 07</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Derrotar um <a href="../lexico/#l19-criaturas">Mob</a> Simples (Zumbi, Esqueleto, Creeper)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Derrotar um <a href="../lexico/#l19-criaturas">mob</a> simples</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Inicial</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador espera anoitecer<br> Jogador encontra <a href="../lexico/#l19-criaturas">mob</a><br> Jogador ataca <a href="../lexico/#l19-criaturas">mob</a> até derrotá-lo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Utilizar armas e armadura forte</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogador é derrotado pelo <a href="../lexico/#l19-criaturas">Mob</a><br> Jogador perde todos os <a href="../lexico/#l32-itens">itens</a> durante a batalha</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-08">Cenário 08</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Fazer uma <a href="../lexico/#l13-farms">Farm</a> de Pedra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Criar uma <a href="../lexico/#l13-farms">Farm</a> automática de pedra</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Inicial</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, lava, água, <a href="../lexico/#l12-redstone">redstone</a></td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador coleta materiais<br> Jogador utiliza materiais para construir a <a href="../lexico/#l13-farms">farm</a> de pedra<br> Jogador coleta as pedras</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Boa construção e otimização</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Não conseguir encontrar lava<br> Não utilizar corretamente a <a href="../lexico/#l12-redstone">redstone</a><br> <a href="../lexico/#l13-farms">Farm</a> falhar ao produzir pedra</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-09">Cenário 09</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th><a href="../lexico/#l11-craft">Crafitar</a> uma Cama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Construir uma cama no minecraft utilizando a mesa de construção</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Inicial</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, mesa de construção</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra ovelhas<br> Jogador obtem lã de ovelhas<br> Jogador obtém madeira de qualquer árvore<br> Jogador transforma madeira bruta em tábua de madeira<br> Jogador utiliza mesa de construção para construir cama utilizando as lãs e as tábuas de madeira</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Obter todos os itens necessários</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogador não encontra lãs da mesma coloração<br> Jogador não encontra ovelhas<br> Jogador não obtem recursos suficientes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-10">Cenário 10</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Reproduzir <a href="../lexico/#l47-villager">Villagers</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Reproduzir <a href="../lexico/#l47-villager">villagers</a> no jogo</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Normal</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, comida, camas</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra <a href="../lexico/#l50-vila">vila</a><br> Jogador posiciona cama perto dos <a href="../lexico/#l47-villager">villagers</a><br> Jogador coloca dá comida a 2  <a href="../lexico/#l47-villager">villagers</a><br> <a href="../lexico/#l47-villager">Villagers</a> se reproduzem</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td><a href="../lexico/#l47-villager">Villagers</a> disponíveis, espaço suficiente</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td><a href="../lexico/#l47-villager">Villagers</a> não se reproduzem</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-11">Cenário 11</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Voar com <a href="../lexico/#l37-elytra">Elytra</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Voar utilizando a <a href="../lexico/#l37-elytra">Elytra</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Avançado</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, <a href="../lexico/#l37-elytra">Elytra</a></td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador <a href="../lexico/#l11-craft">crafita</a> foguetes<br> Jogador equipa a <a href="../lexico/#l37-elytra">Elytra</a><br> Jogador aciona foguete enquanto o segura</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Durabilidade da <a href="../lexico/#l37-elytra">Elytra</a> e número de foguetes</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td><a href="../lexico/#l37-elytra">Elytra</a> quebra durante o jogo<br> Não obtém os recursos necessários para crafitar foguetes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-12">Cenário 12</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Domar um Lobo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Domar um lobo no minecraft</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Normal</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher, ossos</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra Lobo<br> Jogador alimenta Lobo com ossos<br> Lobo é domado pelo Jogador</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Ter ossos suficientes</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Lobo não é domado<br> Jogador não encontra um Lobo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-13">Cenário 13</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Encontrar um tesouro escondido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Encontrar um tesouro no minecraft</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Normal</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Launcher</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra <a href="../lexico/#l03-estruturas-geradas">Naufrágio</a><br> Jogador obtém mapa do tesouro<br> Jogador procura o tesouro utilizando o mapa<br> Jogador obtém tesouro escondido</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Encontrar um mapa do tesouro<br> Encontrar um <a href="../lexico/#l03-estruturas-geradas">Naufrágio</a><br> Localização precisa</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td><a href="../lexico/#l03-estruturas-geradas">Naufrágio</a> não produz mapa do tesouro<br> Jogador não consegue localizar o tesouro</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-14">Cenário 14</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Adicionar um amigo (versão Bedrock)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Conectar com amigos na versão Bedrock</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Bedrock Edition</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de amigos<br> Jogador seleciona a opção de adicionar amigo<br> Jogador insere o gamertag do amigo<br> Jogador confirma a solicitação de amizade<br></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Conexão estável com a internet<br> Amigo deve ter uma conta na mesma plataforma</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Gamertag inválido<br> Amigo não aparecer online</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-15">Cenário 15</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Conectar-se com amigo (versão Java)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Conectar com amigos na versão Java</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Java Edition</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de <a href="../lexico/#l41-multiplayer">multiplayer</a><br> Jogador insere o endereço IP do <a href="../lexico/#l14-servidores">servidor</a> onde o amigo está jogando<br> Jogador se conecta ao <a href="../lexico/#l14-servidores">servidor</a><br> Jogador entra no mesmo <a href="../lexico/#l14-servidores">servidor</a> onde o amigo está jogando<br></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td><a href="../lexico/#l14-servidores">Servidor</a> configurado corretamente<br> Amigo deve estar online</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Falha na conexão com o <a href="../lexico/#l14-servidores">servidor</a><br> IP do <a href="../lexico/#l14-servidores">servidor</a> inválido</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-16">Cenário 16</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Adicionar um amigo (através do QRCode)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Adicionar um amigo utilizando o QRCode</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Bedrock Edition, Dispositivo com câmera, QRCode</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador acessa câmera do seu dispositivo<br> Jogador escaneia o código QR fornecido pelo amigo<br> Jogador confirma a solicitação de amizade<br></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>QRCode válido<br> Conexão estável com a internet</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>QRCode não reconhecido<br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-17">Cenário 17</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Entrar em um <a href="../lexico/#l45-realms">realms</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Entrar em um <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">realms</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft <a href="../lexico/#l45-realms">Realms</a>, Convite para <a href="../lexico/#l45-realms">realms</a></td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de <a href="../lexico/#l45-realms">realms</a><br> Jogador seleciona o convite recebido para o <a href="../lexico/#l45-realms">realms</a><br> Jogador confirma a entrada no <a href="../lexico/#l14-servidores">servidor</a> realms<br> Jogador entra no mundo do <a href="../lexico/#l45-realms">realms</a></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Convite válido<br> Conexão estável com a internet</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Convite inválido<br> <a href="../lexico/#l45-realms">Realms</a> não acessível<br> <a href="../lexico/#l45-realms">Realms</a> atingiu limite de usuários</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-18">Cenário 18</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Criar um <a href="../lexico/#l45-realms">realms</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Criar um <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">realms</a> para <a href="../lexico/#l41-multiplayer">multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Realms, Assinatura de Minecraft Realms</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de <a href="../lexico/#l45-realms">realms</a><br> Jogador seleciona a opção de criar <a href="../lexico/#l45-realms">realms</a><br> Jogador define o nome e as configurações do <a href="../lexico/#l45-realms">realms</a><br> Jogador confirma a criação do <a href="../lexico/#l45-realms">realms</a></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Assinatura ativa<br> Conexão estável com a internet</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Falha na criação do <a href="../lexico/#l45-realms">realms</a><br> Assinatura expirada</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-19">Cenário 19</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Utilizar um baú</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Armazenar e organizar <a href="../lexico/#l32-itens">itens</a> no baú</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo Normal</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Baú</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o inventário<br> Jogador coloca o baú no mundo<br> Jogador interage com o baú<br> Jogador arrasta os <a href="../lexico/#l32-itens">itens</a> do inventário para o baú<br> Jogador fecha o inventário</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O baú deve estar colocado em um local acessível</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Baú cheio<br> <a href="../lexico/#l32-itens">itens</a> não transferidos corretamente</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-20">Cenário 20</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Criar picareta de ferro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Criar uma picareta de ferro para mineração</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l09-sobrevivência">sobrevivência</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Bancada de trabalho, Ferro fundido, Graveto</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador coleta minério de ferro<br> Jogador funde o minério de ferro em lingotes usando uma fornalha<br> Jogador abre a bancada de trabalho<br> Jogador insere 3 lingotes de ferro e 2 gravetos na bancada de trabalho<br> Jogador coleta a picareta de ferro criada</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve ter os materiais necessários</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Materiais insuficientes<br> Erro ao colocar os <a href="../lexico/#l32-itens">itens</a> na bancada</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-21">Cenário 21</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Alimentar-se</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Recuperar a barra de fome e saúde</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo sobrevivência</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Comida (maçã, pão, carne, etc.)</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador seleciona a comida no <a href="../lexico/#l43-inventário">inventario</a><br> Jogador come a comida (utilizando o botão de interação)<br> Barra de fome do jogador aumenta, e a saúde começa a se regenerar</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador só pode comer se sua barra de fome não estiver cheia</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogador tentar comer sem estar com fome<br> Comida insuficiente para restaurar a barra de fome</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-22">Cenário 22</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Alterar modo de jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Alterar o modo de jogo (sobrevivência, criativo, aventura, espectador)</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Durante o jogo</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, <a href="../lexico/#l23-chat">Chat</a></td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de comandos<br> Jogador digita o comando <code>/gamemode</code> [modo] (<a href="../lexico/#l09-sobrevivência">sobrevivência</a>, <a href="../lexico/#l07-criativo">criativo</a>, <a href="../lexico/#l08-aventura">aventura</a>, <a href="../lexico/#l06-espectador">espectador</a>)<br> Jogador confirma a alteração do modo de jogo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve ter permissão de administrador no <a href="../lexico/#l14-servidores">servidor</a> ou em singleplayer</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Comando inválido<br> Permissão insuficiente para alterar o modo de jogo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-23">Cenário 23</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Buscar item no modo <a href="../lexico/#l07-criativo">criativo</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Adicionar itens do <a href="../lexico/#l43-inventário">inventario</a> <a href="../lexico/#l07-criativo">criativo</a> ao <a href="../lexico/#l43-inventário">inventario</a> do jogador</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l07-criativo">criativo</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o <a href="../lexico/#l43-inventário">inventario</a> <a href="../lexico/#l07-criativo">criativo</a><br> Jogador busca o item desejado, digitando o nome na barra de pesquisa<br> Jogador arrasta o item para o <a href="../lexico/#l43-inventário">inventario</a> pessoal</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve estar no modo <a href="../lexico/#l07-criativo">criativo</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Item não encontrado no <a href="../lexico/#l43-inventário">inventario</a> <a href="../lexico/#l07-criativo">criativo</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-24">Cenário 24</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Usar comando <code>/time</code> no modo <a href="../lexico/#l07-criativo">criativo</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Alterar o horário no jogo usando o comando <code>/time</code></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l07-criativo">criativo</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de comandos<br> Jogador digita <code>/time set [day/night/noon/midnight]</code> ou <code>/time set [valor]</code><br> O horário do jogo é alterado de acordo com o comando inserido</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve estar no modo <a href="../lexico/#l07-criativo">criativo</a> ou ter permissões de administrador</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Comando inválido<br> Permissão insuficiente para usar o comando</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-25">Cenário 25</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Jogar Build Wars em um <a href="../lexico/#l14-servidores">servidor</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Competir em um minigame de construção (Build Wars) em um <a href="../lexico/#l14-servidores">servidor</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a>, servidores minigame</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador, outros jogadores</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, servidor Build Wars</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador entra em um  <a href="../lexico/#l14-servidores">servidor</a> de minigames<br> Jogador seleciona o modo Build Wars no  <a href="../lexico/#l14-servidores">servidor</a><br> Jogador recebe um tema para construir<br> Jogador utiliza blocos criativos para construir dentro do tempo limite<br> Votações ocorrem após a conclusão das construções</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Conexão estável com a internet<br> Tempo limitado para construir</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Desconexão durante o jogo<br> Erro no  <a href="../lexico/#l14-servidores">servidor</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-26">Cenário 26</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Explorar mundo <a href="../lexico/#l10-hardcore">Hardcore</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Experimentar a dinâmica do modo de jogo <a href="../lexico/#l10-hardcore">Hardcore</a></td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td><a href="../lexico/#l41-multiplayer">Multiplayer</a> ou singleplayer</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft Java Edition</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador entra no menu principal<br> Jogador seleciona modo de jogo<br> Jogador seleciona <a href="../lexico/#l25-criar-mundo">criar mundo</a><br> Jogador coloca mundo no modo <a href="../lexico/#l10-hardcore">hardcore</a><br> Jogador entra no mundo<br> Jogador explora o mundo<br></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Conseguir bons recursos no modo <a href="../lexico/#l10-hardcore">hardcore</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Jogo corrompido<br> Ser derrotado e perder mapa <a href="../lexico/#l10-hardcore">hardcore</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-27">Cenário 27</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Alterar dificuldade do jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Alterar a dificuldade do jogo (pacífico, fácil, normal, difícil)</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Durante o jogo</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o menu de configurações<br> Jogador seleciona a opção de alterar a dificuldade<br> Jogador escolhe entre pacífico, fácil, normal ou difícil<br> A dificuldade do jogo é alterada</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Jogador deve ter permissão para alterar a dificuldade</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Comando inválido<br> Permissão insuficiente para mudar a dificuldade</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-28">Cenário 28</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Melhorar um capacete de diamante para netherita</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Atualizar um capacete de diamante para netherita</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l09-sobrevivência">sobrevivencia</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Mesa de ferraria, Molde de ferraria, Capacete de diamante, Lingote de netherita</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre a mesa de ferraria<br> Jogador coloca o molde de ferraria, capacete de diamante e o lingote de netherita na mesa de ferraria<br> Capacete de diamante é atualizado para capacete de netherita<br> Jogador confirma atualização colocando o novo capacete no <a href="../lexico/#l43-inventário">inventario</a></td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Jogador deve ter todos os <a href="../lexico/#l32-itens">itens</a> necessários</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Materiais insuficientes para a atualização</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-29">Cenário 29</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Consertar um arco</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Consertar um arco quebrado usando uma bigorna ou mesa de trabalho</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l09-sobrevivência">sobrevivencia</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Bigorna ou mesa de trabalho, Arcos quebrados ou materiais</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre a bigorna ou mesa de trabalho<br> Jogador coloca o arco quebrado e outro arco na bigorna ou mesa<br> Jogador confirma a reparação<br> Arco é reparado</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve ter um arco quebrado e os materiais necessários</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Materiais insuficientes para o reparo<br> Arco não reparável (durabilidade esgotada)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-30">Cenário 30</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Obter carne podre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Coletar carne podre de um zumbi</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l09-sobrevivência">sobrevivencia</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador encontra um zumbi<br> Jogador derrota o zumbi<br> Carne podre é dropada pelo zumbi<br> Jogador coleta a carne podre</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve derrotar o zumbi antes que ele desapareça<br> Carne podre só é dropada por zumbis</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Carne podre não é dropada (erros no drop)<br> Zumbi desapareceu antes da coleta</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-31">Cenário 31</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th>Encantar uma espada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td>Encantar uma espada para obter propriedades especiais</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Jogo no modo <a href="../lexico/#l09-sobrevivência">sobrevivencia</a></td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft, Mesa de encantamentos, Espada, Lápis-lazúli</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre a mesa de encantamentos<br> Jogador coloca a espada e os lápis-lazúli na mesa de encantamentos<br> Jogador seleciona o encantamento desejado<br> Jogador confirma o encantamento<br> Espada é encantada com as propriedades selecionadas</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>Jogador deve ter a quantidade necessária de lápis-lazúli e nível de experiência<br> A mesa de encantamentos deve estar em um local apropriado</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Encantamento não aplicado (problemas na mesa ou falta de recursos)<br> Espada não encantada conforme o desejado<br> Não possuir experiência o suficiente</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cenario-32">Cenário 32</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Título:</strong></th>
+<th><a href="../lexico/#l25-criar-mundo">Criar Mundo</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objetivo:</strong></td>
+<td><a href="../lexico/#l25-criar-mundo">Criar mundo</a> no minecraft</td>
+</tr>
+<tr>
+<td><strong>Contexto:</strong></td>
+<td>Começo do Jogo</td>
+</tr>
+<tr>
+<td><strong>Atores:</strong></td>
+<td>Jogador</td>
+</tr>
+<tr>
+<td><strong>Recursos:</strong></td>
+<td>Minecraft</td>
+</tr>
+<tr>
+<td><strong>Episódios:</strong></td>
+<td>Jogador abre o Launcher<br> Jogador clica no botão de Jogar<br> Jogador clica em <a href="../lexico/#l25-criar-mundo">criar mundo</a><br> Jogador nomeia o mundo<br> Jogador escolhe modo de jogo (<a href="../lexico/#l09-sobrevivência">sobrevivência</a>, <a href="../lexico/#l07-criativo">criativo</a>, <a href="../lexico/#l08-aventura">aventura</a>, <a href="../lexico/#l06-espectador">espectador</a>)<br> Jogador escolhe dificuldade do jogo<br> Jogador configura o mundo de acordo com suas preferências<br> Jogador cria o mundo</td>
+</tr>
+<tr>
+<td><strong>Restrição:</strong></td>
+<td>O jogador deve ter qualquer versão do minecraft</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Falha ao gerar o mundo<br> Falha ao abrir o launcher</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

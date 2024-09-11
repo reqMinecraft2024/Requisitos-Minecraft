@@ -1,0 +1,2885 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Epics/">
+      
+      
+        <link rel="next" href="../especificacaoSuplementar/">
+      
+      
+      <link rel="icon" href="../../assets/imgs/icone.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Casos de uso - Requisitos Minecraft</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#casos-de-uso" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Requisitos Minecraft" class="md-header__button md-logo" aria-label="Requisitos Minecraft" data-md-component="logo">
+      
+  <img src="../../assets/imgs/logo-minecraft.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos Minecraft
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label=""  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/reqMinecraft2024/Requisitos-Minecraft" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos Minecraft
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos Minecraft" class="md-nav__button md-logo" aria-label="Requisitos Minecraft" data-md-component="logo">
+      
+  <img src="../../assets/imgs/logo-minecraft.png" alt="logo">
+
+    </a>
+    Requisitos Minecraft
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/reqMinecraft2024/Requisitos-Minecraft" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos Minecraft
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao-geral/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/Rich%20Picture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/argumentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Argumentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitações
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/AnaliseProtocolo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Análise de Protocolo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Moscow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MoSCoW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/Introspeccao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introspecção
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/SWOT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SWOT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/questionarios-e-pesquisas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionários e pesquisas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/requisitos-nao-funcionais/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos não funcionais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacoes/resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados das elicitações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Epics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas dos Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagramas dos Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-de-uso-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso de uso geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criacao-de-mundos-e-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criação de mundos e realms
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-do-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação do caso de uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação do caso de uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-criar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01 Criar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-selecionar-modo-de-jogo-e-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02 Selecionar modo de jogo e dificuldade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-carregar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03 Carregar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-explorar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04 Explorar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-combater-inimigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05 Combater inimigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-proteger-territorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06 Proteger território
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-construir-blocos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07 Construir blocos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-quebrar-blocos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08 Quebrar blocos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-coletar-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09 Coletar recursos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-adicionar-e-gerenciar-amigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10 Adicionar e gerenciar amigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-criar-itens" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11 Criar Itens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-jogar-no-modo-multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12 Jogar no modo multiplayer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-entrar-ou-criar-conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13 Entrar ou criar conta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-conectar-ou-adicionar-um-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14 Conectar ou adicionar um servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-sair-do-jogo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15 Sair do jogo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-salvar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16 Salvar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc17-configuracoes-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC17 Configurações gerais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc18-criar-no-servidor-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC18 Criar no servidor Realms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc19-selecionar-grupamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC19 Selecionar grupamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc20-selecionar-nome-do-realm" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC20 Selecionar nome do realm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc21-aceitar-termos-e-condicoes-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC21 Aceitar termos e condições realms
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificações Suplementares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NFR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iStar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GORE i*
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Análise
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Análise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/argumentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Argumentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/CasosDeUso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/epics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Epics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/EspecificacaoSuplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Especificações Suplementares
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Léxico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/NFR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção NFR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/richpicture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inspeção Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Analise/validacaoPrototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Pós-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos-rastreabilidade/forward-from/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pos-rastreabilidade/backward-from/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward-From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reuniões
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/ata-24-07-24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata do dia 27/07/2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/ata-14-08-24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ata do dia 14/08/2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/primeira-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primeira entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/segunda-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Segunda entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/terceira-entrega/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terceira entrega em vídeo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas dos Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Diagramas dos Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-de-uso-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso de uso geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criacao-de-mundos-e-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criação de mundos e realms
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-do-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação do caso de uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação do caso de uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-criar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01 Criar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-selecionar-modo-de-jogo-e-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02 Selecionar modo de jogo e dificuldade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-carregar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03 Carregar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-explorar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04 Explorar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-combater-inimigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05 Combater inimigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-proteger-territorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06 Proteger território
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-construir-blocos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07 Construir blocos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-quebrar-blocos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08 Quebrar blocos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-coletar-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09 Coletar recursos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-adicionar-e-gerenciar-amigos" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10 Adicionar e gerenciar amigos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-criar-itens" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11 Criar Itens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-jogar-no-modo-multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12 Jogar no modo multiplayer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-entrar-ou-criar-conta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13 Entrar ou criar conta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-conectar-ou-adicionar-um-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14 Conectar ou adicionar um servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-sair-do-jogo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15 Sair do jogo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-salvar-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16 Salvar mundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc17-configuracoes-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC17 Configurações gerais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc18-criar-no-servidor-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC18 Criar no servidor Realms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc19-selecionar-grupamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC19 Selecionar grupamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc20-selecionar-nome-do-realm" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC20 Selecionar nome do realm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc21-aceitar-termos-e-condicoes-realms" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC21 Aceitar termos e condições realms
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="casos-de-uso">Casos de uso</h1>
+<script src="https://kit.fontawesome.com/c221e013ed.js" crossorigin="anonymous"></script>
+
+<p><strong>Histórico de Revisão</strong></p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18/08/2024</td>
+<td>0.1</td>
+<td>Criação do documento inicial com diagrama e tabelas da especificação suplementar</td>
+<td>Carlos Eduardo</td>
+</tr>
+<tr>
+<td>19/08/2024</td>
+<td>0.2</td>
+<td>Linkagens com os termos do <a href="../lexico/">léxico</a></td>
+<td>Carlos Eduardo</td>
+</tr>
+<tr>
+<td>20/08/2024</td>
+<td>0.3</td>
+<td>Adição do diagrama de criação de <a href="../lexico/#l05-overworld">mundos</a> e <a href="../lexico/#l45-realms">realms</a></td>
+<td>Carlos Eduardo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento contém a especificação dos casos de uso, onde o principal objetivo é detalhar as interações entre os <a href="../lexico/#l42-usuario">usuários</a> e o sistema, uma das melhores formas para a elicitação dos requisitos funcionais.</p>
+<h2 id="diagramas-dos-casos-de-uso">Diagramas dos Casos de Uso</h2>
+<h3 id="caso-de-uso-geral">Caso de uso geral</h3>
+<p><img alt="Casos de uso" src="../../assets/imgs/Caso%20de%20uso.jpg" /></p>
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Carlos Eduardo</p>
+
+<h3 id="criacao-de-mundos-e-realms">Criação de <a href="../lexico/#l05-overworld">mundos</a> e <a href="../lexico/#l45-realms">realms</a></h3>
+<p><img alt="Casos de uso" src="../../assets/imgs/criar_mundo.jpg" /></p>
+<p style="text-align: center"> <i class="fa-solid fa-circle-info"></i> Versão 1 - Autor: Carlos Eduardo</p>
+
+<h2 id="especificacao-do-caso-de-uso">Especificação do caso de uso</h2>
+<h3 id="uc01-criar-mundo">UC01 <a href="../lexico/#l25-criar-mundo">Criar mundo</a></h3>
+<table>
+<thead>
+<tr>
+<th><a href="../lexico/#l25-criar-mundo">Criar mundo</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Criar um novo <a href="../lexico/#l05-overworld">mundo</a> no Minecraft.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar no menu principal do jogo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu "<a href="../lexico/#l25-criar-mundo">Criar Mundo</a>". <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> configura as opções desejadas para o <a href="../lexico/#l05-overworld">mundo</a> (nome, tipo de <a href="../lexico/#l05-overworld">mundo</a>, etc.). <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> confirma a criação do <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide cancelar a criação do <a href="../lexico/#l05-overworld">mundo</a> antes de confirmar. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> retorna ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Ocorre um erro durante a criação do <a href="../lexico/#l05-overworld">mundo</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> recebe uma mensagem de erro e é redirecionado ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Um novo <a href="../lexico/#l05-overworld">mundo</a> é criado e carregado para o <a href="../lexico/#l42-usuario">usuário</a> <a href="../lexico/#l21-exploracao">explorar</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc02-selecionar-modo-de-jogo-e-dificuldade">UC02 Selecionar modo de jogo e dificuldade</h3>
+<table>
+<thead>
+<tr>
+<th>Selecionar modo de jogo e dificuldade</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Selecionar o modo de jogo e a dificuldade para o <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar no menu de criação ou edição de um <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa as configurações de modo de jogo e dificuldade. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona o modo de jogo desejado (<a href="../lexico/#l09-sobrevivencia">Sobrevivência</a>, <a href="../lexico/#l07-criativo">Criativo</a>, <a href="../lexico/#l08-aventura">Aventura</a>, <a href="../lexico/#l06-espectador">Espectador</a>, <a href="../lexico/#l10-hardcore">Hardcore</a>). <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> escolhe o nível de dificuldade (Fácil, Médio, Difícil...).</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide manter as configurações padrão.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro ao salvar as configurações. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> é notificado e tenta novamente.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Configurações de modo de jogo e dificuldade aplicadas ao <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc03-carregar-mundo">UC03 Carregar <a href="../lexico/#l05-overworld">mundo</a></h3>
+<table>
+<thead>
+<tr>
+<th>Carregar <a href="../lexico/#l05-overworld">mundo</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Carregar um <a href="../lexico/#l05-overworld">mundo</a> existente.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar no menu principal do jogo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa a lista de <a href="../lexico/#l05-overworld">mundo</a>s salvos. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona o <a href="../lexico/#l05-overworld">mundo</a> desejado. <br> 3. <a href="../lexico/#l05-overworld">Mundo</a> é carregado e o <a href="../lexico/#l42-usuario">jogador</a> pode jogar.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não carregar nenhum <a href="../lexico/#l05-overworld">mundo</a> e retorna ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Ocorre um erro ao carregar o <a href="../lexico/#l05-overworld">mundo</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> é notificado e redirecionado ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l05-overworld">Mundo</a> existente é carregado para o <a href="../lexico/#l42-usuario">jogador</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc04-explorar-mundo">UC04 <a href="../lexico/#l21-exploracao">Explorar</a> <a href="../lexico/#l05-overworld">mundo</a></h3>
+<table>
+<thead>
+<tr>
+<th><a href="../lexico/#l21-exploracao">Explorar</a> <a href="../lexico/#l05-overworld">mundo</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td><a href="../lexico/#l21-exploracao">Explorar</a> o <a href="../lexico/#l05-overworld">mundo</a> do Minecraft.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l05-overworld">Mundo</a> deve estar carregado e pronto para <a href="../lexico/#l21-exploracao">exploração</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> move o personagem pelo <a href="../lexico/#l05-overworld">mundo</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> interage com o ambiente. <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> coleta <a href="../lexico/#l31-recursos">recursos</a> ou enfrenta inimigos.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide construir ou modificar o ambiente durante a <a href="../lexico/#l21-exploracao">exploração</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Ocorre um erro no jogo durante a <a href="../lexico/#l21-exploracao">exploração</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> é notificado e o jogo pode reiniciar.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>O <a href="../lexico/#l05-overworld">mundo</a> é explorado.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc05-combater-inimigos">UC05 Combater inimigos</h3>
+<table>
+<thead>
+<tr>
+<th>Combater inimigos</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Combater inimigos no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar em modo de <a href="../lexico/#l09-sobrevivencia">sobrevivência</a> ou similar.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> encontra inimigos durante a <a href="../lexico/#l21-exploracao">exploração</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> usa armas ou <a href="../lexico/#l18-ferramentas">ferramentas</a> para atacar os inimigos. <br> 3. Inimigos são derrotados ou o <a href="../lexico/#l42-usuario">jogador</a> é derrotado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide evitar o combate e foge ou se esconde dos inimigos.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Jogo trava durante o combate. <br> 2. O jogo é reiniciado.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Inimigos derrotados ou <a href="../lexico/#l42-usuario">jogador</a> recomeça após a derrota.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc06-proteger-territorio">UC06 Proteger território</h3>
+<table>
+<thead>
+<tr>
+<th>Proteger território</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Proteger o território no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve ter estabelecido uma base ou local de interesse.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> constrói defesas ao redor do território. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> protege o território de ataques inimigos. <br> 3. Território permanece seguro ou é invadido.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide abandonar o território e mudar para um novo local.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Defesas falham e território é invadido. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> deve reconstruir sua base ou procurar outro local.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Território protegido, abandonado ou há a necessidade de reconstrução.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc07-construir-blocos">UC07 Construir <a href="../lexico/#l44-blocos">blocos</a></h3>
+<table>
+<thead>
+<tr>
+<th>Construir <a href="../lexico/#l44-blocos">blocos</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Construir <a href="../lexico/#l44-blocos">blocos</a> no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve possuir <a href="../lexico/#l44-blocos">blocos</a> no <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> seleciona os <a href="../lexico/#l44-blocos">blocos</a> no <a href="../lexico/#l43-inventario">inventário</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> posiciona os <a href="../lexico/#l44-blocos">blocos</a> no <a href="../lexico/#l05-overworld">mundo</a> conforme desejado. <br> 3. Construção é realizada.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não construir o <a href="../lexico/#l44-blocos">bloco</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Ocorre um erro ao posicionar os <a href="../lexico/#l44-blocos">blocos</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> tenta novamente ou usa outro tipo de <a href="../lexico/#l44-blocos">bloco</a>.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l44-blocos">Blocos</a> construídos.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc08-quebrar-blocos">UC08 Quebrar <a href="../lexico/#l44-blocos">blocos</a></h3>
+<table>
+<thead>
+<tr>
+<th>Quebrar <a href="../lexico/#l44-blocos">blocos</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Quebrar <a href="../lexico/#l44-blocos">blocos</a> no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar equipado com uma ferramenta ou à mão livre.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> seleciona o <a href="../lexico/#l44-blocos">bloco</a> que deseja quebrar. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> utiliza a ferramenta adequada ou à mão livre para quebrar o <a href="../lexico/#l44-blocos">bloco</a>. <br> 3. <a href="../lexico/#l44-blocos">Bloco</a> é quebrado e, se for possível, coletado para o <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não coletar o <a href="../lexico/#l44-blocos">bloco</a> quebrado e o deixa no chão.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. <a href="../lexico/#l44-blocos">Bloco</a> não pode ser quebrado por estar protegido ou ser indestrutível. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> desiste de quebrar o <a href="../lexico/#l44-blocos">bloco</a> ou procura outra ferramenta.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l44-blocos">Bloco</a> é quebrado ou permanece intacto.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc09-coletar-recursos">UC09 Coletar <a href="../lexico/#l31-recursos">recursos</a></h3>
+<table>
+<thead>
+<tr>
+<th>Coletar <a href="../lexico/#l31-recursos">recursos</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Coletar <a href="../lexico/#l31-recursos">recursos</a> no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve <a href="../lexico/#l21-exploracao">explorar</a> o <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> encontra <a href="../lexico/#l31-recursos">recursos</a> durante a <a href="../lexico/#l21-exploracao">exploração</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> utiliza <a href="../lexico/#l18-ferramentas">ferramentas</a> ou à mão livre para coletar os <a href="../lexico/#l31-recursos">recursos</a>. <br> 3. <a href="../lexico/#l31-recursos">Recursos</a> são adicionados ao <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não coletar os <a href="../lexico/#l31-recursos">recursos</a> e continua a <a href="../lexico/#l21-exploracao">exploração</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. <a href="../lexico/#l31-recursos">Recursos</a> são destruídos acidentalmente durante a coleta. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> procura por mais <a href="../lexico/#l31-recursos">recursos</a> no <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l31-recursos">Recursos</a> coletados e armazenados no <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc10-adicionar-e-gerenciar-amigos">UC10 Adicionar e gerenciar amigos</h3>
+<table>
+<thead>
+<tr>
+<th>Adicionar e gerenciar amigos</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Adicionar e gerenciar amigos no jogo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar conectado a uma rede e ter uma conta microsoft.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa a lista de amigos. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> adiciona novos amigos ou gerencia os existentes. <br> 3. Amizades são atualizadas junto ao <a href="../lexico/#l14-servidores">servidor</a> do jogo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide remover ou bloquear um amigo da lista.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro ao atualizar a lista de amigos. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> tenta novamente ou entra em contato com o suporte.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Amigos adicionados ou lista de amigos gerenciada.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc11-criar-itens">UC11 <a href="../lexico/#l11-craft">Criar</a> <a href="../lexico/#l32-itens">Itens</a></h3>
+<table>
+<thead>
+<tr>
+<th><a href="../lexico/#l11-craft">Criar</a> <a href="../lexico/#l32-itens">Itens</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td><a href="../lexico/#l11-craft">Criar</a> <a href="../lexico/#l32-itens">itens</a> no jogo usando <a href="../lexico/#l31-recursos">recursos</a> coletados.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve possuir os <a href="../lexico/#l31-recursos">recursos</a> necessários no <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa a mesa de trabalho ou o menu de criação. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona o item a ser criado. <br> 3. Item é criado e adicionado ao <a href="../lexico/#l43-inventario">inventário</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não <a href="../lexico/#l11-craft">criar</a> o item e fecha o menu de criação.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. <a href="../lexico/#l31-recursos">Recursos</a> insuficientes para <a href="../lexico/#l11-craft">criar</a> o item. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> coleta mais <a href="../lexico/#l31-recursos">recursos</a> e tenta novamente.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Item criado e adicionado ao <a href="../lexico/#l43-inventario">inventário</a> do <a href="../lexico/#l42-usuario">usuário</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc12-jogar-no-modo-multiplayer">UC12 Jogar no modo <a href="../lexico/#l41-multiplayer">multiplayer</a></h3>
+<table>
+<thead>
+<tr>
+<th>Jogar no modo <a href="../lexico/#l41-multiplayer">multiplayer</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Jogar no modo <a href="../lexico/#l41-multiplayer">multiplayer</a> com outros <a href="../lexico/#l42-usuario">usuários</a>.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar conectado à internet e ter uma conta no Minecraft.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu <a href="../lexico/#l41-multiplayer">multiplayer</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> escolhe um <a href="../lexico/#l14-servidores">servidor</a> ou insere o IP de um <a href="../lexico/#l14-servidores">servidor</a> específico. <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> conecta-se ao <a href="../lexico/#l14-servidores">servidor</a> e começa a jogar com outros <a href="../lexico/#l42-usuario">jogadores</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide jogar em modo singleplayer e retorna ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro de conexão com o <a href="../lexico/#l14-servidores">servidor</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> tenta conectar novamente ou escolhe outro <a href="../lexico/#l14-servidores">servidor</a>.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> conectado ao <a href="../lexico/#l14-servidores">servidor</a> e jogando com outros <a href="../lexico/#l42-usuario">jogadores</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc13-entrar-ou-criar-conta">UC13 Entrar ou criar conta</h3>
+<table>
+<thead>
+<tr>
+<th>Entrar ou criar conta</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Entrar ou criar uma conta no Minecraft.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve ter acesso à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu de login. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> acessa a página de login da microsoft e insere as credenciais ou cria uma nova conta. <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> é autenticado e pode acessar o jogo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide jogar sem se conectar a sua conta</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro ao criar ou entrar na conta. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> verifica as credenciais e tenta novamente.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> autenticado.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc14-conectar-ou-adicionar-um-servidor">UC14 Conectar ou adicionar um <a href="../lexico/#l14-servidores">servidor</a></h3>
+<table>
+<thead>
+<tr>
+<th>Conectar ou adicionar um <a href="../lexico/#l14-servidores">servidor</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Conectar-se a um <a href="../lexico/#l14-servidores">servidor</a> existente ou adicionar um novo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar conectado à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu de <a href="../lexico/#l14-servidores">servidores</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona um <a href="../lexico/#l14-servidores">servidor</a> existente ou insere o IP de um novo <a href="../lexico/#l14-servidores">servidor</a>. <br> 3. <a href="../lexico/#l42-usuario">Usuário</a> conecta-se ao <a href="../lexico/#l14-servidores">servidor</a> escolhido.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não se conectar a nenhum <a href="../lexico/#l14-servidores">servidor</a> e retorna ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro ao conectar-se ao <a href="../lexico/#l14-servidores">servidor</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> tenta novamente ou escolhe outro <a href="../lexico/#l14-servidores">servidor</a>.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> conectado ao <a href="../lexico/#l14-servidores">servidor</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc15-sair-do-jogo">UC15 Sair do jogo</h3>
+<table>
+<thead>
+<tr>
+<th>Sair do jogo</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Sair do jogo e retornar ao sistema operacional.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>Jogo deve estar em execução.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu de pausa ou o principal. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona a opção de sair do jogo. <br> 3. Jogo é fechado e <a href="../lexico/#l42-usuario">usuário</a> retorna ao SO.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide continuar jogando e fecha o menu.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Jogo trava ao tentar sair. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> força o fechamento do jogo via sistema operacional.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Jogo fechado e retorno ao sistema operacional.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc16-salvar-mundo">UC16 Salvar <a href="../lexico/#l05-overworld">mundo</a></h3>
+<table>
+<thead>
+<tr>
+<th>Salvar <a href="../lexico/#l05-overworld">mundo</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Salvar o progresso do <a href="../lexico/#l05-overworld">mundo</a> em que está jogando.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td><a href="../lexico/#l42-usuario">Usuário</a> deve estar jogando em um <a href="../lexico/#l05-overworld">mundo</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> acessa o menu de pausa. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> seleciona a opção de salvar. <br> 3. Progresso do <a href="../lexico/#l05-overworld">mundo</a> é salvo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. <a href="../lexico/#l42-usuario">Usuário</a> decide não salvar e continua jogando.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Erro ao salvar o <a href="../lexico/#l05-overworld">mundo</a>. <br> 2. <a href="../lexico/#l42-usuario">Usuário</a> tenta novamente ou verifica espaço disponível.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td><a href="../lexico/#l05-overworld">mundo</a> salvo e progresso garantido.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc17-configuracoes-gerais">UC17 Configurações gerais</h3>
+<table>
+<thead>
+<tr>
+<th>Configurações gerais</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Permite ao <a href="../lexico/#l42-usuario">jogador</a> ajustar configurações gerais do mundo, como modo de jogo e dificuldade.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Jogador</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>O <a href="../lexico/#l42-usuario">jogador</a> deve estar na tela de configuração do mundo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> acessa a seção de configurações gerais.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> ajusta as opções de modo de jogo e dificuldade.<br>3. O <a href="../lexico/#l42-usuario">jogador</a> confirma as configurações e prossegue para a próxima etapa.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> decide manter as configurações padrão.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> confirma as configurações e prossegue para a próxima etapa.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Falha ao aplicar as configurações.<br>2. O jogo solicita que o <a href="../lexico/#l42-usuario">jogador</a> ajuste as configurações novamente.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>As configurações gerais são aplicadas e o <a href="../lexico/#l42-usuario">jogador</a> pode continuar a configuração do mundo.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc18-criar-no-servidor-realms">UC18 Criar no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a></h3>
+<table>
+<thead>
+<tr>
+<th>Criar no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Permite ao <a href="../lexico/#l42-usuario">jogador</a> criar um mundo no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Jogador</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>O <a href="../lexico/#l42-usuario">jogador</a> deve estar logado em sua conta da Microsoft e ter uma assinatura ativa do <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> seleciona a opção para criar no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> escolhe um nome e configuracões para o <a href="../lexico/#l45-realms">Realms</a>.<br>3. O <a href="../lexico/#l42-usuario">jogador</a> confirma e o mundo é criado no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> decide criar o mundo localmente em vez de usar o <a href="../lexico/#l45-realms">Realms</a>.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> retorna à opção de criação de mundo local.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Falha ao conectar ao <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.<br>2. O jogo notifica o <a href="../lexico/#l42-usuario">jogador</a> e permite tentar novamente ou retornar ao menu principal.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>O mundo é criado no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a> e fica disponível para o <a href="../lexico/#l42-usuario">jogador</a> e seus amigos convidados.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc19-selecionar-grupamento">UC19 Selecionar grupamento</h3>
+<table>
+<thead>
+<tr>
+<th>Selecionar grupamento</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Permite ao <a href="../lexico/#l42-usuario">jogador</a> escolher a quantidade de <a href="../lexico/#l42-usuario">jogadores</a> que poderão jogar simultaneamente no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a> (2 ou 10).</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Jogador</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>O <a href="../lexico/#l42-usuario">jogador</a> deve estar na etapa de criação no <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> acessa a opção de seleção de grupamento.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> escolhe entre as opções de 2 ou 10 <a href="../lexico/#l42-usuario">jogadores</a>.<br>3. O <a href="../lexico/#l42-usuario">jogador</a> confirma a escolha e prossegue com a criação.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> é direcionado à escolha padrão ou retorna à tela anterior.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> encontra problemas ao selecionar o grupamento.<br>2. O jogo notifica o <a href="../lexico/#l42-usuario">jogador</a> para tentar novamente ou escolher outra opção.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>O grupamento é selecionado, permitindo a criação do mundo com o número especificado de <a href="../lexico/#l42-usuario">jogadores</a> simultâneos.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc20-selecionar-nome-do-realm">UC20 Selecionar nome do <a href="../lexico/#l45-realms">realm</a></h3>
+<table>
+<thead>
+<tr>
+<th>Selecionar nome do <a href="../lexico/#l45-realms">realm</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Permite ao <a href="../lexico/#l42-usuario">jogador</a> escolher o nome do <a href="../lexico/#l45-realms">Realm</a> onde o mundo será criado.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Jogador</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>O <a href="../lexico/#l42-usuario">jogador</a> deve estar na etapa de criação do mundo no <a href="../lexico/#l45-realms">Realms</a>. O <a href="../lexico/#l42-usuario">jogador</a> deve estar conectado à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> acessa a opção para nomear o <a href="../lexico/#l45-realms">Realm</a>.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> digita o nome desejado.<br>3. O <a href="../lexico/#l42-usuario">jogador</a> confirma o nome e prossegue com a criação do mundo.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> decide utilizar um nome sugerido automaticamente pelo jogo.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> confirma o nome sugerido e prossegue.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. O nome escolhido já está em uso ou é inválido.<br>2. O jogo solicita que o <a href="../lexico/#l42-usuario">jogador</a> escolha outro nome.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>O nome do <a href="../lexico/#l45-realms">Realm</a> é registrado e o <a href="../lexico/#l42-usuario">jogador</a> pode continuar com a criação do mundo.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="uc21-aceitar-termos-e-condicoes-realms">UC21 Aceitar termos e condições <a href="../lexico/#l45-realms">realms</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aceitar termos e condições <a href="../lexico/#l45-realms">realms</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong></td>
+<td>Requer que o <a href="../lexico/#l42-usuario">jogador</a> aceite os termos e condições para utilizar o <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Ator(es):</strong></td>
+<td><a href="../lexico/#l42-usuario">Jogador</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Requisitos:</strong></td>
+<td>O <a href="../lexico/#l42-usuario">jogador</a> deve estar na etapa de criação do mundo no <a href="../lexico/#l45-realms">Realms</a>. O <a href="../lexico/#l42-usuario">jogador</a> deve estar conectado à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> é apresentado aos termos e condições.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> lê e aceita os termos e condições.<br>3. O <a href="../lexico/#l42-usuario">jogador</a> prossegue com a criação do <a href="../lexico/#l14-servidores">servidor</a> <a href="../lexico/#l45-realms">realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Alternativo:</strong></td>
+<td>1. O <a href="../lexico/#l42-usuario">jogador</a> decide não aceitar os termos e condições.<br>2. O <a href="../lexico/#l42-usuario">jogador</a> é impedido de prosseguir com a criação do mundo no <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção:</strong></td>
+<td>1. Falha ao registrar a aceitação dos termos e condições.<br>2. O jogo solicita que o <a href="../lexico/#l42-usuario">jogador</a> tente aceitar os termos novamente.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições:</strong></td>
+<td>Os termos e condições são aceitos e o <a href="../lexico/#l42-usuario">jogador</a> pode continuar a criação do mundo no <a href="../lexico/#l45-realms">Realms</a>.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
