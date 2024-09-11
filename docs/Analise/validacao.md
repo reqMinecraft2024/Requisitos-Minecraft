@@ -88,6 +88,7 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ![RF24](../pos-rastreabilidade/imgs/24.jpeg)
 
 ### RF25 - O jogador deve ser capaz de compartilhar o seu mapa com outro jogador. 
+![RF25](../pos-rastreabilidade/imgs/25.gif)
 
 
 ### RF26 - Deve existir um modo de jogo onde o jogador pode morrer (sobrevivência) 
@@ -132,7 +133,8 @@ Após levantarmos os requisitos, testamos e validamos cada um em diferentes ambi
 ### RF39 - O jogador deve poder acessar o sistema de conquistas a qualquer momento
 ![RF39](../pos-rastreabilidade/imgs/39.gif)
 
-### RF40 - O jogador deve ser capaz de compartilhar suas conquistas com outros jogadores
+### RF40 - O jogador deve ser capaz de personalizar o seu personagem
+![RF40](../pos-rastreabilidade/imgs/40.gif)
 
 
 ### RF41 - O jogo deve possuir chefes

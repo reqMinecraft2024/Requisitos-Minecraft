@@ -51,7 +51,7 @@
 |RF37|Devem existir inimigos de diferentes dificuldades|[Introspeccao](Introspeccao.md?h=int3.3#35-requisitos-elicitados)|
 |RF38|O jogo deve apresentar um sistema de conquistas|[Introspeccao](Introspeccao.md?h=int3.4#35-requisitos-elicitados)|
 |RF39|O jogador deve poder acessar o sistema de conquistas a qualquer momento|[Introspeccao](Introspeccao.md?h=int3.5#35-requisitos-elicitados)|
-|RF40|O jogador deve ser capaz de compartilhar suas conquistas com outros jogadores|[Introspeccao](Introspeccao.md?h=int3.6#35-requisitos-elicitados)|
+|RF40|O jogador deve ser capaz de personalizar o seu personagem|[Introspeccao](Introspeccao.md?h=int3.6#35-requisitos-elicitados)|
 |RF41|O jogo deve possuir chefes|[Introspeccao](Introspeccao.md?h=int3.7#35-requisitos-elicitados)|
 |RF42|Deve haver blocos decorativos para expandir as opções de construção e paisagismo.| [Questionário](questionarios-e-pesquisas.md?h=qp1+qp15#requisitos-elicitados)|
 |RF43| Deve haver ruínas, cavernas, montanhas e masmorras subterrâneas, com desafios e recompensas para que os jogadores realizem explorações. | [Questionário](questionarios-e-pesquisas.md?h=qp2+qp10+qp16#requisitos-elicitados)|
